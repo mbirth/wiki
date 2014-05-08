@@ -1,0 +1,21 @@
+name: "mbirth wiki"
+description: "All you hacking stuff"
+
+url: "http://wiki.mbirth.de"
+
+#paginate: 10
+
+markdown: redcarpet
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+#permalink: pretty
+highlighter: pygments
+
+safe: true
+lsi: false
+
+github:
+    project_title: "Wiki"
+    project_tagline: "Experimental Wiki with Jekyll"
+
+redcarpet:
+    extensions: []
