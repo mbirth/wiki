@@ -1,7 +1,8 @@
-name: "mbirth wiki"
-description: "All you hacking stuff"
+name: "wiki.mbirth.de"
+description: "All you never wanted to know"
 
-url: "http://wiki.mbirth.de"
+#url: "http://wiki.mbirth.de"
+url: ""
 
 #paginate: 10
 
@@ -18,4 +19,4 @@ github:
     project_tagline: "Experimental Wiki with Jekyll"
 
 redcarpet:
-    extensions: []
+    extensions: ["autolink"]

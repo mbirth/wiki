@@ -7,8 +7,15 @@ layout: default
 
 **Hello world!**
 
-```
+```bash
 #!/bin/bash
 echo "Test!"
 ```
 
+```php
+<?php
+
+echo phpinfo();
+
+?>
+```

@@ -1,0 +1,5 @@
+/Gemfile.lock
+/bower_components/*/src/
+/bower_components/*/doc/
+/bower_components/*/docs/
+/_site/

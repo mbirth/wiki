@@ -1,0 +1,107 @@
+---
+title: AVM Fritz!Box 7270
+layout: default
+created: 2009-12-19 18:40:34 +0100
+toc: true
+---
+**Homepage:** http://www.avm.de/de/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7270/index.php
+
+Fritz Fun
+=========
+
+If you want to receive facsimilies (fax) via your Fritz!Box, you can do that via the internal fax receiver. If you want to **send** faxes from Ubuntu, you can install the [ffgtk](http://wiki.ubuntuusers.de/ffgtk)-package. The original homepage of the project is [tabos.org](http://www.tabos.org/ffgtk/). With it installed, you will get a new "Fax" printer to send faxes and it can also receive faxes directly to your PC.
+
+
+VPN
+===
+
+You can set up your FB to accept VPN connections. As a client, you can use the free [Shrew Soft VPN Client](http://www.shrew.net/). How to set up the client is explained in the [AVM VPN portal](http://www.avm.de/de/Service/Service-Portale/Service-Portal/index.php?portal=VPN) (see bottom right box).
+
+
+Static DHCP
+===========
+
+The FB only supports "static DHCP" in the way that you can mark devices so that they keep their currently (via DHCP) assigned IP address. You can not manually set the IP address you want.
+
+So you could now go the easy way and enable *Telnet access* to the device and change the DHCP table directly. But this way you won't get any support from AVM and also you will get a nasty warning message in the web interface.
+
+Another way is to export the configuration and change the entries there. If you know how to update the checksum, you can use any text editor program. But if you just want to make a few changes without learning how to calculate the checksum, there's a Java program called [FBEditor](http://www.ip-phone-forum.de/showthread.php?t=79513).
+
+Just download it, enter the IP and password of your FB and there you go. Any changes you make inside the program will automatically update the checksum so that the FB will accept your changes.
+
+So now it's easy to change the `dhcpserver` => `statics` section or the `landevices` => `landevices`.
+
+<note important>If you make any changes to the *Network* settings in the web interface, the changes you made by editing the file will probably be deleted. At least if the third byte of an IP address doesn't match the FB's one. (e.g. if you have a class B network)</note>
+
+
+Generate static DHCP configuration from a file
+----------------------------------------------
+
+If you have several devices in your home network and the FB keeps deleting them from their settings, you can create a file with all your devices and generate the appropiate FB settings from it.
+
+So first, create a file `static.list` which looks like this (fill in the data of your own hosts):
+
+```
+00:21:85:C0:FF:EE   mypc            172.16.1.1
+00:16:D4:C0:FF:EE   wife-pc         172.16.1.2
+00:18:39:C0:FF:EE   slug            172.16.254.253
+00:25:00:C0:FF:EE   iphone          172.16.1.10
+00:1E:A9:C0:FF:EE   wii             172.16.1.11
+00:22:69:C0:FF:EE   netbook         172.16.1.3
+00:C0:EB:C0:FF:EE   printsvr        172.16.254.252
+```
+
+Then you only need this little Python script (and *[Python](http://www.python.org/)*, of course):
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+__author__ = "mbirth"
+__date__   = "$2009-12-19 17:37:38$"
+
+f = open( "static.list", "rt" )
+entries = []
+for line in f:
+    line = line.strip(" \n")
+    ( mac, sep, post ) = line.partition(' ')
+    post = post.strip()
+    ( host, sep, ip ) = post.partition(' ')
+    ip = ip.strip()
+    entries.append( ( mac, host, ip ) )
+
+print( "%i hosts found." % len( entries ) )
+
+statics = "        statics"
+for entry in entries:
+    statics += " {\n"
+    statics += "                macaddr = " + entry[0] + ";\n"
+    statics += "                ipaddr = " + entry[2] + ";\n"
+    statics += "        }"
+
+print( "#### dhcpserver > statics" )
+print( statics )
+
+
+landevs = "        landevices"
+for entry in entries:
+    landevs += " {\n"
+    landevs += "                ip = " + entry[2] + ";\n"
+    landevs += "                name = \"" + entry[1] + "\";\n"
+    landevs += "                mac = " + entry[0] + ";\n"
+    landevs += "                medium = medium_ethernet;\n"
+    landevs += "        }"
+
+print( "#### landevices > landevices" )
+print( landevs )
+```
+
+Custom DNS
+==========
+
+To use custom DNS entries instead of those given by your ISP, use the [FBEditor](http://www.ip-phone-forum.de/showthread.php?t=79513) and find the entries
+
+    overwrite_dns1 = 0.0.0.0;
+    overwrite_dns2 = 0.0.0.0;
+
+Now just insert your desired DNS servers, upload the changed config and you should be set. (Info found on [ip-phone-forum.de](http://www.ip-phone-forum.de/showthread.php?t=86191&page=2).)
