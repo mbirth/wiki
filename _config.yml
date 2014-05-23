@@ -1,8 +1,7 @@
 name: "wiki.mbirth.de"
 description: "All you never wanted to know"
 
-#url: "http://wiki.mbirth.de"
-url: ""
+url: "http://wiki.mbirth.de"
 
 #paginate: 10
 
