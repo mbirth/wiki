@@ -24,8 +24,7 @@
         <h2>{{ site.description }}</h2>
 
         <section id="downloads">
-          <a href="https://github.com/mbirth/wiki/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/mbirth/wiki/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://plus.google.com/+MarkusBirth/about" rel="author" class="btn">Find me on Google+</a>
           <a href="https://github.com/mbirth/wiki" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
@@ -37,6 +36,10 @@
             <ul data-toc="#main_content"></ul>
         {% endif %}
         {{ content }}
+      </section>
+      <section id="comments">
+        <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
+        <div class="g-comments" data-href="http://revo.mbirth.de:4000{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
       </section>
     </div>
 
