@@ -18,7 +18,7 @@ github:
     project_tagline: "Experimental Wiki with Jekyll"
 
 gems:
-    - jemoji
+  - jemoji
 
 redcarpet:
     extensions: ["autolink", "tables"]

@@ -2,7 +2,7 @@
 title: TechniSat DigiCorder
 layout: default
 created: 2013-11-27 01:29:09 +0100
-toc: true
+toc: false
 tags:
   - know-how
   - hardware
