@@ -18,4 +18,4 @@ github:
     project_tagline: "Experimental Wiki with Jekyll"
 
 redcarpet:
-    extensions: ["autolink"]
+    extensions: ["autolink", "tables"]
