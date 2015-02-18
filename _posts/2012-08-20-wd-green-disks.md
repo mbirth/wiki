@@ -32,9 +32,8 @@ Temporary fix
 
 To fix this, you have to disable it or set it to a more reasonable timeout:
 
-```
-$ sudo hdparm -S 242 /dev/sdX
-```
+    $ sudo hdparm -S 242 /dev/sdX
+
 
 You have to repeat this after each boot, so you may want to add the line to your `/etc/rc.local`.
 
@@ -47,19 +46,17 @@ For Linux, there's **idle3ctl** from the [idle3-tools](http://idle3-tools.sf.net
 
 You can display the current value with the following command:
 
-```
-$ sudo ./idle3ctl -g /dev/sdX
-Idle3 timer set to 80 (0x50)
-```
+    $ sudo ./idle3ctl -g /dev/sdX
+    Idle3 timer set to 80 (0x50)
+
 
 The value 80 means 8 seconds (default). From 1-128, the values mean 1/10th of a second, e.g. 128 would be 12.8 seconds. 129-254 are in 30 seconds steps. 129 is 30 seconds, 130 is 60 seconds, etc.
 
 Set the desired value as follows:
 
-```
-$ sudo ./idle3ctl -s 158 /dev/sdX
-Idle3 timer set to 158 (0x9e)
-Please power cycle your drive off and on for the new setting to be taken into account. A reboot will not be enough!
-```
+    $ sudo ./idle3ctl -s 158 /dev/sdX
+    Idle3 timer set to 158 (0x9e)
+    Please power cycle your drive off and on for the new setting to be taken into account. A reboot will not be enough!
+
 
 Do as it says to enable the new setting.

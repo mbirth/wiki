@@ -61,7 +61,7 @@ Notification service using OpenWatch, Tasker and PHP
 
 Put the following file onto a webserver capable of running PHP scripts (`notify.php`):
 
-```php
+{% highlight php %}
 <?php
 
 class DataStore {
@@ -133,9 +133,8 @@ if ( isset( $_REQUEST['l1'] ) && isset( $_REQUEST['l2'] ) ) {
         echo $entry['line1'] . '¶' . $entry['line2'] . '¶' . $span;
     }
 }
+{% endhighlight %}
 
-?>  
-```
 
 ### Usage
 

@@ -5,7 +5,8 @@ url: "http://wiki.mbirth.de"
 
 #paginate: 10
 
-markdown: redcarpet
+markdown: kramdown
+#markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 #permalink: pretty
 highlighter: pygments

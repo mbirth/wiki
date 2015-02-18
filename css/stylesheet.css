@@ -305,3 +305,22 @@ a {
   /*background-color: #dfd;*/
   background-image: url(../images/tip.png);
 }
+
+kbd {
+    color: #333;
+    background-color: white;
+    text-align: center;
+    border-left: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    -moz-border-radius: 4px 4px 4px 4px;
+    padding-left: 1px;
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: top;
+    font-family: sans-serif;
+}
