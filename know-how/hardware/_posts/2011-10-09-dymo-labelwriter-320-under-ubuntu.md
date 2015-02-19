@@ -1,7 +1,8 @@
 ---
 title: DYMO LabelWriter 320 under Ubuntu Linux
 layout: default
-created: 2011-10-09 22:39:57 +0100
+created: 2011-10-09 22:37:45 +0200
+updated: 2011-10-09 22:39:57 +0200
 toc: false
 tags:
   - know-how

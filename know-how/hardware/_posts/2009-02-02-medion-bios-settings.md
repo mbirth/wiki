@@ -2,6 +2,7 @@
 title: MEDION BIOS settings
 layout: default
 created: 2009-02-22 02:24:33 +0100
+updated: 2009-02-22 02:24:33 +0100
 toc: false
 tags:
   - know-how

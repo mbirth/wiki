@@ -1,7 +1,8 @@
 ---
 title: Remapping mouse buttons
 layout: default
-created: 2009-07-17 23:07:05 +0200
+created: 2009-02-09 20:44:38 +0100
+updated: 2009-07-17 23:07:05 +0200
 toc: false
 tags:
   - know-how

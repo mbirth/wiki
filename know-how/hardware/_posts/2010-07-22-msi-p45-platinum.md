@@ -1,7 +1,8 @@
 ---
 title: MSI P45 Platinum
 layout: default
-created: 2010-07-22 10:00:14 +0200
+created: 2009-08-10 22:11:42 +0200
+updated: 2010-07-22 10:00:14 +0200
 toc: false
 tags:
   - know-how

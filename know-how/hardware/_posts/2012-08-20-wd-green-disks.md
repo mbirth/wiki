@@ -1,7 +1,8 @@
 ---
 title: Western Digital GreenPower Disks
 layout: default
-created: 2012-08-20 20:46:38 +0200
+created: 2012-08-20 20:27:16 +0200
+updated: 2012-08-20 20:46:38 +0200
 toc: true
 tags:
   - know-how

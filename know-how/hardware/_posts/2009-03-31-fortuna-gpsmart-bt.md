@@ -1,7 +1,8 @@
 ---
 title: Fortuna GPSmart BT
 layout: default
-created: 2009-03-31 11:53:41 +0200
+created: 2009-02-02 19:07:10 +0100
+updated: 2009-03-31 11:53:41 +0200
 toc: false
 tags:
   - know-how
