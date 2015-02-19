@@ -1,0 +1,58 @@
+---
+title: Welcome to the Wiki
+layout: default
+---
+<h3>Welcome to GitHub Pages.</h3>
+
+<ul>
+{% for post in paginator.posts %}
+  <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
+  {% else %}
+    <span>&laquo; Newer</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
+  {% else %}
+    <span>Older &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+All posts:
+
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+Categories:
+<ul>
+{% for category in site.categories %}
+  <li>{{ category[0] }}
+    <ul>
+    {% for page in category[1] %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

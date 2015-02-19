@@ -5,7 +5,7 @@ url: "http://wiki.mbirth.de"
 
 permalink: none
 
-#paginate: 10
+paginate: 20
 
 markdown: kramdown
 #markdown: redcarpet
