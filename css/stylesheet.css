@@ -16,6 +16,16 @@ body {
   margin: 0 auto;
 }
 
+#headerleft, #headerright {
+  display: inline-block;
+}
+
+#headerright {
+  width: 400px;
+  vertical-align: top;
+  padding-left: 100px;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
