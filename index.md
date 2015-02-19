@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Wiki
-layout: default
+layout: bright
 ---
 ### Welcome to GitHub Pages.
 
