@@ -3,6 +3,8 @@ description: "All you never wanted to know"
 
 url: "http://wiki.mbirth.de"
 
+permalink: none
+
 #paginate: 10
 
 markdown: kramdown
