@@ -38,7 +38,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #93c631;
+  border-bottom: 1px dashed #678b22;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -48,7 +48,7 @@ header h1, #pagetitle {
   line-height: 1.5;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #93c631;
+  color: #678b22;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -90,7 +90,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #93c631;
+  color: #678b22;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -139,7 +139,7 @@ ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
-  color: #93c631;
+  color: #678b22;
   margin-left: -37px;
   margin-right: 21px;
   line-height: 16px;
@@ -164,7 +164,7 @@ pre, code {
   background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.85);
   font-size: 14px;
-  color: #93c631;
+  color: #678b22;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -193,7 +193,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #93c631;
+  border-bottom: 1px dashed #678b22;
   padding: 5px 10px;
 }
 
@@ -204,8 +204,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #93c631;
-  color: #93c631;
+  border-bottom: 1px dashed #678b22;
+  color: #678b22;
 }
 
 /* Buttons */
@@ -267,3 +267,4 @@ a {
 .cf {
   zoom:1;
 }
+

@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Wiki
-layout: bright
+layout: default
 ---
 ### Welcome to GitHub Pages.
 
@@ -12,8 +12,20 @@ All posts:
 {% endfor %}
 </ul>
 
-Tags:
+Categories:
+<ul>
+{% for category in site.categories %}
+  <li>{{ category[0] }}
+    <ul>
+    {% for page in category[1] %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
 
+Tags:
 <ul>
 {% for tag in site.tags %}
   <li> {{ tag[0] }}
@@ -23,12 +35,5 @@ Tags:
     {% endfor %}
     </ul>
   </li>
-{% endfor %}
-</ul>
-
-Categories:
-<ul>
-{% for category in site.categories %}
-  <li>{{ category[0] }}</li>
 {% endfor %}
 </ul>
