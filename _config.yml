@@ -25,4 +25,7 @@ gems:
     - jekyll-sitemap
 
 redcarpet:
-    extensions: ["autolink", "tables"]
+    extensions: ["autolink", "tables", "no_intra_emphasis"]
+
+kramdown:
+    input: GFM

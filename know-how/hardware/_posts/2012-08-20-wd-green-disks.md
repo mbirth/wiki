@@ -24,8 +24,8 @@ IntelliPark
 
 More info:
 
-   * http://www.sagaforce.com/~sound/wdantiparkd/
-   * http://www.instantfundas.com/2011/12/intellipark-makes-western-digital-green.html
+   * <http://www.sagaforce.com/~sound/wdantiparkd/>
+   * <http://www.instantfundas.com/2011/12/intellipark-makes-western-digital-green.html>
 
 
 Temporary fix

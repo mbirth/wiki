@@ -48,7 +48,7 @@ clicking the **Add** button for the new items under the *Applications* category.
 Joghurts GPS-Site
 -----------------
 
-He has programmed *FuelControl*, a *Calculator* and a *Height* display. Download everything at http://gps.dg4sfw.de/.
+He has programmed *FuelControl*, a *Calculator* and a *Height* display. Download everything at <http://gps.dg4sfw.de/>.
 
 
 Delete Traffic Camera database
