@@ -12,8 +12,8 @@ markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 #permalink: pretty
 
-# using rouge via kramdown
-#highlighter: pygments
+# TODO: using rouge via kramdown when GitHub supports it
+highlighter: pygments
 
 safe: true
 lsi: false
