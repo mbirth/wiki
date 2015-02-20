@@ -11,7 +11,9 @@ markdown: kramdown
 #markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 #permalink: pretty
-highlighter: pygments
+
+# using rouge via kramdown
+#highlighter: pygments
 
 safe: true
 lsi: false
@@ -32,3 +34,5 @@ redcarpet:
 
 kramdown:
     input: GFM
+    hard_wrap: false
+    syntax_highlighter: rouge
