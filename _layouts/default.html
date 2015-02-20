@@ -36,9 +36,9 @@
         </div>
       </div>
     </header>
-    <div class="container">
-      <h1 id="pagetitle">{{ page.title }}</h1>
-      <section id="main_content">
+    <div class="container" itemscope itemtype="http://schema.org/Article">
+      <h1 id="pagetitle" itemprop="name">{{ page.title }}</h1>
+      <section id="main_content" itemprop="articleBody">
         {% if page.toc %}
             <ul data-toc="#main_content"></ul>
         {% endif %}
