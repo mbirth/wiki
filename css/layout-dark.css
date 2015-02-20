@@ -182,18 +182,18 @@ pre > code {
     padding: 0;
 }
 
-table {
+#main_content table {
 /*  width: 100%; */
   margin: 0 0 20px 0;
 }
 
-th {
+#main_content th {
   text-align: left;
   border-bottom: 1px dashed #b5e853;
   padding: 5px 10px;
 }
 
-td {
+#main_content td {
   padding: 5px 10px;
 }
 
