@@ -1,5 +1,5 @@
 ---
-title: Manual Firmware Update
+title: Manual Firmware Update on the Galaxy Nexus
 layout: default
 created: 2011-12-16 22:26:17 +0100
 updated: 2012-04-02 14:46:03 +0200
