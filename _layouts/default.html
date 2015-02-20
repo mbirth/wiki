@@ -48,6 +48,15 @@
         <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
         <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
       </section>
+      {% if site.related_posts %}
+      <section id="related">
+        <ul>
+        {% for relpost in site.related_posts %}
+          <li><a href="{{ relpost.url }}">{{ relpost.title }}</a>></li>
+        {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
     </div>
 
     <!-- BEGIN: Google Analytics -->

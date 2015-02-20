@@ -14,7 +14,10 @@ markdown_ext: markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
 
 safe: true
-lsi: false
+lsi: true
+
+encoding: "utf-8"
+timezone: "Europe/Berlin"
 
 github:
     project_title: "Wiki"
