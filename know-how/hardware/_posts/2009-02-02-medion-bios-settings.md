@@ -17,3 +17,5 @@ According to a MEDION employee, there are only 2 employees who know this passwor
 Well, IMHO everyone should decide for his own whether he wants to risk damaging his PC or not. But I guess the newer BIOSes ask for another password.
 
 More info: [PC Welt forums](http://www.pcwelt.de/forum/showthread.php?t=196865), [Wim's BIOS](http://www.wimsbios.com/phpBB2/viewtopic.php?t=7557)
+
+*[IMHO]: In My Humble Opinion

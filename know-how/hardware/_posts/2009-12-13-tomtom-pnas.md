@@ -80,3 +80,7 @@ After passing the roundabout, the map displays fine but as soon as you reach the
 After it started up again and you're above the "hide map"-speed, it crashes and reboots again. The crossing which should show up is the one at `N 52° 31.744', E 13° 06.607'`.
 
 Tested with NavCore 9.014 and 9.024, maps 830 and 840. All combinations show the same behavior.
+
+*[PNAs]: Personal Navigation Assistants
+*[TTS]: Text to Speech
+*[POIs]: Points of Interest

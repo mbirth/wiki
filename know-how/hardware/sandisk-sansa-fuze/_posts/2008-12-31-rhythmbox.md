@@ -41,3 +41,7 @@ The `playlist_path` and `playlist_format` describe the location for playlists an
 
 
 The file `/usr/share/hal/fdi/information/10freedesktop/10-usb-music-players.fdi` lists the options usually set for FUZE players. Just search for the string "Fuze". But I guess the PnP-ID of the newer models isn't in that XML file.
+
+*[MTP]: Media Transfer Protocol
+*[MSC]: Mass Storage device Class
+*[FUSE]: Filesystem in Userspace

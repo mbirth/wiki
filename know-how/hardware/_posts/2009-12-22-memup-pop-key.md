@@ -24,3 +24,5 @@ With the [SMI UFD Utility](http://ftp.usboffice.kr/files/SMI_UFD_Utility.zip), y
 
 This way, you can make it e.g. a Windows XP or Windows 7 installation device, use it for the [System Rescue CD](http://www.sysresccd.org/Main_Page) or - if you can trick the *U3 LaunchPad* into
 accepting the stick - burn the U3 software to it to make it U3 compatible.
+
+*[SMI]: Semiconductor Manufacturing International

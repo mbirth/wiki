@@ -1,3 +1,8 @@
+abbr, acronym {
+    border-bottom: 1px dotted #888;
+    cursor: help;
+}
+
 #headerleft, #headerright {
   display: inline-block;
 }
