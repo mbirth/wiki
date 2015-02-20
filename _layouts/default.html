@@ -37,6 +37,9 @@
     <div class="container">
         <article itemscope itemtype="http://schema.org/Article">
             <h1 id="pagetitle" itemprop="name">{{ page.title }}</h1>
+            <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+            <meta itemprop="dateCreated" content="{{ page.created | date: '%Y-%m-%d' }}" />
+            <meta itemprop="dateModified" content="{{ page.updated | date: '%Y-%m-%d' }}" />
             <section id="main_content" itemprop="articleBody">
                 {% if page.toc %}
                     <ul data-toc="#main_content"></ul>
