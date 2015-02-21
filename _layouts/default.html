@@ -60,12 +60,12 @@
         <section id="related">
         {% if page.next %}
             <div id="nextpost">
-                <a rel="next" href="{{ page.next.url }}">← Next post: {{ page.next.title }}</a>
+                <a rel="next" href="{{ page.next.url }}">← {{ page.next.title }}</a>
             </div>
         {% endif %}
         {% if page.previous %}
             <div id="prevpost">
-                <a rel="previous" href="{{ page.previous.url }}">Previous post: {{ page.previous.title }} →</a>
+                <a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }} →</a>
             </div>
         {% endif %}
 {% comment %}

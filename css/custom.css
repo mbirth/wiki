@@ -18,13 +18,12 @@ abbr, acronym {
     white-space: nowrap;
 }
 
-#nextpost, #prevpost {
-    display: inline-block;
-    width: 450p;
+#nextpost {
+    float: left;
 }
 
 #prevpost {
-    text-align: right;
+    float: right;
 }
 
 .noteclassic, .noteimportant, .notewarning, .notetip {
