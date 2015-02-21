@@ -3,6 +3,10 @@ abbr, acronym {
     cursor: help;
 }
 
+#main_content li {
+    margin-bottom: 0.5em;
+}
+
 #headerleft, #headerright {
   display: inline-block;
 }
