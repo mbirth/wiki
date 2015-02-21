@@ -53,11 +53,7 @@
                 {{ content }}
             </section>
         </article>
-        <section id="comments">
-            <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
-            <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
-        </section>
-        <section id="related">
+       <section id="related">
         {% if page.next %}
             <div id="nextpost">
                 <a rel="next" href="{{ page.next.url }}">← {{ page.next.title }}</a>
@@ -79,7 +75,11 @@
             </section>
         {% endif %}
 {% endcomment %}
-    </div>
+        <section id="comments">
+            <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
+            <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
+        </section>
+     </div>
 
     <!-- BEGIN: Google Analytics -->
     <script>
