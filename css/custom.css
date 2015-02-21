@@ -26,6 +26,10 @@ abbr, acronym {
     float: right;
 }
 
+#comments {
+    clear: both;
+}
+
 .noteclassic, .noteimportant, .notewarning, .notetip {
   margin: 2em;
   margin-left: auto;
