@@ -57,6 +57,18 @@
             <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
             <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
         </section>
+        <section id="related">
+        {% if page.next %}
+            <div id="nextpost">
+                <a rel="next" href="{{ page.next.url }}">← Next post: {{ page.next.title }}</a>
+            </div>
+        {% endif %}
+        {% if page.previous %}
+            <div id="prevpost">
+                <a rel="previous" href="{{ page.previous.url }}">Previous post: {{ page.previous.title }} →</a>
+            </div>
+        {% endif %}
+{% comment %}
         {% if site.related_posts %}
             <section id="related">
                 <ul>
@@ -66,6 +78,7 @@
                 </ul>
             </section>
         {% endif %}
+{% endcomment %}
     </div>
 
     <!-- BEGIN: Google Analytics -->

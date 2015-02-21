@@ -13,6 +13,20 @@ abbr, acronym {
   padding-left: 100px;
 }
 
+#related {
+    overflow: visible;
+    white-space: nowrap;
+}
+
+#nextpost, #prevpost {
+    display: inline-block;
+    width: 450p;
+}
+
+#prevpost {
+    text-align: right;
+}
+
 .noteclassic, .noteimportant, .notewarning, .notetip {
   margin: 2em;
   margin-left: auto;
