@@ -36,18 +36,18 @@ yourself a favor and **don't try it in Windows**. Installing `libusb` there brok
 Windows, all USB devices didn't work and hat yellow exclamation marks in the Windows device manager. Under Linux,
 it's easy as pie. These instructions are for Ubuntu:
 
-  - get [iRecovery](http://github.com/westbaer/irecovery) source code and install [build-essential](apt://build-essential) as well as [libusb-dev](apt://libusb-dev)
-  - compile *iRecovery*
-  - get the iPhone into recovery mode:
+1. get [iRecovery](http://github.com/westbaer/irecovery) source code and install [build-essential](apt://build-essential) as well as [libusb-dev](apt://libusb-dev)
+1. compile *iRecovery*
+1. get the iPhone into recovery mode:
     * switch it completely off, disconnect all cables
     * hold down the ▢ Home button
     * keep the button down while connecting it to the PC
     * wait until the *"Connect to iTunes"* logo appears, then release the ▢ Home button
-  - now run: `./irecovery -s`
-  - wait for the prompt (`]`) and enter the following commands: (if `fsboot` doesn't do anything, type `reboot`)  
+1. now run: `./irecovery -s`
+1. wait for the prompt (`]`) and enter the following commands: (if `fsboot` doesn't do anything, type `reboot`)  
 {% highlight text %}
 ] setenv auto-boot true
 ] saveenv
 ] fsboot
 {% endhighlight %}
-  - your iPhone should now boot normally
+1. your iPhone should now boot normally

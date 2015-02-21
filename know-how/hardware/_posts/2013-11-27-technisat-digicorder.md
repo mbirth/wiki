@@ -34,9 +34,9 @@ Rip recordings to DVD
     avconv -i movie.ts -target pal-dvd -b:v 8888k -vcodec mpeg2video -acodec copy -ac 6 -mbd rd -trellis 2 -cmp 2 -subcmp 2 -q:v 1 -r 25 -s 720x576 -aspect 16:9 -f vob -y movie.mpg
 
 
-  - cut and demux using *ProjectX* 
+1. cut and demux using *ProjectX* 
     * if not yet set, set Presettings → Special → global PTS shift (in hours) to **auto**
-  - burn DVD using AVStoDVD
+2. burn DVD using AVStoDVD
 
 Notes:
 

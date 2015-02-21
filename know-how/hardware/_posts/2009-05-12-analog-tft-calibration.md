@@ -17,8 +17,8 @@ in some cases. If the following picture shows some flickering or looks blurry, y
 
 To calibrate your display, go to [Randy Simons' page](http://randysimons.com/pagina_131_NL.xhtml) and do the following:
 
-  - open the [sync pattern page](http://randysimons.com/overige/tftAutoAlignPattern/)
-  - put your browser in full-screen mode (mostly by pressing <kbd>F11</kbd>)
-  - issue the auto-calibration on your TFT display (most displays have a specific *"Auto"* button)
-  - make sure the picture doesn't flicker anymore
-  - exit full-screen mode (<kbd>F11</kbd> again)
+1. open the [sync pattern page](http://randysimons.com/overige/tftAutoAlignPattern/)
+2. put your browser in full-screen mode (mostly by pressing <kbd>F11</kbd>)
+3. issue the auto-calibration on your TFT display (most displays have a specific *"Auto"* button)
+4. make sure the picture doesn't flicker anymore
+5. exit full-screen mode (<kbd>F11</kbd> again)
