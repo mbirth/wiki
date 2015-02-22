@@ -36,7 +36,7 @@ The mouse has following button-ids:
 | Wheel up              |  4 |
 | Wheel down            |  5 |
 
-See [remapping mouse buttons]({% post_url 2009-07-17-remapping-mouse-buttons %}) on what buttons X11 recognizes.
+See [remapping mouse buttons]({% post_url 2010-01-07-remapping-mouse-buttons %}) on what buttons X11 recognizes.
 
 According to this the default configuration (`xinput set-button-map <device-id> 1 2 3 4 5 6 7 8 9`) would give you middle click on the wheel button and right-click on the middle finger.
 The ring finger button would be for special use as well as the thumb button.
