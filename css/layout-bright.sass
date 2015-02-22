@@ -107,15 +107,19 @@ header h2
 
     table
         margin: 0 0 20px 0
-//        width: 100%;
+        //width: 100%;
 
     th
         text-align: left
         border-bottom: 1px dashed $maincolor
         padding: 5px 10px
 
+    td + td, th + th
+        border-left: 1px dashed $maincolor
+
     td
         padding: 5px 10px
+        vertical-align: top
 
 
 section img
@@ -163,7 +167,7 @@ pre
 pre, code
     background: rgba(black, 0.1)
     border: 1px solid rgba(white, 0.85)
-    font-size: 14px
+    font-size: 0.9em
     color: $maincolor
     border-radius: 2px
     -moz-border-radius: 2px
