@@ -35,6 +35,11 @@ abbr, acronym
 #comments
     clear: both
 
+$noteclassic: #99d
+$noteimportant: #ff0
+$notewarning: #d99
+$notetip: #9d9
+
 .noteclassic, .noteimportant, .notewarning, .notetip
     margin: 2em
     margin-left: auto
@@ -53,27 +58,23 @@ abbr, acronym
     border-radius: 20px
 
 .noteclassic
-    border: 2px solid #99d
-    background-color: rgba(153, 153, 221, 0.1)
-//    background-color: #eef
+    border: 2px solid $noteclassic
+    background-color: rgba($noteclassic, 0.1)
     background-image: url(../images/note.png)
 
 .noteimportant
-    border: 2px solid #ff0
-    background-color: rgba(255, 255, 0, 0.1)
-//    background-color: #ffc
+    border: 2px solid $noteimportant
+    background-color: rgba($noteimportant, 0.1)
     background-image: url(../images/important.png)
 
 .notewarning
-    border: 2px solid #d99
-    background-color: rgba(221, 153, 153, 0.1)
-//    background-color: #fdd
+    border: 2px solid $notewarning
+    background-color: rgba($notewarning, 0.1)
     background-image: url(../images/warning.png)
 
 .notetip
-    border: 2px solid #9d9
-    background-color: rgba(153, 221, 153, 0.1)
-//    background-color: #dfd
+    border: 2px solid $notetip
+    background-color: rgba($notetip, 0.1)
     background-image: url(../images/tip.png)
 
 kbd
