@@ -2,7 +2,7 @@
 title: SanDisk Sansa FUZE
 layout: default
 created: 2008-12-31 00:04:38 +0100
-updated: 2009-09-16 20:11:37 +0200
+updated: 2009-10-15 09:30:10 +0200
 toc: false
 tags:
   - know-how

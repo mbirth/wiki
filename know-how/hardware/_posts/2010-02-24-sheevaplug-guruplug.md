@@ -2,7 +2,7 @@
 title: SheevaPlug / GuruPlug
 layout: default
 created: 2009-09-29 15:04:58 +0200
-updated: 2009-09-29 15:04:58 +0200
+updated: 2010-02-24 00:56:29 +0100
 toc: false
 tags:
   - know-how

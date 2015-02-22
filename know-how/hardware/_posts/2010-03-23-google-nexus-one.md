@@ -2,7 +2,7 @@
 title: Google Nexus One
 layout: default
 created: 2010-03-23 14:55:15 +0100
-updated: 2010-03-23 14:56:58 +0100
+updated: 2010-03-23 14:57:19 +0100
 toc: false
 tags:
   - know-how

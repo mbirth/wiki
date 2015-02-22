@@ -2,7 +2,7 @@
 title: Apple iPhone
 layout: default
 created: 2009-04-20 20:22:56 +0200
-updated: 2009-05-14 13:39:31 +0200
+updated: 2009-05-19 03:57:37 +0200
 toc: false
 tags:
   - know-how

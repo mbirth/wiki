@@ -1,7 +1,7 @@
 ---
 title: Feature Bits
 layout: default
-created: 2008-12-31 00:32:38 +0200
+created: 2008-12-31 00:32:38 +0100
 updated: 2008-12-31 00:32:38 +0100
 toc: false
 tags:

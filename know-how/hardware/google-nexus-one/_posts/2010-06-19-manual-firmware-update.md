@@ -2,7 +2,7 @@
 title: Manual Firmware Update on the Nexus One
 layout: default
 created: 2010-05-23 01:33:27 +0200
-updated: 2010-05-23 01:33:27 +0200
+updated: 2010-06-19 21:00:47 +0200
 toc: false
 tags:
   - know-how

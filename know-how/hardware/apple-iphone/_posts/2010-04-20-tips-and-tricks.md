@@ -2,7 +2,7 @@
 title: Tips & Tricks for the iPhone
 layout: default
 created: 2009-05-05 00:54:50 +0200
-updated: 2010-04-20 23:56:17 +0200
+updated: 2010-04-20 23:57:18 +0200
 toc: false
 tags:
   - know-how

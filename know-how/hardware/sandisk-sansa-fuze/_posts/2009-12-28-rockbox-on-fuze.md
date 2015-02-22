@@ -2,7 +2,7 @@
 title: Rockbox on FUZE
 layout: default
 created: 2009-08-31 00:29:08 +0200
-updated: 2009-12-28 16:29:46 +0100
+updated: 2009-12-28 16:31:28 +0100
 toc: false
 tags:
   - know-how

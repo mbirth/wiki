@@ -1,8 +1,8 @@
 ---
 title: Video format
 layout: default
-created: 2008-12-31 00:33:58 +0200
-updated: 2008-12-31 00:33:58 +0100
+created: 2008-12-31 00:33:58 +0100
+updated: 2009-03-01 13:00:13 +0100
 toc: false
 tags:
   - know-how

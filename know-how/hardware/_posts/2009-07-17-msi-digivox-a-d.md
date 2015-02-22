@@ -2,7 +2,7 @@
 title: MSI DigiVox A/D USB2.0
 layout: default
 created: 2009-05-20 11:05:28 +0200
-updated: 2009-05-20 11:05:28 +0200
+updated: 2009-07-17 22:53:23 +0200
 toc: false
 tags:
   - know-how

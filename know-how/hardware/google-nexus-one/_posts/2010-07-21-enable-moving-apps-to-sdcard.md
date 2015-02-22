@@ -2,7 +2,7 @@
 title: Enable moving any app to SD card (FroYo)
 layout: default
 created: 2010-05-23 03:48:17 +0200
-updated: 2010-07-21 17:14:54 +0200
+updated: 2010-07-21 17:15:18 +0200
 toc: false
 tags:
   - know-how
