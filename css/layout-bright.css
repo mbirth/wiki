@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #eaeaea url("../images/bkg-white.png") 0 0;
   color: #151515;
-  font: 16px;
+  font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }

@@ -17,6 +17,15 @@ abbr, acronym {
   padding-left: 100px;
 }
 
+.footnote {
+    font-size: 8pt;
+}
+
+.footnotes {
+    padding-top: 1em;
+    font-size: 8pt;
+}
+
 #related {
     overflow: visible;
     white-space: nowrap;
