@@ -53,6 +53,7 @@ header h1, #pagetitle
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
     -webkit-font-smoothing: antialiased
 
+// Site name
 header h1
     letter-spacing: -1px
     margin: 0 0 0 -40px
@@ -61,6 +62,7 @@ header h1
         content: "./ "
         font-size: 24px
 
+// Site description
 header h2
     font:
         size: 18px
@@ -79,18 +81,6 @@ header h2
     width: 100%
     -webkit-font-smoothing: antialiased
 
-section img
-    max-width: 100%
-
-h1, h2, h3, h4, h5, h6
-    font:
-        weight: normal
-        family: $font
-    color: #678b22
-    letter-spacing: -0.03em
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
-
-#main_content
     h1
         font-size: 28px
 
@@ -113,6 +103,30 @@ h1, h2, h3, h4, h5, h6
         text-transform: uppercase
         color: #999
         margin: 0 0 5px 0
+
+    table
+        margin: 0 0 20px 0
+//        width: 100%;
+
+    th
+        text-align: left
+        border-bottom: 1px dashed #678b22
+        padding: 5px 10px
+
+    td
+        padding: 5px 10px
+
+
+section img
+    max-width: 100%
+
+h1, h2, h3, h4, h5, h6
+    font:
+        weight: normal
+        family: $font
+    color: #678b22
+    letter-spacing: -0.03em
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
 
 dt
     font:
@@ -167,19 +181,6 @@ pre > code
     white-space: pre
     padding: 0
 
-#main_content
-    table
-        margin: 0 0 20px 0
-//        width: 100%;
-
-    th
-        text-align: left
-        border-bottom: 1px dashed #678b22
-        padding: 5px 10px
-
-    td
-        padding: 5px 10px
-
 hr
     height: 0
     border: 0
@@ -227,6 +228,8 @@ a
     color: #41a0d3
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
 
+    &:visited
+        color: #949
 
 // Clearfix
 
