@@ -18,16 +18,16 @@
     {% endif %}
     <script src="{{ site.url }}/javascripts/gcse.js" type="text/javascript"></script>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Blog">
     <header>
         <div class="container">
             <div id="headerleft">
-                <h1>{{ site.name }}</h1>
-                <h2>{{ site.description }}</h2>
+                <h1 itemprop="name">{{ site.name }}</h1>
+                <h2 itemprop="description">{{ site.description }}</h2>
 
                 <section id="downloads">
                     <a href="https://plus.google.com/+MarkusBirth/about" rel="author" class="btn">Find me on Google+</a>
-                    <a href="https://github.com/mbirth/wiki" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+                    <a href="https://github.com/mbirth/wiki" itemprop="isBasedOnUrl" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
                 </section>
             </div>
             <div id="headerright">
@@ -36,7 +36,7 @@
         </div>
     </header>
     <div class="container">
-        <article itemscope itemtype="http://schema.org/Article">
+        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <h1 id="pagetitle" itemprop="name">{{ page.title }}</h1>
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="givenName" content="Markus" />

@@ -23,7 +23,7 @@ Andere tolle - und mir bisher unbekannte - Importe:
   * der Stadtteil "Moabit" kommt von französischen Aussiedlern, die dort vergebens Obst und Gemüse
     anbauen wollten: *la terre de Moab* bzw. *la terre maudite* - das verfluchte, sehr schlechte Land
   * viele Speisen wurden von den Franzosen importiert: *boulette* = Fleischkügelchen, *ragoût fin* haben wir den Hugenotten
-    zu verdanken und aus *griebelettes*, kleinen in Speck gebratenen Fleischstückchen wurde Griebenschmalz.\\ 
+    zu verdanken und aus *griebelettes*, kleinen in Speck gebratenen Fleischstückchen wurde Griebenschmalz.   
     Des weiteren wurden französische Begriffe eingedeutscht: Püree, Karotten, Eclair, Filet, Frikassee, Kotelett, Omelett, Roulade
   * im weiteren Sprachgebrauch: Amusement, Canaille, Cousine, Couvert, Kommode, Malheur, Misère, Parterre, Pissoir, Portemonnaie,
     penibel, perdu, Rage, Salon, Skandal
