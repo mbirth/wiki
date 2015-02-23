@@ -3,6 +3,9 @@
 $font: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 $maincolor: #678b22
 
+=text-shadow
+    text-shadow: 0 1px 1px rgba(black, 0.1), 0 0 5px rgba(lighten($maincolor, 33%), 0.1), 0 0 10px rgba(lighten($maincolor, 33%), 0.1)
+
 body
     margin: 0
     padding: 0
@@ -45,13 +48,13 @@ header
     margin: 0 0 40px 0
 
 header h1, #pagetitle
+    +text-shadow
     font:
         size: 30px
         weight: bold
         family: $font
     line-height: 1.5
     color: $maincolor
-    text-shadow: 0 1px 1px rgba(black, 0.1), 0 0 5px rgba(lighten($maincolor, 33%), 0.1), 0 0 10px rgba(lighten($maincolor, 33%), 0.1)
     -webkit-font-smoothing: antialiased
 
 // Site name
@@ -126,12 +129,12 @@ section img
     max-width: 100%
 
 h1, h2, h3, h4, h5, h6
+    +text-shadow
     font:
         weight: normal
         family: $font
     color: $maincolor
     letter-spacing: -0.03em
-    text-shadow: 0 1px 1px rgba(black, 0.1), 0 0 5px rgba(lighten($maincolor, 33%), 0.1), 0 0 10px rgba(lighten($maincolor, 33%), 0.1)
 
 dt
     font:
@@ -247,3 +250,4 @@ a
 
 .cf
     zoom: 1
+
