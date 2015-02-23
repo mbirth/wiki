@@ -6,7 +6,7 @@ layout: default
 
 <ul>
 {% for post in paginator.posts %}
-    <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}"><span itemprop="dateModified">{{ post.date | date: "%Y-%m-%d" }}</span> - <span itemprop="name">{{ post.title }}</span></a></li>
+    <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}"><span itemprop="dateModified">{{ post.date | date: "%Y-%m-%d" }}</span> - <span itemprop="name">{{ post.title }}</span></a>{% if post.language == 'de' %} :de:{% endif %}</li>
 {% endfor %}
 </ul>
 
