@@ -40,14 +40,7 @@ li
    h1       - project name
    h2       - project description
 
-header
-    background: rgba(black, 0.1)
-    width: 100%
-    border-bottom: 1px dashed $maincolor
-    padding: 20px 0
-    margin: 0 0 40px 0
-
-header h1, #pagetitle
+#pagetitle
     +text-shadow
     font:
         size: 30px
@@ -57,21 +50,29 @@ header h1, #pagetitle
     color: $maincolor
     -webkit-font-smoothing: antialiased
 
-// Site name
-header h1
-    letter-spacing: -1px
-    margin: 0 0 0 -40px
+header
+    background: rgba(black, 0.1)
+    width: 100%
+    border-bottom: 1px dashed $maincolor
+    padding: 20px 0
+    margin: 0 0 40px 0
 
-    &:before
-        content: "./ "
-        font-size: 24px
+    // Site name
+    h1
+        @extend #pagetitle
+        letter-spacing: -1px
+        margin: 0 0 0 -40px
 
-// Site description
-header h2
-    font:
-        size: 18px
-        weight: 300
-    color: #666
+        &:before
+            content: "./ "
+            font-size: 24px
+
+    // Site description
+    h2
+        font:
+            size: 18px
+            weight: 300
+        color: #666
 
 #downloads .btn
     display: inline-block
@@ -123,7 +124,7 @@ header h2
     td
         padding: 5px 10px
         vertical-align: top
-
+ 
 
 section img
     max-width: 100%
@@ -250,4 +251,6 @@ a
 
 .cf
     zoom: 1
+
+// vim: set ts=4:sw=4:expandtab
 
