@@ -22,9 +22,9 @@ for the latest Ubuntu *Oneiric Ocelot*. These instructions should work:
 1. run `./configure`
 1. try a `make all`, you will most probably get various errors like *"size_t has not been declared"* or *"size_t does not name a type"* --- if so, try this:
     * add a line: `#include <stddef.h>` as the first line to the following files:
-      * `src/lw/LabelWriterLanguageMonitor.h`
-      * `src/lw/LabelWriterDriver.h`
-      * `src/common/Halftoning.h`
+        * `src/lw/LabelWriterLanguageMonitor.h`
+        * `src/lw/LabelWriterDriver.h`
+        * `src/common/Halftoning.h`
     * now, again, run `make all`
 1. run `sudo make install`
 1. now open **System Settings** → **Printer**

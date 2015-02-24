@@ -29,33 +29,33 @@ Notification service using OpenWatch, Tasker and PHP
 
 ### Setup Tasker
 
-  1. create a new time-based profile, let it run every **5 minutes** or so
-  2. add the following actions:
+1. create a new time-based profile, let it run every **5 minutes** or so
+1. add the following actions:
     1. Net → **HTTP Get**
-      * **Server:Port:** `www.example.org` *(\<your webserver\>)*
-      * **Path:** `/notifier/notify.php` *(adapt according to your setup)*
-      * **Attributes:** *\<leave empty\>*
-      * **Timeout:** `10` *(default)*
-      * **Mime Type:** `text/plain; charset=utf-8`
-      * **Output File:** *\<leave empty\>*
-    - Tasker → **Stop**
-      * **If:** `[X]`
+        * **Server:Port:** `www.example.org` *(\<your webserver\>)*
+        * **Path:** `/notifier/notify.php` *(adapt according to your setup)*
+        * **Attributes:** *\<leave empty\>*
+        * **Timeout:** `10` *(default)*
+        * **Mime Type:** `text/plain; charset=utf-8`
+        * **Output File:** *\<leave empty\>*
+    1. Tasker → **Stop**
+        * **If:** `[X]`
         * `%HTTPD` **Isn't Set**
-    - Variable → **Variable Split**
-      * **Name:** `%HTTPD`
-      * **Splitter:** `¶`
-      * **Delete Base:** `[ ]`
-    - Alert → **Notify** *(you can omit this one if you like)*
-      * **Title:** `Remote Notification`
-      * **Text:** `%HTTPD1 %HTTPD2 (%HTTPD3 seconds ago)`
-    - Misc → **Action Intent**
-      * **Action:** `com.smartmadsoft.openwatch.action.VIBRATE`
-      * **Cat:** `None`
-      * **Data:** *\<leave empty\>*
-      * **Extra:** `line1:%HTTPD1`
-      * **Extra:** `line2:%HTTPD2` *(Note: There are 2 Extra input fields)*
-      * **Target:** `Broadcast Receiver`
-  - Done!
+    1. Variable → **Variable Split**
+        * **Name:** `%HTTPD`
+        * **Splitter:** `¶`
+        * **Delete Base:** `[ ]`
+    1. Alert → **Notify** *(you can omit this one if you like)*
+        * **Title:** `Remote Notification`
+        * **Text:** `%HTTPD1 %HTTPD2 (%HTTPD3 seconds ago)`
+    1. Misc → **Action Intent**
+        * **Action:** `com.smartmadsoft.openwatch.action.VIBRATE`
+        * **Cat:** `None`
+        * **Data:** *\<leave empty\>*
+        * **Extra:** `line1:%HTTPD1`
+        * **Extra:** `line2:%HTTPD2` *(Note: There are 2 Extra input fields)*
+        * **Target:** `Broadcast Receiver`
+1. Done!
 
 
 ### Setup Server
@@ -119,9 +119,9 @@ class DataStore {
         $this->modified = false;
     }
 }
-    
+
 $ds = new DataStore();
-    
+
 header( 'Content-Type: text/plain; charset=utf-8' );
 if ( isset( $_REQUEST['l1'] ) && isset( $_REQUEST['l2'] ) ) {
     // new notification ~~> store
