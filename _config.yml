@@ -36,3 +36,12 @@ kramdown:
     input: GFM
     hard_wrap: false
     syntax_highlighter: rouge
+
+defaults:
+    -
+        scope:
+            path: ""   # an empty string here means all files in the project
+            type: "posts"  # "post" for Jekyll <=2.2
+        values:
+            language: en
+
