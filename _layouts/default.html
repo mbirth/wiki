@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" media="all" />
 
     {% if page.alternatives %}
-        <link rel="alternate" hreflang="{{ page.language }}" href="{{ page.url }}" />
+        <link rel="alternate" hreflang="{{ page.language }}" href="{{ site.url }}{{ page.url }}" />
         {% for altpost in page.alternatives %}
             <link rel="alternate" hreflang="{{ altpost.language }}" href="{{ site.url }}{{ altpost.url }}" />
         {% endfor %}
