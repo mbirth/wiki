@@ -1,6 +1,9 @@
 ---
 title: BIOS Passwörter
 language: de
+alternatives:
+  - language: en
+    url: /know-how/hacking/bios-passwords.html
 layout: default
 created: 2008-07-18 01:36:55 +0200
 updated: 2009-10-30 22:53:14 +0100
