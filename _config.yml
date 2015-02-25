@@ -28,6 +28,7 @@ github:
 gems:
     - jemoji
     - jekyll-sitemap
+    - jekyll-redirect-from
 
 redcarpet:
     extensions: ["autolink", "tables", "no_intra_emphasis"]
