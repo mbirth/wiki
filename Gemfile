@@ -8,3 +8,5 @@ gem 'github-pages', versions['github-pages']
 
 gem 'jemoji'
 gem 'jekyll-sitemap'
+gem 'jekyll-redirect-from'
+
