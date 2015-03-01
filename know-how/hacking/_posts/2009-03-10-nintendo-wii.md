@@ -1,5 +1,5 @@
 ---
-title: Nintendo DS
+title: Nintendo Wii
 language: en
 layout: default
 created: 2009-03-10 00:43:19 +0100
