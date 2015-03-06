@@ -7,7 +7,6 @@ updated: 2009-06-26 20:39:10 +0200
 toc: false
 tags:
   - know-how
-  - hacking
   - miscellaneous
   - security
 ---

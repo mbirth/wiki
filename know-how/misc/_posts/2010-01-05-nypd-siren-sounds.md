@@ -7,7 +7,6 @@ updated: 2010-01-05 00:11:50 +0100
 toc: false
 tags:
   - know-how
-  - hacking
   - miscellaneous
   - audio
 ---
