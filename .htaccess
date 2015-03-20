@@ -172,6 +172,15 @@ RewriteRule ^know-how/misc/audio-bitrates http://wiki.mbirth.de/know-how/misc/au
 RewriteRule ^know-how/misc/nasa-roger-beep http://wiki.mbirth.de/know-how/misc/nasa-roger-beep.html [L,R=301]
 RewriteRule ^know-how/misc/nypd-siren-sounds http://wiki.mbirth.de/know-how/misc/nypd-siren-sounds.html [L,R=301]
 RewriteRule ^know-how/misc/rsa-safeword-tokens http://wiki.mbirth.de/know-how/misc/rsa-safeword-tokens.html [L,R=301]
+RewriteRule ^know-how/software/android/duplicate-asec-files http://wiki.mbirth.de/know-how/software/android/duplicate-asec-files.html [L,R=301]
+RewriteRule ^know-how/software/android/root http://wiki.mbirth.de/know-how/software/android/root.html [L,R=301]
+RewriteRule ^know-how/software/android/tango-messenger-phone-numbers http://wiki.mbirth.de/know-how/software/android/tango-messenger-phone-numbers.html [L,R=301]
+RewriteRule ^know-how/software/eclipse/ezpublish http://wiki.mbirth.de/know-how/software/eclipse/ezpublish-templates-in-eclipse.html [L,R=301]
+RewriteRule ^know-how/software/eclipse/whitespaces http://wiki.mbirth.de/know-how/software/eclipse/lighter-whitespaces.html [L,R=301]
+RewriteRule ^know-how/software/freesshd/keyauth http://wiki.mbirth.de/know-how/software/freesshd/key-authentication.html [L,R=301]
+RewriteRule ^know-how/software/games/spaz http://wiki.mbirth.de/know-how/software/games/spaz.html [L,R=301]
+RewriteRule ^know-how/software/java/lookandfeel-in-all-apps http://wiki.mbirth.de/know-how/software/java/lookandfeel-in-all-apps.html [L,R=301]
+RewriteRule ^know-how/software/java/swing-garbledbackground http://wiki.mbirth.de/know-how/software/java/swing-garbled-background.html [L,R=301]
 # ...
 RewriteRule ^know-how/software/titanium http://wiki.mbirth.de/know-how/software/appcelerator-titanium.html [L,R=301]
 # ...
