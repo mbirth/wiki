@@ -24,4 +24,4 @@ Another nice feature is adding the `profile` option to the kernel line upon boot
 usual but the readahead-daemon will catalog all needed files and on the next boot (without that parameter), all needed
 files will be preloaded before boot.
 
-On Desktops with much RAM, the `[preload](http://sf.net/projects/preload)` daemon also speeds up working.
+On Desktops with much RAM, the [preload](http://sf.net/projects/preload) daemon also speeds up working.
