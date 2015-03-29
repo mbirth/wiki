@@ -10,8 +10,8 @@ tags:
   - linux
   - mc
 ---
-If Midnight Commander needs several seconds to startup, check the ˋinterfacesˋ line in your ˋsmb.confˋ. According to [this page](http://osdir.com/ml/gnome.apps.mc.general/2006-09/msg00057.html),
-the built-in Samba code of *mc* is outdated and doesn't recognize device names like ˋeth0ˋ or ˋloˋ as the newer
+If Midnight Commander needs several seconds to startup, check the `interfaces` line in your `smb.conf`. According to [this page](http://osdir.com/ml/gnome.apps.mc.general/2006-09/msg00057.html),
+the built-in Samba code of *mc* is outdated and doesn't recognize device names like `eth0` or `lo` as the newer
 *smbclient* does. So it tries to resolve those into IPs which takes ages until they time out.
 
-Replace the devices by their respective netmasks (e.g. ˋ192.168.1.0/24ˋ) and *mc* will startup instantly.
+Replace the devices by their respective netmasks (e.g. `192.168.1.0/24`) and *mc* will startup instantly.

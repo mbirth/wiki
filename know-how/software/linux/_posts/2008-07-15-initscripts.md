@@ -18,7 +18,7 @@ event.d script
 This is an event.d-script for the new Ubuntu [Upstart](http://upstart.ubuntu.com/).
 
 The event gets started/respawned on runlevels 2-5. If you change to level 0, 1 or 6, the process gets stopped/killed.
-Manual start/stop works through the same commands ˋstartˋ and ˋstopˋ. With ˋstatusˋ you can check the status.
+Manual start/stop works through the same commands `start` and `stop`. With `status` you can check the status.
 
 ~~~
 # manages Solr search engine
@@ -41,7 +41,7 @@ init.d script
 
 This does the same using the traditional init.d-way.
 
-After creation of the script in ˋ/etc/init.dˋ you also have to make the symlinks in the ˋrc.2ˋ..ˋrc.5ˋ-directories.
+After creation of the script in `/etc/init.d` you also have to make the symlinks in the `rc.2`..`rc.5`-directories.
 
 {% highlight bash %}
 #!/bin/sh

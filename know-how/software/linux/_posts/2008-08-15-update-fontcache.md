@@ -10,7 +10,7 @@ tags:
   - linux
   - fonts
 ---
-After adding some fonts to the ˋ/usr/share/fontsˋ directories, you have to re-login to see the added fonts. To update
+After adding some fonts to the `/usr/share/fonts` directories, you have to re-login to see the added fonts. To update
 the fontcache without a log-cycle, use the following command:
 
     sudo fc-cache -fv

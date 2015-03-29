@@ -12,9 +12,9 @@ tags:
   - monitoring
   - networking
 ---
-To let the *syslogd* also receive messages from your local network, edit the file ˋ/etc/default/syslogdˋ and modify the
+To let the *syslogd* also receive messages from your local network, edit the file `/etc/default/syslogd` and modify the
 last line so that it looks like this:
 
     SYSLOGD="-r"
 
-Restart the *sysklogd* and watch your ˋ/var/log/messagesˋ.
+Restart the *sysklogd* and watch your `/var/log/messages`.
