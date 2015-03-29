@@ -20,7 +20,7 @@ This is an event.d-script for the new Ubuntu [Upstart](http://upstart.ubuntu.com
 The event gets started/respawned on runlevels 2-5. If you change to level 0, 1 or 6, the process gets stopped/killed.
 Manual start/stop works through the same commands ˋstartˋ and ˋstopˋ. With ˋstatusˋ you can check the status.
 
-{{{
+~~~
 # manages Solr search engine
 
 start on runlevel [2345]
@@ -33,7 +33,7 @@ script
     cd /home/sysadmin/extension/ezfind/java
     exec /usr/bin/java -jar start.jar
 end script
-}}}
+~~~
 
 
 init.d script
