@@ -53,7 +53,7 @@ be back to disabled then. You might want to create a startup script.
 Waking remote PCs
 =================
 
-The simple way is to use ˋwakeonlanˋ which only supports MagicPacket™.
+The simple way is to use `wakeonlan` which only supports MagicPacket™.
 
 For a PC in a Class C network, use a call like this:
 

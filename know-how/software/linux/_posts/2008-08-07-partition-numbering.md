@@ -12,7 +12,7 @@ tags:
   - partitioning
 ---
 After removal of the first primary partition, you might notice, that the names of the remaining partitions didn't
-change. `/dev/sda2` stays `/dev/sda2`. To renumber the partition, use ˋfdiskˋ and create a new primary partition no. 1
+change. `/dev/sda2` stays `/dev/sda2`. To renumber the partition, use `fdisk` and create a new primary partition no. 1
 which is located behind `sda2`. You might want to delete your swap partition, create a new one in partition slot no. 1.
 
 Now enter the expert menu of fdisk and type <kbd>f</kbd> to fix the partition table. The partitions will be renumbered
