@@ -1,0 +1,191 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' auto-description 'specify: %d'
+zstyle ':completion:*' completer _complete _ignored _approximate
+zstyle ':completion:*' expand suffix
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+zstyle ':completion:*' list-suffixes true
+zstyle ':completion:*' max-errors 3
+zstyle ':completion:*' menu select=1
+zstyle ':completion:*' preserve-prefix '//[^/]##/'
+zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
+zstyle ':completion:*' verbose true
+zstyle :compinstall filename '/home/mbirth/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+# End of lines configured by zsh-newuser-install
+
+setopt APPEND_HISTORY
+unsetopt BG_NICE             # do NOT nice bg commands
+setopt CORRECT               # command CORRECTION
+setopt EXTENDED_HISTORY      # puts timestamps in the history
+setopt notify correct pushdtohome cdablevars autolist
+setopt correctall recexact longlistjobs
+setopt autoresume histignoredups
+setopt autopushd pushdminus rcquotes mailwarning
+unsetopt bgnice autoparamslash
+
+bindkey "^[[3~" delete-char
+bindkey "^[3;5~" delete-char
+bindkey "^?" backward-delete-char
+bindkey '^[OH' beginning-of-line
+bindkey '^[OF' end-of-line
+bindkey '^[[5~' up-line-or-history
+bindkey '^[[6~' down-line-or-history
+bindkey "^r" history-incremental-search-backward
+bindkey ' ' magic-space    # also do history expansion on space
+bindkey '^I' complete-word # complete on tab, leave expansion to _expand
+
+# formatting and messages
+zstyle ':completion:*:descriptions' format '%B%d%b'
+zstyle ':completion:*:messages' format '%d'
+zstyle ':completion:*:warnings' format 'No matches for: %d'
+zstyle ':completion:*:corrections' format '%B%d (errors: %e)%b'
+
+# command for process lists, the local web server details and host completion
+# on processes completion complete all user processes
+# zstyle ':completion:*:processes' command 'ps -au$USER'
+
+## add colors to processes for kill completion
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+
+#zstyle ':completion:*:processes' command 'ps ax -o pid,s,nice,stime,args | sed "/ps/d"'
+zstyle ':completion:*:*:kill:*:processes' command 'ps --forest -A -o pid,user,cmd'
+zstyle ':completion:*:processes-names' command 'ps axho command' 
+#zstyle ':completion:*:urls' local 'www' '/var/www/htdocs' 'public_html'
+
+#NEW completion:
+# 1. All /etc/hosts hostnames are in autocomplete
+# 2. If you have a comment in /etc/hosts like #%foobar.domain,
+#    then foobar.domain will show up in autocomplete!
+zstyle ':completion:*' hosts $(awk '/^[^#]/ {print $2 $3" "$4" "$5}' /etc/hosts | grep -v ip6- && grep "^#%" /etc/hosts | awk -F% '{print $2}')
+
+# ignore completion functions (until the _ignored completer)
+zstyle ':completion:*:functions' ignored-patterns '_*'
+zstyle ':completion:*:*:*:users' ignored-patterns \
+        adm apache bin daemon games gdm halt ident junkbust lp mail mailnull \
+        named news nfsnobody nobody nscd ntp operator pcap postgres radvd \
+        rpc rpcuser rpm shutdown squid sshd sync uucp vcsa xfs avahi-autoipd\
+        avahi backup messagebus beagleindex debian-tor dhcp dnsmasq fetchmail\
+        firebird gnats haldaemon hplip irc klog list man cupsys postfix\
+        proxy syslog www-data mldonkey sys snort
+# SSH Completion
+zstyle ':completion:*:scp:*' tag-order \
+   files users 'hosts:-host hosts:-domain:domain hosts:-ipaddr"IP\ Address *'
+zstyle ':completion:*:scp:*' group-order \
+   files all-files users hosts-domain hosts-host hosts-ipaddr
+zstyle ':completion:*:ssh:*' tag-order \
+   users 'hosts:-host hosts:-domain:domain hosts:-ipaddr"IP\ Address *'
+zstyle ':completion:*:ssh:*' group-order \
+   hosts-domain hosts-host users hosts-ipaddr
+zstyle '*' single-ignored show
+
+# Define colors
+autoload colors zsh/terminfo
+if [[ "$terminfo[colors]" -ge 8 ]]; then
+    colors
+fi
+
+for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
+    eval PR_LIGHT_$color='%{$terminfo[bold]$fg[${(L)color}]%}'
+    eval PR_$color='%{$fg[${(L)color}]%}'
+    (( count = $count + 1 ))
+done
+PR_NO_COLOR="%{$terminfo[sgr0]%}"
+
+
+# Allow fancy prompting (try adam2!)
+autoload promptinit
+promptinit
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# Set prompt
+PROMPT="${debian_chroot:+($debian_chroot)}$PR_LIGHT_GREEN%n@%m$PR_NO_COLOR:$PR_LIGHT_BLUE%3(~.«.)%2~$PR_NO_COLOR%# "
+RPROMPT="[$PR_LIGHT_YELLOW%T$PR_NO_COLOR]"
+
+
+
+title_precmd () {
+    case $TERM in
+        screen)
+            print -Pn "\e]0;%n@%m: %~\a"
+            print -Pn "\ekzsh: %~\e\\"
+             ;;
+         xterm*|rxvt)
+             print -Pn "\e]0;%n@%m: %~\a"
+             ;;
+     esac
+}
+
+title_preexec () {
+    case $TERM in
+        screen)
+            print -Pn "\e]0;%n@%m: $1\a"
+            print -Pn "\ek$1\e\\"
+            ;;
+        xterm*|rxvt)
+            print -Pn "\e]0;%n@%m: $1\a"
+            ;;
+    esac
+}
+
+set -A precmd_functions precmd title_precmd
+set -A preexec_functions preexec title_preexec
+
+### OLD BASH STUFF FOLLOWING
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ] && [ -x /usr/bin/dircolors ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='ls --color=auto --format=vertical'
+    #alias vdir='ls --color=auto --format=long'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+    alias diff='colordiff'
+fi
+
+# some more ls aliases
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
+
+# wcd
+function wcd {
+    /usr/local/bin/wcd.exe -i -K -G $HOME $*
+    . $HOME/wcd.go
+    rm $HOME/wcd.go
+}
+
+
+if [ -f $HOME/.motd ]; then
+    cat $HOME/.motd
+fi
+
+export PATH=/opt/mbirth:$PATH
+
+cowsay -fmoose -W80 "`fortune -a . off de`"

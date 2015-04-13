@@ -13,7 +13,8 @@ tags:
 permanently
 ===========
 
-To remap mouse buttons permanently, you can use the `xinput set-button-map` command. Every mouse button click issues a button click with a specific id to X11. X11 recognizes the following buttons:
+To remap mouse buttons permanently, you can use the `xinput set-button-map` command. Every mouse button click issues a
+button click with a specific id to X11. X11 recognizes the following buttons:
 
 | ID | Button        |
 |:--:|:--------------|
@@ -31,9 +32,10 @@ To remap mouse buttons permanently, you can use the `xinput set-button-map` comm
 
 You can use the following command to remap the buttons:
 
-    xinput set-button-map <device-id> <button1> <button2> <button3> ... <buttonN>
+    xinput set-button-map <device-id> <button1> <button2> <button3> … <buttonN>
 
-The `<device-id>` is shown in the `xinput list` output - you can use the name as a string or the id number. You can query the actual button state using `xinput query-state <device-id>`.
+The `<device-id>` is shown in the `xinput list` output - you can use the name as a string or the id number. You can
+query the actual button state using `xinput query-state <device-id>`.
 
 So the default configuration (`xinput set-button-map <device-id> 1 2 3 4 5 6 7 8 9`) would give you the normal behavior.
 But if you prefer e.g. having the thumb buttons for *WheelLeft* and *WheelRight*, you would run this command:
@@ -43,25 +45,29 @@ But if you prefer e.g. having the thumb buttons for *WheelLeft* and *WheelRight*
 
 This would map buttons 8→6 and 9→7 and vice versa.
 
-To automatically set your preferred mapping on bootup, you can add the line to *System* → *Preferences* → *Startup Applications* (formerly *Sessions*).
+To automatically set your preferred mapping on bootup, you can add the line to *System* → *Preferences* →
+*Startup Applications* (formerly *Sessions*).
 
 
 per application (Wheel/Thumb only)
 ==================================
 
-To remap wheel-/thumb-mouse buttons per application, you can use `imwheel` from the same-named [package](apt://imwheel). After installing the package, copy the default configuration to your homedir:
+To remap wheel-/thumb-mouse buttons per application, you can use `imwheel` from the same-named [package](apt://imwheel).
+After installing the package, copy the default configuration to your homedir:
 
     cp /etc/X11/imwheel/imwheelrc ~/.imwheelrc
 
-And then enable the automatic starting upon start of X11 by editing `/etc/X11/imwheel/startup.conf` and changing the `IMWHEEL_START` value to **`1`**.
+And then enable the automatic starting upon start of X11 by editing `/etc/X11/imwheel/startup.conf` and changing the
+`IMWHEEL_START` value to **`1`**.
 
 Now you can modify your `.imwheelrc` to fit your needs. The format is
 
     "window regexp"
     Modifier, Mousebutton, Keypresses/Mousebutton
-    ...
+    …
 
-So for example to use the WheelLeft and WheelRight buttons to switch tabs in Firefox, you could use the following definition:
+So for example to use the WheelLeft and WheelRight buttons to switch tabs in Firefox, you could use the following
+definition:
 
     "^Firefox-bin$"
     # Flip between browser tabs
@@ -70,8 +76,8 @@ So for example to use the WheelLeft and WheelRight buttons to switch tabs in Fir
 
 This would map *WheelLeft* to <kbd>Ctrl</kbd>-<kbd>PgUp</kbd> and *WheelRight* to <kbd>Ctrl</kbd>-<kbd>PgDn</kbd>.
 
-A *Modifier* of `None` means, this only works if no modifier (`Shift_L`, `Shift_R`, `Control_L`, `Control_R`, `Alt_L`, `Alt_R`) is pressed while clicking.
-If you leave this empty, the mapping works regardless of which modifier is held down.
+A *Modifier* of `None` means, this only works if no modifier (`Shift_L`, `Shift_R`, `Control_L`, `Control_R`, `Alt_L`,
+`Alt_R`) is pressed while clicking. If you leave this empty, the mapping works regardless of which modifier is held down.
 
 Use this to go to previous/next track in Rhythmbox using the WheelLeft and WheelRight clicks:
 
@@ -79,8 +85,9 @@ Use this to go to previous/next track in Rhythmbox using the WheelLeft and Wheel
     None, Left, Alt_L|Left
     None, Right, Alt_L|Right
 
-(In this case, `Rhythmbox` defines the *window resource name* since Rhythmbox itself puts the currently playing song in the title bar.
-You could also match against `rhythmbox` which is the *window class name*. Since `imwheel -c` wasn't able to show them to me, I just guessed.)
+(In this case, `Rhythmbox` defines the *window resource name* since Rhythmbox itself puts the currently playing song in
+the title bar. You could also match against `rhythmbox` which is the *window class name*. Since `imwheel -c` wasn't able
+to show them to me, I just guessed.)
 
 <p><div class="noteimportant" markdown="1">
 Looks like `imwheel` causes some problems when scrolling in *Opera*: The webpage doesn't get redrawn so that you have

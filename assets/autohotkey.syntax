@@ -1,0 +1,197 @@
+# AutoHotkey
+# http://www.autohotkey.com/
+
+context default
+    keyword wholeright #+ white black
+    keyword whole FileInstall white black
+
+    keyword whole Global yellow
+    keyword whole global yellow
+    keyword whole Local yellow
+    keyword whole local yellow
+    keyword whole Static yellow
+    keyword whole static yellow
+
+    keyword whole Break brightmagenta
+    keyword whole break brightmagenta
+    keyword whole Continue brightmagenta
+    keyword whole continue brightmagenta
+    keyword whole Gosub brightmagenta
+    keyword whole GoSub brightmagenta
+    keyword whole If brightmagenta
+    keyword whole IfEqual brightmagenta
+    keyword whole IfExist brightmagenta
+    keyword whole IfGreater brightmagenta
+    keyword whole IfInString brightmagenta
+    keyword whole IfMsgBox brightmagenta
+    keyword whole IfNotEqual brightmagenta
+    keyword whole IfNotExist brightmagenta
+    keyword whole IfNotInString brightmagenta
+    keyword whole IfWinExist brightmagenta
+    keyword whole IfWinNotActive brightmagenta
+    keyword whole Else brightmagenta
+    keyword whole Exit brightmagenta
+    keyword whole ExitApp brightmagenta
+    keyword whole Goto brightmagenta
+    keyword whole Loop brightmagenta
+    keyword whole OnExit brightmagenta
+    keyword whole Return brightmagenta
+    keyword whole return brightmagenta
+    keyword whole Sleep brightmagenta
+    keyword whole SetTimer brightmagenta
+    keyword whole Suspend brightmagenta
+
+    keyword whole Control yellow
+    keyword whole ControlClick yellow
+    keyword whole ControlGet yellow
+    keyword whole ControlGetText yellow
+    keyword whole ControlSetText yellow
+    keyword whole CoordMode yellow
+    keyword whole DetectHiddenWindows yellow
+    keyword whole DllCall yellow
+    keyword whole EnvGet yellow
+    keyword whole EnvSet yellow
+    keyword whole EnvSub yellow
+    keyword whole FileAppend yellow
+    keyword whole FileCopy yellow
+    keyword whole FileCreateDir yellow
+    keyword whole FileDelete yellow
+    keyword whole FileExist yellow
+    keyword whole FileGetAttrib yellow
+    keyword whole FileGetSize yellow
+    keyword whole FileGetTime yellow
+    keyword whole FileGetVersion yellow
+    keyword whole FileMove yellow
+    keyword whole FileRead yellow
+    keyword whole FileRemoveDir yellow
+    keyword whole FileSelectFile yellow
+    keyword whole FileSelectFolder yellow
+    keyword whole FileSetAttrib yellow
+    keyword whole FileSetTime yellow
+    keyword whole FormatTime yellow
+    keyword whole GetKeyState yellow
+    keyword whole Gui yellow
+    keyword whole GuiControl yellow
+    keyword whole GuiControlGet yellow
+    keyword whole Hotkey yellow
+    keyword whole IniDelete yellow
+    keyword whole IniRead yellow
+    keyword whole IniWrite yellow
+    keyword whole InStr yellow
+    keyword whole Menu yellow
+    keyword whole MouseGetPos yellow
+    keyword whole MsgBox yellow
+    keyword whole Process yellow
+    keyword whole Progress yellow
+    keyword whole RegDelete yellow
+    keyword whole RegRead yellow
+    keyword whole RegWrite yellow
+    keyword whole Round yellow
+    keyword whole Run yellow
+    keyword whole RunWait yellow
+    keyword whole Send yellow
+    keyword whole SendRaw yellow
+    keyword whole SetBatchLines yellow
+    keyword whole SetFormat yellow
+    keyword whole SetWinDelay yellow
+    keyword whole SetWorkingDir yellow
+    keyword whole Shutdown yellow
+    keyword whole Sort yellow
+    keyword whole SplashImage yellow
+    keyword whole SplitPath yellow
+    keyword whole StringGetPos yellow
+    keyword whole StringLeft yellow
+    keyword whole StringMid yellow
+    keyword whole StringRight yellow
+    keyword whole StringLen yellow
+    keyword whole StringLower yellow
+    keyword whole StringReplace yellow
+    keyword whole StringSplit yellow
+    keyword whole StringTrimLeft yellow
+    keyword whole StringTrimRight yellow
+    keyword whole StrLen yellow
+    keyword whole SubStr yellow
+    keyword whole Tooltip yellow
+    keyword whole ToolTip yellow
+    keyword whole TrayTip yellow
+    keyword whole VarSetCapacity yellow
+    keyword whole WinActivate yellow
+    keyword whole WinClose yellow
+    keyword whole WinExist yellow
+    keyword whole WinGet yellow
+    keyword whole WinGetActiveTitle yellow
+    keyword whole WinGetClass yellow
+    keyword whole WinGetPos yellow
+    keyword whole WinGetTitle yellow
+    keyword whole WinSet yellow
+    keyword whole WinWait yellow
+    keyword whole WinWaitClose yellow
+
+    keyword whole A_AhkPath white
+    keyword whole A_CaretX white
+    keyword whole A_CaretY white
+    keyword whole A_EventInfo white
+    keyword whole A_GuiControl white
+    keyword whole A_GuiControlEvent white
+    keyword whole A_GuiEvent white
+    keyword whole A_Index white
+    keyword whole A_IsCompiled white
+    keyword whole A_Language white
+    keyword whole A_LoopField white
+    keyword whole A_LoopFileDir white
+    keyword whole A_LoopFileFullPath white
+    keyword whole A_LoopFileLongPath white
+    keyword whole A_LoopFileName white
+    keyword whole A_LoopReadLine white
+    keyword whole A_LoopRegName white
+    keyword whole A_LoopRegType white
+    keyword whole A_OSVersion white
+    keyword whole A_ScreenHeight white
+    keyword whole A_ScreenWidth white
+    keyword whole A_ScriptDir white
+    keyword whole A_ScriptFullPath white
+    keyword whole A_ThisHotkey white
+    keyword whole A_ThisHotKey white
+    keyword whole A_TickCount white
+    keyword whole AutoHotkey_Path white
+    keyword whole ErrorLevel white
+
+    keyword %+% brightgreen
+
+    keyword linestart *:: brightgreen black
+    keyword linestart +: brightblue black
+
+    keyword > white
+    keyword < white
+    keyword \+ white
+    keyword - white
+    keyword \* white
+    keyword / white
+    keyword = white
+    keyword <> white
+    keyword == white
+    keyword & white
+    keyword | white
+    keyword := white
+    keyword whole and white
+    keyword whole or white
+    keyword { brightcyan
+    keyword } brightcyan
+    keyword ( brightcyan
+    keyword ) brightcyan
+    keyword , brightcyan
+
+    keyword /\* brown
+    keyword \*/ brown
+
+context ; \n brown
+    spellcheck
+
+context exclusive /\* \*/ brown
+    spellcheck
+
+context " " green
+    spellcheck
+
+#context ' ' green
+#    spellcheck

@@ -36,3 +36,6 @@ The shown URL to the PPA is wrong as Festor's account got deactivated. The corre
     deb http://ppa.launchpad.net/festor/hack-tools/ubuntu jaunty main
     deb-src http://ppa.launchpad.net/festor/hack-tools/ubuntu jaunty main
 </div></p>
+
+
+*[PPA]: Personal Package Archive

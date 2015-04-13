@@ -22,3 +22,6 @@ the desired `index` to it in a modprobe file. I appended these lines to my `/etc
 
 This way, the internal sound card (which was the primary one) now gets some other index and the USB mini speakers get
 the index 0 and therefore become the new default device for any sounds.
+
+
+*[ALSA]: Advanced Linux Sound Architecture

@@ -1,0 +1,108 @@
+# eZPublish Template syntax file
+
+context default cyan
+    spellcheck
+
+context {\* \*} brown
+    spellcheck
+
+context {literal} {/literal} brightblue
+
+context { } lightgray
+    keyword whole def white
+    keyword whole set white
+
+    keyword whole if brightmagenta
+    keyword whole else brightmagenta
+    keyword whole elseif brightmagenta
+    keyword whole switch brightmagenta
+    keyword whole case brightmagenta
+    keyword whole foreach brightmagenta
+    keyword whole true brightmagenta
+    keyword whole false brightmagenta
+    keyword whole no brightmagenta
+    keyword whole yes brightmagenta
+
+    keyword whole include brightred
+    keyword whole debug-accumulator brightred
+    keyword whole cache-block brightred
+
+    keyword whole array yellow
+    keyword whole append yellow
+    keyword whole fetch yellow
+    keyword whole first_set yellow
+    keyword whole concat yellow
+    keyword whole cond yellow
+    keyword whole count yellow
+    keyword whole dec yellow
+    keyword whole extract yellow
+    keyword whole hash yellow
+    keyword whole inc yellow
+    keyword whole i18n yellow
+    keyword whole implode yellow
+    keyword whole is_set yellow
+    keyword whole is_unset yellow
+    keyword whole is_array yellow
+    keyword whole trim yellow
+    keyword whole wash yellow
+    keyword whole ezhttp yellow
+    keyword whole ezini yellow
+    keyword whole ezini_hasvariable yellow
+    keyword whole ezscript yellow
+    keyword whole ezimage yellow
+    keyword whole ezurl yellow
+    keyword whole ezdesign yellow
+    keyword whole svt_siteaccess yellow
+    keyword whole svt_debug yellow
+    keyword whole svt_set_debug_attribute yellow
+    keyword whole svt_request_parameters yellow
+    keyword whole svt_textmodule yellow
+
+####################################
+# expressions, operators and other
+
+    keyword whole as white
+    keyword whole and white
+    keyword whole or white
+    keyword whole ne white
+    keyword whole eq white
+    keyword whole gt white
+    keyword whole lt white
+    keyword whole not white
+    keyword whole contains white
+
+    keyword whole $node brightmagenta
+    keyword whole $module_result brightmagenta
+
+    keyword wholeright $+ brightgreen
+    keyword wholeleft += brightgreen
+
+    keyword ( brightcyan
+    keyword ) brightcyan
+    keyword [ brightcyan
+    keyword ] brightcyan
+    keyword , brightcyan
+    keyword : brightcyan
+    keyword '*' green
+    keyword "*" green
+    keyword ; brightmagenta
+
+#context " " green
+#    spellcheck
+#    keyword \\" brightgreen
+#    keyword \\\n brightgreen
+#    keyword %% brightgreen
+#    keyword %\[#0\s-\+,\]\[0123456789\]\[.\]\[0123456789\]\[L\]\{eEfgGoxX\} brightgreen
+#    keyword %\[0\s-\+,\]\[0123456789\]\[.\]\[0123456789\]\[hl\]\{diu\} brightgreen
+#    keyword %\[hl\]n brightgreen
+#    keyword %\[.\]\[0123456789\]s brightgreen
+#    keyword %[*] brightgreen
+#    keyword %c brightgreen
+#    keyword \\\{0123\}\{01234567\}\{01234567\} brightgreen
+#    keyword \\\\ brightgreen
+#    keyword \\' brightgreen
+#    keyword \\\{abtnvfr\} brightgreen
+
+#context ' ' brightgreen
+#    spellcheck
+#    keyword \\' brightcyan

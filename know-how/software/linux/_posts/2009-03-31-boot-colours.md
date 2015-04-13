@@ -18,7 +18,7 @@ in `/etc/lsb-base-logging.sh`.
 To add colours, in that `init-functions` file find the function *log_use_fancy_output()* and below the `fi` add the lines
 
 {% highlight bash %}
-...
+…
 else
     FANCYTTY=0
 fi
@@ -39,13 +39,13 @@ fi
 # END --- colour definition
 case "$FANCYTTY" in
     1|Y|yes|true)   true;;
-    ...
+    …
 {% endhighlight %}
 
 After that, edit the `lsb-base-logging.sh` and change e.g. the output of *log_end_msg()*:
 
 {% highlight bash %}
-    ...
+    …
     if [ "$COL" ] && [ -x "$TPUT" ]; then
         printf "\r"
         $TPUT hpa $COL
@@ -55,7 +55,7 @@ After that, edit the `lsb-base-logging.sh` and change e.g. the output of *log_en
             echo "${BOLD}${BLUE}[${RED}fail${BLUE}]${NORMAL}"
         fi
     else
-    ...
+    …
 {% endhighlight %}
 
 Your next boot will look like this:
