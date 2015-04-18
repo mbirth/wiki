@@ -52,10 +52,17 @@ Going several pages further down, you'll find something familiar:
 0000A0B0 4C 35 36 31 │ 34 30 31 2E │ 43 41 42 00 │ 9C CC 12 00  L561401.CAB..Ì..
 ~~~
 
-`MSCF` stands for *MicroSoft CAB File*. It's a header for the standard `CAB` archives used to distribute software. The
-`AUTORUN.INF`, `CC561401.CAB`, etc. are also a clear sign that this seems to be the index of the archive. The letters
-`MSCF` are mentioned several times before this location but there was no file index near them. This one here is clearly
-a standard CAB file.
+`MSCF` stands for *MicroSoft Cabinet File*. It's a header for the standard `CAB` archives used to distribute software.
+The `AUTORUN.INF`, `CC561401.CAB`, etc. are also a clear sign that this seems to be the index of the archive. The
+letters `MSCF` are mentioned several times before this location but there was no file index near them. This one here is
+clearly a standard CAB file.
 
 So now take your favorite Hex-Editor and cut everything up to the `MSCF` header. The new file has to begin with `MSCF`.
 Rename it to something `.cab` and use your favorite archiving tool to unpack it. Et voilà!
+
+
+
+*[OEM]: Original Equipment Manufacturer
+*[CD]: Compact Disc
+*[MZ]: Mark Zbikowski
+*[CAB]: Cabinet

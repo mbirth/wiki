@@ -51,11 +51,11 @@ The latest version, `VirtualExpander_v24.exe` contains the following strings har
 
 To make it work with ANY USB drive, just get the ID of your drive:
 
-1. go to *Control Panel* => *System* => *Advanced* => *Environment variables*
+1. go to *Control Panel* → *System* → *Advanced* → *Environment variables*
 1. add a new **System** variable `DevMgr_Show_Details` with the value "1"
 1. <kbd>OK</kbd> your way back to the Desktop
 1. open the Device Manager (make sure you closed the "System"-Control Panel before!)
-1. find your USB drive in the *USB* group and right-click => *Properties*
+1. find your USB drive in the *USB* group and right-click → *Properties*
 1. find the ID on the new tab *Details*
 
 Now use your favorite Hex-editor and overwrite one of the SONY IDs with the PnP-ID of *YOUR* USB drive. That's all!

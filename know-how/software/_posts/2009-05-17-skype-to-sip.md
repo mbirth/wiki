@@ -1,5 +1,5 @@
 ---
-title: Skype <=> SIP Interlink
+title: Skype ⇔ SIP Interlink
 layout: default
 created: 2009-05-17 13:06:06 +0200
 updated: 2009-05-17 13:06:06 +0200
@@ -69,7 +69,7 @@ So this general description should work:
 |:------------|:-------------|
 |`via_addr`   |IP of SipToSis/SippySkype|
 |`host_port`  |Desired Port of SipToSis |
-|`contact_url`|`sip:`//Asterisk-Skype-Extension//`@192.168.1.245:5060`|
+|`contact_url`|`sip:`*Asterisk-Skype-Extension*`@192.168.1.245:5060`|
 |`from_url`   |some name + the `contact_url`|
 |`username`   |Asterisk-Skype-Extension     |
 |`realm`      |might be not used            |

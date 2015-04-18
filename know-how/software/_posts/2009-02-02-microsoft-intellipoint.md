@@ -39,7 +39,7 @@ part after the equals sign. So just copy this line and change the ID. For me it 
 %HID\Vid_045E&Pid_00F0.DeviceDesc%=HID_Filtr_Inst, HID\Vid_046D&Pid_C518
 {% endhighlight %}
 
-Now go to the *Device Manager* => *Mice*, right-click your mouse and choose *Update driver* => *Chose driver manually*.
+Now go to the *Device Manager* → *Mice*, right-click your mouse and choose *Update driver* → *Chose driver manually*.
 Select the IntelliPoint directory and you should see an entry "Microsoft USB Laser Mouse 6000 (IntelliPoint)". Install
 it and reboot. Done.
 

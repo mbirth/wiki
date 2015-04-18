@@ -39,3 +39,7 @@ export LANG=de_DE.ISO-8859-15@euro
 {% endhighlight %}
 
 Now you should see all umlauts correctly.
+
+
+*[HBCI]: Homebanking Computer Interface
+*[UTF]: Unicode Transformation Format

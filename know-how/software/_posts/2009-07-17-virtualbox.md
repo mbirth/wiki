@@ -27,7 +27,7 @@ Applications for overwriting empty blocks
 Eraser (Windows)
 ----------------
 
-[ [Homepage](http://eraser.heidi.ie/) ] Install as normal. Then go to *Edit* -> *Preferences* -> *Erasing...* and
+[ [Homepage](http://eraser.heidi.ie/) ] Install as normal. Then go to *Edit* → *Preferences* → *Erasing…* and
 select the second Tab *Unused disk space*. Create a new method with one pass and a pattern of only zeroes. Now go to
 the "On Demand"-Tasks and create a new one with your local harddisks as target. Run it to perform erasing.
 
