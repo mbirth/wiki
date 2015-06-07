@@ -2,7 +2,7 @@
 title: Rip DVD track
 layout: default
 created: 2008-08-27 00:42:59 +0200
-updated: 2014-11-27 01:52:34 +0100
+updated: 2015-06-08 01:02:16 +0200
 toc: false
 tags:
   - know-how
@@ -43,6 +43,8 @@ Then dump that track with [mplayer](apt://mplayer):
 
 Convert with [avidemux](apt://avidemux), [avconv](apt://avconv) or similar, e.g.:
 
-    avconv -i output.vob -qscale:0 8 -qscale:2 2 -filter:v yadif output.mp4
+    avconv -i output.vob -map 0:0 -map 0:1 -qscale:0 8 -qscale:2 2 -filter:v yadif output.mp4
 
     avconv -i output.vob -map 0:0 -map 0:1 -f avi -c:v mpeg4 -b:v 800k -g 300 -bf 2 -c:a libmp3lame -b:a 128k -async 30 output-en.avi
+
+    avconv -ss 00:24:02 -i output.vob -map 0:0 -map 0:1 -qscale:0 8 -qscale:2 2 -filter:v yadif -t 00:05:55 output.mp4
