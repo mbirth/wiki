@@ -24,6 +24,8 @@ $(document).ready ->
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild gog
                 $(this).removeAttr 'data-service'
 
+        $('ul#comments-tabs li.hint').remove
+
         $('ul#comments-tabs li').removeClass 'current'
         $('.comments-tab').removeClass 'current'
 
