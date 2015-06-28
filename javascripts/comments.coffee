@@ -1,7 +1,7 @@
 ---
 ---
 $(document).ready ->
-    $('ul#comments-tabs li').click ->
+    $('ul#comments-tabs li').not('.static').click ->
         tab_id = $(this).attr 'data-div'
 
         $('ul#comments-tabs li').removeClass 'current'
