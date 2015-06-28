@@ -82,12 +82,13 @@
                 <a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }} →</a>
             </div>
         {% endif %}
+        </section>
 {% comment %}
         {% if site.related_posts %}
             <section id="related">
                 <ul>
                     {% for relpost in site.related_posts %}
-                        <li><a href="{{ relpost.url }}">{{ relpost.title }}</a>></li>
+                        <li><a href="{{ relpost.url }}">{{ relpost.title }}</a></li>
                     {% endfor %}
                 </ul>
             </section>
