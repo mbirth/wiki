@@ -92,8 +92,7 @@
         {% endif %}
 {% endcomment %}
         <section id="comments">
-            <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
-            <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
+            {% include comments.html %}
         </section>
      </div>
 
@@ -109,4 +108,3 @@
     <!-- END: Google Analytics -->
 </body>
 </html>
-
