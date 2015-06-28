@@ -1,0 +1,26 @@
+---
+---
+#comments-tabs
+    list-style: none
+    margin: 0
+    padding: 0
+
+    li
+        background: none
+        display: inline-block
+        padding: 10px 15px
+        cursor: pointer
+
+    li:before
+        content: normal
+
+    li.current
+        background: rgba(black, 0.1)
+
+.comments-tab
+    display: none
+    padding: 1em
+    background: rgba(black, 0.1)
+
+.comments-tab.current
+    display: inherit

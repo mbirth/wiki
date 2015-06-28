@@ -1,2 +1,28 @@
-<script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
-<div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
+<ul id="comments-tabs">
+    <li class="current" data-div="comments_disqus">Disqus</li>
+    <li data-div="comments_google">Google+</li>
+</ul>
+
+<div id="comments_disqus" class="comments-tab current">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'mb-wiki';
+        var disqus_identifier = '{% if page.id %}{{ page.id }}{% else %}/index{% endif %}';
+        var disqus_title = '{{ page.title }}';
+        var disqus_url = '{{ site.url }}/{{ page.url }}';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+<div id="comments_google" class="comments-tab">
+    <script src="//apis.google.com/js/plusone.js" type="text/javascript"></script>
+    <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="900" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments...</div>
+</div>
