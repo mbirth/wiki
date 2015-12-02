@@ -2,26 +2,30 @@
 ---
 $(document).ready ->
     $('ul#comments-tabs li').not('.static').click ->
+        addScript = (script) ->
+            scr = document.createElement 'script'
+            scr.type = 'text/javascript'
+            scr.async = true
+            scr.src = script
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild scr
+
         tab_id = $(this).attr 'data-div'
         service = $(this).attr 'data-service'
 
         switch service
             when 'disqus'
                 # load Disqus
-                dsq = document.createElement 'script'
-                dsq.type = 'text/javascript'
-                dsq.async = true
-                dsq.src = "//#{disqus_shortname}.disqus.com/embed.js"
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild dsq
+                addScript("//#{disqus_shortname}.disqus.com/embed.js")
                 $(this).removeAttr 'data-service'
 
             when 'google'
                 # load Google+
-                gog = document.createElement 'script'
-                gog.type = 'text/javascript'
-                gog.async = true
-                gog.src = '//apis.google.com/js/plusone.js'
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild gog
+                addScript('//apis.google.com/js/plusone.js')
+                $(this).removeAttr 'data-service'
+
+            when 'spotim'
+                # load spot.im
+                addScript('//www.spot.im/launcher/bundle.js')
                 $(this).removeAttr 'data-service'
 
         $('ul#comments-tabs li.hint').remove()
