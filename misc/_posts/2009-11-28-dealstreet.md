@@ -3,7 +3,7 @@ title: DealStreet.de
 language: de
 layout: default
 created: 2009-11-28 13:10:43 +0100
-updated: 2009-11-28 13:10:43 +0100
+updated: 2015-12-02 17:11:23 +0100
 toc: false
 tags:
   - miscellaneous
@@ -78,3 +78,14 @@ kann gern mitbieten. Man sollte aber das Suchtpotential nicht unterschätzen, de
 von vorn los. Außerdem gibt es sicher auch Leute, die dort billig was "ersteigern", es über andere Wege für gutes Geld
 verkaufen und davon dann neue Gebote kaufen um noch mehr Dinge zu ersteigern. Und das ganze wird von den Mitbietenden
 mitfinanziert - den Gewinn macht aber nur *DealStreet* und evtl. der Händler.
+
+
+Klone
+=====
+
+Das Prinzip wird immer mal wieder unter neuen Namen beworben, z.B.:
+
+* *QuiBids* (April 2013)
+* *Oopad* (September 2013)
+* *wellbid* (August 2014)
+* *MadBid* (Oktober 2015)
