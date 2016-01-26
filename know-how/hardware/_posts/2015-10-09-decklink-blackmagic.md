@@ -11,8 +11,6 @@ tags:
   - decklink
   - blackmagic
 ---
-DeckLink BlackMagic Quad
-========================
 
     ffmpeg -f decklink -i "DeckLink SDI (1)@3" -framerate 25 -vf "yadif=0:-1,scale=1280:720,setdar=16/9" -codec:v mpeg4 -r 25.000 -b:v 2000k -maxrate 3500k -c:a libvo_aacenc -b:a 256k -f mpegts udp://10.24.141.132:1234 -vf "scale=320:200" -c:a mp3 -f mpegts udp://10.24.141.132:1235
 
