@@ -6,10 +6,10 @@ layout: default
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "http://wiki.mbirth.de/",
+    "url": "{{ site.url }}/",
     "potentialAction": {
         "@type": "SearchAction",
-        "target": "http://wiki.mbirth.de/?q={search_term_string}",
+        "target": "{{ site.url }}/?q={search_term_string}",
         "query-input": "required name=search_term_string"
     }
 }
