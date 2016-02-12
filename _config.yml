@@ -12,8 +12,8 @@ markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 #permalink: pretty
 
-# TODO: using rouge via kramdown when GitHub supports it
-highlighter: pygments
+# This is for {% highlight %} blocks
+highlighter: rouge
 
 safe: true
 lsi: false
@@ -26,6 +26,7 @@ github:
     project_tagline: "Experimental Wiki with Jekyll"
 
 gems:
+    - kramdown
     - jemoji
     - jekyll-sitemap
     - jekyll-redirect-from
@@ -36,6 +37,7 @@ redcarpet:
 kramdown:
     input: GFM
     hard_wrap: false
+    # This is for fenced code blocks: ~~~
     syntax_highlighter: rouge
 
 defaults:
