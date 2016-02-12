@@ -61,14 +61,17 @@
         <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <h1 id="pagetitle" itemprop="name">{{ page.title }}</h1>
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Markus Birth" />
                 <meta itemprop="givenName" content="Markus" />
                 <meta itemprop="familyName" content="Birth" />
                 <meta itemprop="birthDate" content="1980-11-16" />
             </div>
+            <meta itemprop="headline" content="{{ page.title }}" />
             <meta itemprop="articleSection" content="{{ page.categories.[0] }}" />
             <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
             <meta itemprop="dateCreated" content="{{ page.created | date: '%Y-%m-%d' }}" />
             <meta itemprop="dateModified" content="{{ page.updated | date: '%Y-%m-%d' }}" />
+            <meta itemprop="datePublished" content="{{ page.created | date: '%Y-%m-%d' }}" />
             {% if page.language == 'de' %}
                 <meta itemprop="inLanguage" content="de" />
             {% else %}
