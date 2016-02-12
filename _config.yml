@@ -3,14 +3,13 @@ description: "All you never wanted to know"
 
 url: "http://wiki.mbirth.de"
 
+#permalink: pretty
 permalink: none
 
 paginate: 20
 
 markdown: kramdown
-#markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
-#permalink: pretty
 
 # This is for {% highlight %} blocks
 highlighter: rouge
@@ -30,9 +29,6 @@ gems:
     - jemoji
     - jekyll-sitemap
     - jekyll-redirect-from
-
-redcarpet:
-    extensions: ["autolink", "tables", "no_intra_emphasis"]
 
 kramdown:
     input: GFM
