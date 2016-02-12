@@ -28,6 +28,7 @@ gems:
     - kramdown
     - jemoji
     - jekyll-sitemap
+    - jekyll-paginate
     - jekyll-redirect-from
 
 kramdown:
