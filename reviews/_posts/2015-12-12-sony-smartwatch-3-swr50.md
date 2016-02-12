@@ -1,9 +1,9 @@
 ---
-title: [Review] SONY SmartWatch 3 (SWR50)
+title: "[Review] SONY SmartWatch 3 (SWR50)"
 language: de
 layout: default
 created: 2015-12-12 11:16:52 +0100
-updated: 2015-12-12 11:18:58 +0100
+updated: 2015-12-12 11:16:52 +0100
 toc: false
 tags:
   - review
@@ -121,4 +121,4 @@ Benachrichtigen - mittlerweile perfektioniert hat. Nur eben alles darüber hinau
 gehende ist mit einer Android Wear Uhr besser. Und da ich ein Spielkind bin, geb
 ich die SW3 jetzt nicht mehr her…
 
-<img src="{{ site.url }}/assets/sony-swr50.jpg" alt="" width="850" />
+<img src="{{ site.url }}/assets/sony-swr50.jpg" alt="" />
