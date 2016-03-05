@@ -22,7 +22,7 @@ Das Display ist toll, always on und man bekommt ausreichend Informationen unter.
 Die Akkulaufzeit ist natürlich auch genial. Und auch die Bedienung über die
 Knöpfe finde ich in vielen Fällen sinnvoller, als per Touchscreen (den man z.B.
 im Regen nicht vernünftig bedienen kann ... oder blind). Und sie ist
-wasserdicht! (Ja, water PROOF bis 5 ATM, bzw. 40 Meter!)
+wasserdicht! (Ja, water**PROOF** bis 5 ATM, bzw. 40 Meter!)
 
 Als reine Nachrichtenzentrale mit ein paar Gimmicks ist die Uhr genial und sehr
 zu empfehlen. Wer also hauptsächlich Benachrichtigungen am Handgelenk sehen
