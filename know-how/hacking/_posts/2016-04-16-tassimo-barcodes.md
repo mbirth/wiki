@@ -50,8 +50,8 @@ Die Prüfziffer wird wie beim UPC-Code berechnet: <http://en.wikipedia.org/wiki/
 | CARTE NOIRE Petit Déjeuner        |  215 ml |  29761-5 |   0111 0100 0100 0001 |   100 1000 1010 1000 1111 |
 | Costa Americano                   |  220 ml |  29761-5 |   0111 0100 0100 0001 |   100 1000 1010 1000 1111 |
 | Kenco Medium Roast                |  195 ml |  29761-5 |   0111 0100 0100 0001 |   100 1000 1010 1000 1111 |
-| CARTE NOIRE Lungo Intenso         |         |  30195-4 |   0111 0101 1111 0011 |   100 1001 1011 1000 0010 |
-| Jacobs Krönung Verwöhnkanne       |         |  34419-7 |   1000 0110 0111 0011 |   101 0100 0000 1000 0101 |
+| CARTE NOIRE Lungo Intenso         |  120 ml |  30195-4 |   0111 0101 1111 0011 |   100 1001 1011 1000 0010 |
+| Jacobs Krönung Verwöhnkanne       |  350 ml |  34419-7 |   1000 0110 0111 0011 |   101 0100 0000 1000 0101 |
 | Tea Bar Peach Iced Tea ❄          |         |  34913-0 |   1000 1000 0110 0001 |   101 0101 0011 1100 1010 |
 | Milch für OREO                    |         |  36681-6 |   1000 1111 0100 1001 |   101 1001 1000 1110 0000 |
 | Second Cup Espresso Forte         |   65 ml |  59459-2 |   1110 1000 0100 0011 |  1001 0001 0010 1010 0000 |
@@ -62,7 +62,7 @@ Die Prüfziffer wird wie beim UPC-Code berechnet: <http://en.wikipedia.org/wiki/
 | Milch für Latte Macchiato         |         |  63735-0 |   1111 1000 1111 0111 |  1001 1011 1001 1010 0110 |
 | Milch für Costa Caramel Latte     |         |  63735-0 |   1111 1000 1111 0111 |  1001 1011 1001 1010 0110 |
 | Gevalia Kaffe Signature Blend     |         |  64226-2 |   1111 1010 1110 0010 |  1001 1100 1100 1101 0110 |
-| Maxwell House Morning             |  300 ml?|  64803-5 |   1111 1101 0010 0011 |  1001 1110 0011 0110 0011 |
+| Maxwell House Morning             |  354 ml |  64803-5 |   1111 1101 0010 0011 |  1001 1110 0011 0110 0011 |
 | Gevalia Kaffe Caramel Espresso    |   60 ml |  67427-0 | 1 0000 0111 0110 0011 |  1010 0100 1001 1101 1110 |
 | Milch für Chai Latte              |         |  67447-8 | 1 0000 0111 0111 0111 |  1010 0100 1010 1010 1110 |
 | Second Cup Chocolate Syrup        |  195 ml |  67645-8 | 1 0000 1000 0011 1101 |  1010 0101 0010 0110 1010 |
