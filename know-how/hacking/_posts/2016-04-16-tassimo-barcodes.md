@@ -87,7 +87,8 @@ Programmierung
 ==============
 
 <p><div class="notewarning">
-Die Angaben hier sind aus der Patentschrift übernommen. Wie die in den Barcodes oben kodiert wurden, ist noch nicht ganz klar.
+Die Angaben hier sind aus der Patentschrift ([DE602004001053](https://register.dpma.de/DPMAregister/pat/PatSchrifteneinsicht?docId=DE602004001053T2), S. 20ff.)
+übernommen. Wie die in den Barcodes oben kodiert wurden, ist noch nicht ganz klar.
 </div></p>
 
 | Bits  | Funktion              | Werte     |
