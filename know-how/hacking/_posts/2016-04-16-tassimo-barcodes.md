@@ -57,6 +57,7 @@ Die Prüfziffer wird wie beim UPC-Code berechnet: <http://en.wikipedia.org/wiki/
 | Second Cup Espresso Forte         |   65 ml |  59459-2 |   1110 1000 0100 0011 |  1001 0001 0010 1010 0000 |
 | Gevalia Kaffe Espresso            |         |  59491-2 |   1110 1000 0110 0011 |  1001 0001 0011 1110 0000 |
 | Starbucks Espresso Roast          |         |  59683-1 |   1110 1001 0010 0011 |  1001 0001 1011 0101 1111 |
+| Cappucino Primo Milk Creamer      |         |  63415-1 |   1111 0111 1011 0111 |  1001 1010 1101 0010 0111 |
 | Milch für Cappuccino              |  215 ml |  63479-3 |   1111 0111 1111 0111 |  1001 1010 1111 1010 1001 |
 | Milch für Latte (Pulver?)         |  250 ml |  63607-0 |   1111 1000 0111 0111 |  1001 1011 0100 1010 0110 |
 | Milch für Latte Macchiato         |         |  63735-0 |   1111 1000 1111 0111 |  1001 1011 1001 1010 0110 |
@@ -67,6 +68,8 @@ Die Prüfziffer wird wie beim UPC-Code berechnet: <http://en.wikipedia.org/wiki/
 | Milch für Chai Latte              |         |  67447-8 | 1 0000 0111 0111 0111 |  1010 0100 1010 1010 1110 |
 | Second Cup Chocolate Syrup        |  195 ml |  67645-8 | 1 0000 1000 0011 1101 |  1010 0101 0010 0110 1010 |
 | Corner Coffee Pepp. Choc. Syrup   |         |  67645-8 | 1 0000 1000 0011 1101 |  1010 0101 0010 0110 1010 |
+| Gevalia Dark Breakfast Blend      |         |  67945-9 | 1 0000 1001 0110 1001 |  1010 0101 1110 0010 0011 |
+| Gevalia Dark Italian Roast        |         |  67953-4 | 1 0000 1001 0111 0001 |  1010 0101 1110 0110 1110 |
 | Nabob Breakfast Du Matin          |         |  68305-0 | 1 0000 1010 1101 0001 |  1010 0110 1100 0010 1010 |
 | Tazo Awake Black Tea              |         |  69955-6 | 1 0001 0001 0100 0011 |  1010 1010 1100 1010 0100 |
 | TWINING's Chai Latte              |         |  71587-4 | 1 0001 0111 1010 0011 |  1010 1110 1100 0110 0010 |
