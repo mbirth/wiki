@@ -14,12 +14,6 @@ tags:
 Im Gegensatz zu anderen Kapselmaschinen, bringen die Kapseln bei Tassimo ihre Zubereitungsanleitung gleich mit:
 In Form eines Barcodes auf der Kapsel.
 
-Weitere Informationen:
-
-* <http://blog.chapmanconsulting.ca/wiki/Tassimo%20Hacking.ashx>
-* <http://blog.chapmanconsulting.ca/wiki/TassimoBarcodeCreator.ashx>
-* Patent: <http://www.google.com/patents/US7231869?printsec=description&dq=coffee+barcode>
-
 
 Kapsel-Codes
 ============
@@ -167,6 +161,9 @@ Würde man den Code negieren, macht es vielleicht mehr Sinn?
 Links
 =====
 
+* [Tassimo Hacking](http://blog.chapmanconsulting.ca/wiki/Tassimo%20Hacking.ashx)
+* [Tassimo Barcode Creator](http://blog.chapmanconsulting.ca/wiki/TassimoBarcodeCreator.ashx)
+* [Tassimo Patent US7231869](http://www.google.com/patents/US7231869?printsec=description&dq=coffee+barcode)
 * [Reverse engineering T-Disk barcodes for Tassimo coffee makers](http://reverseengineering.stackexchange.com/questions/3919/reverse-engineering-t-disk-barcodes-for-tassimo-coffee-makers)
 * [Tassimo (T-Disc) Barcode von "Großer Tasse"](http://board.gulli.com/thread/739924-s-tassimo-t-disc-barcode-von-grosser-tasse/)
 * [Tassimo Heißwasser-Disc mit 4 einstellbaren Mengen](http://www.kaffekompagniet.com/shop/tassimo-hot-water-916p.html)
