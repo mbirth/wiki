@@ -1,9 +1,9 @@
 ---
 title: TASSIMO Barcodes
 language: de
-layout: default
+layout: default_nobreaktables
 created: 2013-09-08 15:43:52 +0200
-updated: 2016-04-16 17:50:50 +0200
+updated: 2016-04-16 18:37:49 +0200
 toc: true
 tags:
   - know-how
@@ -86,7 +86,7 @@ Kapseln klauen.
 Programmierung
 ==============
 
-<p><div class="notewarning">
+<p><div class="notewarning" markdown="1">
 Die Angaben hier sind aus der Patentschrift ([DE602004001053](https://register.dpma.de/DPMAregister/pat/PatSchrifteneinsicht?docId=DE602004001053T2), S. 20ff.)
 übernommen. Wie die in den Barcodes oben kodiert wurden, ist noch nicht ganz klar.
 </div></p>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/layout-bright.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/comments.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" media="all" />
+    <style type="text/css">
+        #main_content td {
+            white-space: nowrap;
+        }
+    </style>
+
+    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
+
+    {% if page.alternatives %}
+        <link rel="alternate" hreflang="{{ page.language }}" href="{{ site.url }}{{ page.url }}" />
+        {% for altpost in page.alternatives %}
+            <link rel="alternate" hreflang="{{ altpost.language }}" href="{{ site.url }}{{ altpost.url }}" />
+        {% endfor %}
+    {% endif %}
+
+    <title>{{ page.title }} :: {{ site.name }}</title>
+
+    <script src="{{ site.url }}/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    {% if page.toc %}
+        <script src="{{ site.url }}/bower_components/jquery.toc/jquery.toc.js" type="text/javascript"></script>
+    {% endif %}
+    <script src="{{ site.url }}/javascripts/gcse.js" type="text/javascript" async></script>
+    <script src="{{ site.url }}/javascripts/comments.js" type="text/javascript"></script>
+</head>
+<body itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="isBasedOnUrl" content="https://github.com/mbirth/wiki" />
+    <meta itemprop="image" content="{{ site.url }}/images/sitelogo.png" />
+    <header>
+        <div class="container">
+            <div id="headerleft">
+                <h1 itemprop="name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+                <h2 itemprop="description">{{ site.description }}</h2>
+
+                <section id="downloads">
+                    <a href="https://plus.google.com/+MarkusBirth/about" rel="author" class="btn">Find me on Google+</a>
+                    <a href="https://github.com/mbirth/wiki" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+                </section>
+            </div>
+            <div id="headerright">
+                <gcse:search></gcse:search>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        {% if page.created %}
+            <section id="page_meta">
+                <img class="emoji" title=":new:" alt=":new:" src="https://assets-cdn.github.com/images/icons/emoji/new.png" width="20" height="20" align="absmiddle" /> {{ page.created | date: '%Y-%m-%d' }}
+                {% if page.updated != page.created %}
+                    <img class="emoji" title=":wavy_dash:" alt=":wavy_dash:" src="https://assets-cdn.github.com/images/icons/emoji/wavy_dash.png" width="20" height="20" align="absmiddle" />
+                    <img class="emoji" title=":up:" alt=":up:" src="https://assets-cdn.github.com/images/icons/emoji/up.png" width="20" height="20" align="absmiddle" /> {{ page.updated | date: '%Y-%m-%d' }}
+                {% endif %}
+            </section>
+        {% endif %}
+        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <h1 id="pagetitle" itemprop="name">{{ page.title }}</h1>
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Markus Birth" />
+                <meta itemprop="givenName" content="Markus" />
+                <meta itemprop="familyName" content="Birth" />
+                <meta itemprop="birthDate" content="1980-11-16" />
+            </div>
+            <meta itemprop="headline" content="{{ page.title }}" />
+            <meta itemprop="articleSection" content="{{ page.categories.[0] }}" />
+            <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+            <meta itemprop="dateCreated" content="{{ page.created | date: '%Y-%m-%d' }}" />
+            <meta itemprop="dateModified" content="{{ page.updated | date: '%Y-%m-%d' }}" />
+            <meta itemprop="datePublished" content="{{ page.created | date: '%Y-%m-%d' }}" />
+            {% if page.language == 'de' %}
+                <meta itemprop="inLanguage" content="de" />
+            {% else %}
+                <meta itemprop="inLanguage" content="en" />
+            {% endif %}
+            <section id="main_content" itemprop="articleBody">
+                {% if page.toc %}
+                    <ul data-toc="#main_content"></ul>
+                {% endif %}
+                {{ content }}
+            </section>
+        </article>
+       <section id="related">
+        {% if page.next %}
+            <div id="nextpost">
+                <a rel="next" href="{{ page.next.url }}">← {{ page.next.title }}</a>
+            </div>
+        {% endif %}
+        {% if page.previous %}
+            <div id="prevpost">
+                <a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }} →</a>
+            </div>
+        {% endif %}
+        </section>
+{% comment %}
+        {% if site.related_posts %}
+            <section id="related">
+                <ul>
+                    {% for relpost in site.related_posts %}
+                        <li><a href="{{ relpost.url }}">{{ relpost.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+{% endcomment %}
+
+        <section id="ads">
+            {% include ad-horiz.html %}
+        </section>
+
+        <section id="comments">
+            {% include comments.html %}
+        </section>
+     </div>
+
+    {% include analytics.html %}
+</body>
+</html>
