@@ -134,7 +134,8 @@ Die Angaben hier sind aus der Patentschrift ([DE602004001053](https://register.d
 Update April 2016
 =================
 
-Man hat mir folgende Grafik zugespielt:
+Man hat mir folgende Grafik (aus der [Reparaturanleitung der Bosch TAS4011](http://www.semboutique.com/medias/files/download/68_156))
+zugespielt:
 
 ![]({{ site.url }}/assets/t_code.png)
 
