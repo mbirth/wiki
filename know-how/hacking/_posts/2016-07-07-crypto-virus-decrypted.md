@@ -52,8 +52,8 @@ What this does is basically:
   * Copy `a.txt` to your Desktop as `DECRYPT.txt`
   * Run the actual encryption of your files (see next chapter)
   * Display `a.txt`
-  * Overwrite the `a.php` (containing the encryption key) with your key's
-    identifier (so it can't be undeleted to get the actual key)
+  * Overwrite the `a.php` (containing the encryption key) with the BitCoin
+    address (so it can't be undeleted to get the actual key)
   * Delete `a.exe`, `php4ts.dll` and, of course, the `a.php`
 
 The files to download are selected by 3 parameters:
