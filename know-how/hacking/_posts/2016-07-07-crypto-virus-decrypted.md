@@ -2,8 +2,8 @@
 title: Crypto-Virus decrypted
 language: en
 layout: default
-created: 2016-07-08 01:24:11 +0200
-updated: 2016-07-08 01:24:11 +0200
+created: 2016-07-08 15:41:41 +0200
+updated: 2016-07-08 15:41:41 +0200
 toc: false
 tags:
   - know-how
