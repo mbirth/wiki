@@ -58,7 +58,7 @@ What this does is basically:
 
 The files to download are selected by 3 parameters:
 
-* `ad`, the BitCoin address you should sent money to
+* `ad`, the BitCoin address you should send money to
 * `id`, some identifier?, can be omitted
 * `rnd`, file selector
 
@@ -92,9 +92,54 @@ The downloaded PHP script (`a.php`) seems to be freshly obfuscated each time
 you download it. But while the obfuscated version differs every time, the
 deobfuscated code is the same.
 
-Only with different `ad` values in the download URL, you'll get different
-encryption keys. This is the BitCoin address you are asked to send money to.
-This is also and identifier for your encryption key.
+This is how it looks after download:
+
+![]({{ site.url }}/assets/codeaphp.png)
+
+After removing the first layer of obfuscation, it turns into this:
+
+![]({{ site.url }}/assets/codeaphp2.png)
+
+And now it becomes clearer, what's happening here. In `$h772` we have an
+`eval()` command with the code to *evaluate* being encoded in base64.
+
+In `$e51` there's a regular expression with the `/e` modifier, which enabled
+callbacks in older PHP versions. This means, whenever the parser finds a
+match, a given piece of code is called. And as you might have guessed, that
+code is the one in `$h772`. And to have the parser find something, the subject
+in the `preg_replace` call is exactly the same as the search string in `$e51`.
+
+So to get to the actual code, we just have to `base64_decode()` the string
+without `eval()`ing it. And this brings us to the final code. You can see all
+iterations in this [GIST](https://gist.github.com/mbirth/11979a35a152478427928dbdf593797b).
+
+(I've annotated and reformatted the final stage.)
+
+Fun fact: The base64 encoded code contains proper indentation and Windows line
+endings (CR+LF instead of LF only). They could've saved a lot of space by
+removing all unneccessary spaces and line breaks.
+
+The code does this:
+
+* Try all drives from `C:` to `Z:`
+* For each drive, check the contents of the root directory
+* If it's a folder and it's not `winnt`, `windows`, `appdata`, etc., check that
+  folder (recursively)
+* If it's a file, check if the extension is `zip`, `rar`, `doc`, etc. and if so,
+  encrypt it and add `.crypted` to the filename
+
+Now the interesting things are right at the beginning of the `Tree($p)` method.
+There are 3 variables defined:
+
+* `$a` which defines the intended action, `e` is for encryption, `d` for
+  decryption
+* `$k` is the key, which is decoded from base64
+* `$s` is a backslash character to not have to mess around with proper escaping
+
+I noticed that with different `ad` values in the download URL (see previous
+chapter), you'll get different encryption keys in `$k`. `ad` is the BitCoin
+address you are asked to send money to. This means the encryption key is based
+on the BitCoin address.
 
 E.g., an `ad` value of `17DmGrhMXJcvsmj9tihgTRGAhACynuBmSo` returns a PHP
 script with the key:
@@ -106,5 +151,20 @@ If you change `ad` to `27DmGrhMXJcvsmj9tihgTRGAhACynuBmSo`, the key changes to:
     MmSWbqXczBBUtCGOY6rxrB6Q2ECoaLUCGHDI5C54QaQHiP5010q99mPQNqAKkMkCtCicYss0uCCIDHPa5DiMDF6wYajvGFmaKJD4mtscEVSXPLUuduRStiug/kCCoA16swZZvi2c
      ^^^
 
+In other words: This script is generic and can be used for different BitCoin
+accounts which will generate different encryption keys. And you need to wire
+your money to the correct one to get the correct decryption key.
 
-to be continued...
+
+Decrypting encrypted files
+==========================
+
+So let's imagine you accidentally run the script and all your important files
+are now encrypted and renamed to `important.doc.crypted`. What can you do?
+
+Well, we've learned that the encryption key is based on the `ad` value. And that
+you still have in that mail with the bogus zip file. Using that, we can download
+the PHP script again, which contains the actual key.
+
+After deobfuscating it, you just have to change `$a='e'` to `$a='d'` and run it
+and it should decrypt all your files again. Problem solved.
