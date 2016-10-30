@@ -122,7 +122,7 @@ Durchführung
   werden (sonst beginnt der Timeout von vorn), damit die freigewordenen Plätze gleich "zugemüllt" werden.
 * jetzt erscheinen im *Wireshark* die H225-Nachrichten, wenn man an einem Telefon einen Hörer abhebt bzw. das andere
   Telefon anruft:  
-  <img src="{{ site.url }}/assets/wireshark.png" alt="Wireshark Screenshot" width="600" />
+  ![Wireshark Screenshot]({{ site.url }}/assets/wireshark.png){:width="600px"}
 
 
 Absicherung
