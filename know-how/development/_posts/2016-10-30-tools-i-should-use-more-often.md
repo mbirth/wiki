@@ -3,7 +3,7 @@ title: Tools I should use more often
 language: en
 layout: default
 created: 2016-04-08 22:38:47 +0200
-updated: 2016-04-08 22:38:47 +0200
+updated: 2016-10-30 12:36:59 +0100
 toc: false
 tags:
   - know-how
@@ -34,7 +34,7 @@ This should become a place where I collect these tools with reasons why I should
 * [fu](https://github.com/samirahmed/fu) --- a simple CLI utility for querying commandlinefu.com
   * [bro](https://github.com/hubsmoke/bro) --- a simple CLI utility for querying bropages.org
 * [devtodo2](https://github.com/alecthomas/devtodo2) --- command-line task management utility
-
+* [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) --- all-in-one fonts (containing Powerline, Font Awesome, etc.)
 
 Cool tools I already use
 ========================
@@ -43,3 +43,4 @@ Cool tools I already use
 * [fish-shell](https://github.com/fish-shell/fish-shell) --- friendly interactive shell
 * [glances](https://github.com/nicolargo/glances) --- An eye on your system, htop+df+iotop+iftop and more
 * [Guake](https://github.com/Guake/guake) --- drop-down terminal for Gnome
+* [Fira Code](https://github.com/tonsky/FiraCode) --- development font with awesome ligatures for pretty code
