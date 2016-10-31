@@ -115,7 +115,7 @@ Before the first boot
 Now that iPXE is launched, it tries to fetch the boot script we compiled in.
 But this doesn't exist yet.
 
-I used @robinsmidrod's extensive [full iPXE native menu](https://gist.github.com/robinsmidsrod/2234639)
+I used @robinsmidsrod's extensive [full iPXE native menu](https://gist.github.com/robinsmidsrod/2234639)
 as a basis, removed all things I didn't need and added the things I needed.
 
 In the beginning, this looked like this:
