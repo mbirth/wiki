@@ -164,31 +164,31 @@ Then proceed according to [this](http://www.syslinux.org/wiki/index.php?title=WD
 * In the `/root/tmp` location create a folder called `fsecure` and change
   into this directory
 
-    mkdir /root/tmp/fsecure
-    cd /root/tmp/fsecure
+        mkdir /root/tmp/fsecure
+        cd /root/tmp/fsecure
 
 * Type the following command and press enter (this extracts all the files from
   the `minirt.gz` file)
 
-    gunzip -c ../minirt.gz | cpio -idv
+        gunzip -c ../minirt.gz | cpio -idv
 
 * Copy the `KNOPPIX` folder to the `mnt-system` folder (from the now extracted
   `minirt.gz`)
 
-    cp -r ../KNOPPIX mnt-system
+        cp -r ../KNOPPIX mnt-system
 
 * Make a backup copy of the `init` file
 
-    cp init init.orig
+        cp init init.orig
 
 * Edit the `init` file with the following modifications
 
   * Find the `# findknoppix devices...` section and delete everything from the
     `findknoppix()` method and replace it by `return 0`
 
-Change
+    Change
 
-```
+    ```
 # findknoppix devices...
 findknoppix(){
  local dev
@@ -209,9 +209,9 @@ findknoppix(){
 }
 ```
 
-into
+    into
 
-```
+    ```
 # findknoppix devices...
 findknoppix(){
  return 0
@@ -221,7 +221,7 @@ findknoppix(){
 * Compress everything back into a file again by typing the following and
   press enter
 
-    find . -print | cpio -o -H newc |gzip -9 -c - > ../minirt.gz.new
+        find . -print | cpio -o -H newc |gzip -9 -c - > ../minirt.gz.new
 
 * Copy the new `minirt.gz.new` to the `fsecure` directory on the web server
   and name it `minirt.gz`
