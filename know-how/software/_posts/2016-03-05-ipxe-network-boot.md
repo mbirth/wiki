@@ -166,6 +166,8 @@ As you can see, we instruct iPXE to boot the kernel `rescue32` with the initrd
 `initram.igz` - both from the web server. And in the `imgargs` line, we tell
 SysRescCD where to look for the `sysrcd.dat`.
 
+For instructions for other apps, please see [this post]({% post_url 2016-03-05-ipxe-scripts-for-tools %}).
+
 ![]({{ site.url }}/assets/ipxe03.jpg){: width="400px"}
 
 
