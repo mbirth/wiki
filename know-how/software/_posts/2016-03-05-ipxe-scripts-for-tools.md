@@ -50,11 +50,20 @@ set chotkey ${bold}
 set cname ${orange}
 ```
 
+Also, `${boot-url}` is the URL to my web server's `ipxe` directory where
+everything is located.
+
 
 AVG Rescue CD
 =============
 
-* [AVG Rescue CD](http://www.avg.com/ww-en/avg-rescue-cd)
+To run the [AVG Rescue CD](http://www.avg.com/ww-en/avg-rescue-cd), you need
+these files from the ISO image:
+
+* `isolinux/vmlinuz`
+* `isolinux/initrd.lzm`
+
+Then use this iPXE configuration:
 
 ```
 echo Booting ${cname}AVG Rescue CD${reset}
@@ -68,7 +77,19 @@ boot || goto failed
 BitDefender Rescue CD
 =====================
 
-* [BitDefender Rescue CD](http://www.bitdefender.com/support/how-to-create-a-bitdefender-rescue-cd-627.html)
+For the [BitDefender Rescue CD](http://www.bitdefender.com/support/how-to-create-a-bitdefender-rescue-cd-627.html)
+you need to unpack the ISO image to some directory and make that available via
+NFS.
+
+Also, you need the files:
+
+* `boot/kernel.x86_64-efi`
+* `boot/kernel.i386-pc`
+* `boot/initfs.x86_64-efi`
+* `boot/initfs.i386-pc`
+
+Rename them to remove the `-pc` and `-efi` suffixes, then use this iPXE config
+(adapt to your needs, esp. the `nfsroot` parameter):
 
 ```
 echo Booting ${cname}BitDefender Rescue CD${reset} (${archl})
@@ -82,7 +103,19 @@ boot || goto failed
 CloneZilla
 ==========
 
-* [CloneZilla](http://clonezilla.org/)
+Download [CloneZilla](http://clonezilla.org/downloads/download.php?branch=stable)
+as a zip package. Download both architecture versions (`amd64` and `i686`). From
+the zip files, you need these files (per architecture):
+
+* `live/vmlinuz`
+* `live/initrd.img`
+* `live/filesystem.squashfs` --- "big" filesystem
+* `live/Clonezilla-Live-Version` --- version marker
+
+Put these files into a directory `x86_64` for the `amd64` variant, and `x86` for
+the `i686` variant.
+
+Then use this iPXE config (notice the `${arch}` in the `base-url`):
 
 ```
 echo Booting ${cname}Clonezilla${reset} (${arch})
@@ -209,7 +242,15 @@ boot || goto failed
 G4L - Ghost for Linux
 =====================
 
-* [G4L - Ghost for Linux](https://sourceforge.net/projects/g4l/)
+For [G4L](https://sourceforge.net/projects/g4l/) extract these files from the
+iso image:
+
+* `ramdisk.lzma`
+* `bz4x2.8` --- kernel 4x2.8, seems to be more compatible than the others
+
+(You can try different kernel versions if you run into problems.)
+
+Here's the iPXE config:
 
 ```
 echo Booting ${cname}G4L - Ghost for Linux${reset}
@@ -220,10 +261,12 @@ boot || goto failed
 ```
 
 
-g4u - ghost for unix
-====================
+g4u - ghosting for unix
+=======================
 
-* [g4u - ghost for unix](http://www.feyrer.de/g4u/)
+I tried to boot [g4u](http://www.feyrer.de/g4u/) directly, but that didn't work
+for me. So the easiest way is to load the whole ISO into RAM and boot it from
+there - just as if you inserted the CD.
 
 ```
 echo Booting ${cname}g4u - ghosting for unix${reset}
@@ -239,13 +282,23 @@ boot || goto failed
 GParted Live
 ============
 
-* [GParted Live](http://gparted.org/livecd.php)
+Just like with CloneZilla, you can download [GParted Live](http://gparted.org/download.php)
+as a zip file for `amd64` and `i686` architecture.
+
+Then get these files from each zip file and put them into directories `x86_64`
+(for `amd64`) and `x86` (for `i686`).
+
+* `live/GParted-Live-Version`
+* `live/vmlinuz`
+* `live/initrd.img`
+* `live/filesystem.squashfs`
+
+This is the iPXE config I use:
 
 ```
 echo Booting ${cname}GParted Live${reset} (${arch})
 set base-url ${boot-url}gparted/${arch}/
-kernel ${base-url}vmlinuz boot=live union=overlay username=user config components noswap noeject ip= net.ifnames=0 nosplash fetch=${base-url}f
-ilesystem.squashfs
+kernel ${base-url}vmlinuz boot=live union=overlay username=user config components noswap noeject ip= net.ifnames=0 nosplash fetch=${base-url}filesystem.squashfs
 initrd ${base-url}initrd.img
 boot || goto failed
 ```
