@@ -188,7 +188,7 @@ Then proceed according to [this](http://www.syslinux.org/wiki/index.php?title=WD
 
     Change
 
-    ```
+    ```bash
 # findknoppix devices...
 findknoppix(){
  local dev
@@ -211,7 +211,7 @@ findknoppix(){
 
     into
 
-    ```
+    ```bash
 # findknoppix devices...
 findknoppix(){
  return 0
