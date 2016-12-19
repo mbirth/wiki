@@ -1,6 +1,6 @@
 ---
 ---
-cx = '005859900804634181508:3bt_l7jyk2e'
+cx = '005859900804634181508%3A3bt_l7jyk2e'
 gcse = document.createElement 'script'
 gcse.type = 'text/javascript'
 gcse.async = true
