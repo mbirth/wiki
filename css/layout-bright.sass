@@ -1,12 +1,14 @@
 ---
 ---
-$font: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+$font: "Fira Code", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 $maincolor: #678b22
 
 =text-shadow
     text-shadow: 0 1px 1px rgba(black, 0.1), 0 0 5px rgba(lighten($maincolor, 33%), 0.1), 0 0 10px rgba(lighten($maincolor, 33%), 0.1)
 
 body
+    font-feature-settings: "calt" 1  // Enable ligatures for IE 10+, Edge
+    text-rendering: optimizeLegibility  // Force ligatures for Webkit, Blink, Gecko
     margin: 0
     padding: 0
     background: #eaeaea url("../images/bkg-white.png") 0 0
@@ -183,7 +185,9 @@ pre
 pre, code
     background: rgba(black, 0.1)
     border: 1px solid rgba(white, 0.85)
-    font-size: 0.9em
+    font:
+        family: $font
+        size: 0.9em
     color: $maincolor
     border-radius: 2px
     -moz-border-radius: 2px
