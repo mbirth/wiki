@@ -1,5 +1,5 @@
 ---
-title: MPlayer and Samba
+title: Wii MPlayer and Samba
 language: en
 layout: default
 created: 2009-01-18 23:26:15 +0100

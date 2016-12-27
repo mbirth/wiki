@@ -1,5 +1,5 @@
 ---
-title: sysupgrade with ExtRoot
+title: OpenWRT sysupgrade with ExtRoot
 layout: default
 created: 2014-05-26 22:30:20 +0200
 updated: 2014-05-26 22:47:49 +0200

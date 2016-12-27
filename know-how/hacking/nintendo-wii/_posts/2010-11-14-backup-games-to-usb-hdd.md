@@ -1,5 +1,5 @@
 ---
-title: Backup games to USB HDD
+title: Backup Wii games to USB HDD
 language: en
 layout: default
 created: 2009-05-24 19:35:29 +0200

@@ -1,5 +1,5 @@
 ---
-title: USBLoader GX
+title: USBLoader GX for the Wii
 language: en
 layout: default
 created: 2010-05-08 12:47:47 +0200
