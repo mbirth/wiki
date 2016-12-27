@@ -1,5 +1,5 @@
 ---
-title: Firmware 3.0 BETA without registration
+title: iOS Firmware 3.0 BETA without registration
 layout: default
 created: 2009-05-14 17:17:58 +0200
 updated: 2009-08-01 20:03:23 +0200

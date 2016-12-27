@@ -1,5 +1,5 @@
 ---
-title: Crashing Applications
+title: iOS and Crashing Applications
 layout: default
 created: 2009-05-27 09:48:31 +0200
 updated: 2009-05-27 09:48:31 +0200

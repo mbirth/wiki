@@ -1,5 +1,5 @@
 ---
-title: Feature Bits
+title: SanDisk Sansa Feature Bits
 layout: default
 created: 2008-12-31 00:32:38 +0100
 updated: 2008-12-31 00:32:38 +0100

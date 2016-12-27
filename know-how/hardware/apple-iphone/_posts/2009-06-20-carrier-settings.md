@@ -1,5 +1,5 @@
 ---
-title: Carrier Settings
+title: iPhone Carrier Settings
 layout: default
 created: 2009-06-20 21:20:46 +0200
 updated: 2009-06-20 21:20:46 +0200

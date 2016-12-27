@@ -1,5 +1,5 @@
 ---
-title: Firmware Unpacking
+title: iOS Firmware Unpacking
 layout: default
 created: 2009-05-20 02:17:15 +0200
 updated: 2009-05-24 23:27:24 +0200
