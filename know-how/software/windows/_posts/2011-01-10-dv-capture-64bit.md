@@ -29,3 +29,8 @@ To switch the driver, do the following:
 1. click **Let me pick from a list of device driver on my computer**
 1. select the **1394 OHCI Compliant Host Controller (Legacy)** (that *(Legacy)* is important!)
 1. click **Next**
+
+
+*[OHCI]: Open Host Controller Interface
+*[IEEE]: Institute of Electrical and Electronics Engineers
+*[IEEE1394]: Institute of Electrical and Electronics Engineers Standard 1394

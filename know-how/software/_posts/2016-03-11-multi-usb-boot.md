@@ -153,3 +153,10 @@ That's it. You should now be able to boot SysRescCD from your flash drive.
       MegaByte where 1 MB = 1000 kB = 1000 Bytes. And although most system tools
       show "MB", some mean "MiB" and others actually mean "MB". And some mix it
       up completely.
+
+*[USB]: Universal Serial Bus
+*[GiB]: Gibibyte (=1024 MiB)
+*[GB]: Gigabyte (=1000 MB)
+*[MiB]: Mebibyte (=1024 KiB)
+*[MB]: Megabyte (=1000 kB)
+*[ISO]: International Organization for Standardization (refers to their standard no. 9660)

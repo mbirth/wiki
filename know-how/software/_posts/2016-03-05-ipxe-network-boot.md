@@ -195,3 +195,14 @@ And this is what it looks like:
 ![]({{ site.url }}/assets/ipxe04.jpg){: width="400px"}
 
 ![]({{ site.url }}/assets/ipxe05.jpg){: width="400px"}
+
+*[HTTP]: Hypertext Transfer Protocol
+*[FTP]: File Transfer Protocol
+*[iSCSI]: Internet Small Computer Systems Interface
+*[SMB]: Server Message Block
+*[WiFi]: Wireless Fidelity, technology for WLANs (Wireless Local Area Networks)
+*[DHCP]: Dynamic Host Configuration Protocol
+*[URL]: Uniform Resource Locator
+*[ROM]: Read-only Memory
+*[CD]: Compact Disc
+*[ISO]: International Organization for Standardization, referring to their standard no. 9660

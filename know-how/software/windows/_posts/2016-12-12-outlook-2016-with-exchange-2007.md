@@ -49,3 +49,6 @@ that Exchange 2007 (and you can login to OWA just fine).
 3. Add a new *String* (REG_SZ), name it `company.com` (the part after the `@` in your
    mail address) and assign the value `C:\autodiscover.xml` to it.
 4. Done. Now open Outlook 2016 and add your account. It should work now.
+
+
+*[OWA]: Outlook Web Access

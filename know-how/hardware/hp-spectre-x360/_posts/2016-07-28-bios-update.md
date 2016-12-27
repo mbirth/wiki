@@ -152,3 +152,10 @@ directory and copy those manually onto your flash drive to this directory:
 
 The files are named `0802D.*`, `08035.*`, `0804E.*` and `0804F.*`. Each as
 `*.bin` and `*.sig`.
+
+
+*[BIOS]: Basic Input/Output System
+*[VM]: Virtual Machine
+*[USB]: Universal Serial Bus
+*[PC]: Personal Computer
+*[HP]: Hewlett-Packard
