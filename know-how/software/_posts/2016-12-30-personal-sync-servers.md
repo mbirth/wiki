@@ -23,7 +23,7 @@ Calendar/Contacts servers
 
 * [NextCloud](https://nextcloud.com/)
 * [Baïkal](http://baikal-server.com/) ([GitHub](https://github.com/fruux/Baikal))
-* [Radicale](http://radicale.org/)
+* [Radicale](http://radicale.org/) (Python)
 
 
 File Sync servers (Dropbox-like)
@@ -31,4 +31,4 @@ File Sync servers (Dropbox-like)
 
 * [NextCloud](https://nextcloud.com/) (no delta sync)
 * [Seafile](https://www.seafile.com/) (incl. sharing by link, etc.)
-* [SyncThing](https://syncthing.net/) (2-way, sync only)
+* [SyncThing](https://syncthing.net/) (sync only)
