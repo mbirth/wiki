@@ -17,7 +17,7 @@ Some hotkeys to hold when powering on the Mac:
 
 * <kbd>⌘</kbd>+<kbd>V</kbd> --- Verbose mode
 * <kbd>⌘</kbd>+<kbd>S</kbd> --- Single-user mode
-* <kdb>⇧</kbd> --- Safe mode
+* <kbd>⇧</kbd> --- Safe mode
 * <kbd>⌥</kbd> --- Startup manager (select boot medium)
 * <kbd>C</kbd> --- Boot from CD-/DVD-ROM or USB
 * <kbd>D</kbd> --- Boot to diagnostics
