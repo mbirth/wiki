@@ -17,7 +17,7 @@ The original firmware in the HP 50g emulates a [Saturn CPU](https://en.wikipedia
 like the HP 48 and HP 49 had. However, the built-in [ARM920T](https://en.wikipedia.org/wiki/ARM9#ARM920T)
 processor has more power than the Saturn.
 
-And now there's a firmware to unleash the power: **newRPL**:
+And now there's a firmware to unleash the power: **newRPL**
 
 [Project homepage](http://hpgcc3.org/projects/newrpl)
 
