@@ -2,8 +2,8 @@
 title: HP 50g battery status
 layout: default
 language: en
-created: 2017-03-19 23:07:55 +0100
-updated: 2017-03-19 23:07:55 +0100
+created: 2017-03-20 00:08:42 +0100
+updated: 2017-03-20 00:08:42 +0100
 toc: false
 tags:
   - know-how
