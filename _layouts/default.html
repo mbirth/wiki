@@ -62,11 +62,16 @@
         {% endif %}
         <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <h1 id="pagetitle" itemprop="name headline">{{ page.title }}</h1>
+            <link itemprop="image" href="{{ site.url }}/images/sitelogo.png" />
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="name" content="Markus Birth" />
                 <meta itemprop="givenName" content="Markus" />
                 <meta itemprop="familyName" content="Birth" />
                 <meta itemprop="birthDate" content="1980-11-16" />
+            </div>
+            <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="Markus Birth" />
+                <link itemprop="logo" href="{{ site.url }}/images/sitelogo.png" />
             </div>
             <meta itemprop="articleSection" content="{{ page.categories[0] }}" />
             <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
