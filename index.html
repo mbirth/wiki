@@ -2,7 +2,6 @@
 title: Welcome to wiki.mbirth.de
 layout: default
 ---
-{% raw %}{::nomarkdown}{% endraw %}
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -15,16 +14,16 @@ layout: default
     }
 }
 </script>
-{% raw %}{:/nomarkdown}{% endraw %}
 
 <h3>Latest posts ({{ site.posts | size }} total):</h3>
 
 <ul>
 {% for post in paginator.posts %}
-    <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}"><span itemprop="dateModified">{{ post.date | date: "%Y-%m-%d" }}</span> - <span itemprop="name">{{ post.title }}</span></a>
+    <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}"><span itemprop="dateModified">{{ post.date | date: "%Y-%m-%d" }}</span> - <span itemprop="name headline">{{ post.title }}</span></a>
         <meta itemprop="datePublished" content="{{ post.created | date: '%Y-%m-%d' }}" />
-        <meta itemprop="headline" content="{{ post.title }}" />
-        <meta itemprop="author" content="mbirth" />
+        <div itemprop="author publisher" itemscope itemtype="http://schema.org/Person">
+          <meta itemprop="name" content="Markus Birth" />
+        </div>
     {% if post.language == 'de' %}
         <img class="emoji" title="&#x3a;de&#x3a;" alt="&#x3a;de&#x3a;" src="https://assets-cdn.github.com/images/icons/emoji/de.png" width="20" height="20" align="absmiddle" />
         <meta itemprop="inLanguage" content="de" />
