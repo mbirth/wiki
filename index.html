@@ -2,17 +2,17 @@
 title: Welcome to wiki.mbirth.de
 layout: default
 ---
-<script type="application/ld+json">{% raw %}
+<script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
+    "{{ '@context' }}": "http://schema.org",
+    "{{ '@type' }}": "WebSite",
     "url": "{{ site.url }}/",
     "potentialAction": {
-        "@type": "SearchAction",
+        "{{ '@type' }}": "SearchAction",
         "target": "{{ site.url }}/?q={search_term_string}",
         "query-input": "required name=search_term_string"
     }
-}{% endraw %}
+}
 </script>
 
 <h3>Latest posts ({{ site.posts | size }} total):</h3>
