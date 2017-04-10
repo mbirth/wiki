@@ -32,7 +32,8 @@
 <body itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="isBasedOnUrl" content="https://github.com/mbirth/wiki" />
     <link itemprop="image" href="{{ site.url }}/images/sitelogo.png" />
-    <meta itemprop="datePublished" content="{{ site.time | date: '%Y-%m-%d' }}" />
+    <meta itemprop="datePublished" content="{{ site.birthday | date: '%Y-%m-%d' }}" />
+    <meta itemprop="dateModified" content="{{ site.time | date: '%Y-%m-%d' }}" />
     <header>
         <div class="container">
             <div id="headerleft">
@@ -69,9 +70,9 @@
             </div>
             <meta itemprop="articleSection" content="{{ page.categories[0] }}" />
             <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-            <meta itemprop="dateCreated" content="{{ page.created | date: '%Y-%m-%d' }}" />
-            <meta itemprop="dateModified" content="{{ page.updated | date: '%Y-%m-%d' }}" />
-            <meta itemprop="datePublished" content="{{ page.created | date: '%Y-%m-%d' }}" />
+            <meta itemprop="dateCreated" content="{% if page.created %}{{ page.created | date: '%Y-%m-%d' }}{% else %}{{ site.birthday | date: '%Y-%m-%d' }}{% endif %}" />
+            <meta itemprop="dateModified" content="{% if page.updated %}{{ page.updated | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}" />
+            <meta itemprop="datePublished" content="{% if page.created %}{{ page.created | date: '%Y-%m-%d' }}{% else %}{{ site.birthday | date: '%Y-%m-%d' }}{% endif %}" />
             <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ page.url }}" />
             {% if page.language == 'de' %}
                 <meta itemprop="inLanguage" content="de" />
