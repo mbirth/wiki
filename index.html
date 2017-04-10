@@ -2,17 +2,17 @@
 title: Welcome to wiki.mbirth.de
 layout: default
 ---
-<script type="application/ld+json">
+<script type="application/ld+json">{% raw %}
 {
-    "\@context": "http://schema.org",
-    "\@type": "WebSite",
+    "@context": "http://schema.org",
+    "@type": "WebSite",
     "url": "{{ site.url }}/",
     "potentialAction": {
-        "\@type": "SearchAction",
+        "@type": "SearchAction",
         "target": "{{ site.url }}/?q={search_term_string}",
         "query-input": "required name=search_term_string"
     }
-}
+}{% endraw %}
 </script>
 
 <h3>Latest posts ({{ site.posts | size }} total):</h3>
@@ -21,6 +21,8 @@ layout: default
 {% for post in paginator.posts %}
     <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}"><span itemprop="dateModified">{{ post.date | date: "%Y-%m-%d" }}</span> - <span itemprop="name">{{ post.title }}</span></a>
         <meta itemprop="datePublished" content="{{ post.created | date: '%Y-%m-%d' }}" />
+        <meta itemprop="headline" content="{{ post.title }}" />
+        <meta itemprop="author" content="mbirth" />
     {% if post.language == 'de' %}
         <img class="emoji" title="&#x3a;de&#x3a;" alt="&#x3a;de&#x3a;" src="https://assets-cdn.github.com/images/icons/emoji/de.png" width="20" height="20" align="absmiddle" />
         <meta itemprop="inLanguage" content="de" />
