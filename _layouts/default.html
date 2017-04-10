@@ -31,7 +31,7 @@
 </head>
 <body itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="isBasedOnUrl" content="https://github.com/mbirth/wiki" />
-    <link itemprop="image" href="{{ site.url }}/images/sitelogo.png" />
+    <meta itemprop="image" content="{{ site.url }}/images/sitelogo.png" />
     <meta itemprop="datePublished" content="{{ site.birthday | date: '%Y-%m-%d' }}" />
     <meta itemprop="dateModified" content="{{ site.time | date: '%Y-%m-%d' }}" />
     <header>
@@ -62,7 +62,7 @@
         {% endif %}
         <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <h1 id="pagetitle" itemprop="name headline">{{ page.title }}</h1>
-            <link itemprop="image" href="{{ site.url }}/images/sitelogo.png" />
+            <meta itemprop="image" content="{{ site.url }}/images/sitelogo.png" />
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="name" content="Markus Birth" />
                 <meta itemprop="givenName" content="Markus" />
@@ -71,7 +71,7 @@
             </div>
             <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
                 <meta itemprop="name" content="Markus Birth" />
-                <link itemprop="logo" href="{{ site.url }}/images/sitelogo.png" />
+                <meta itemprop="logo" content="{{ site.url }}/images/sitelogo.png" />
             </div>
             <meta itemprop="articleSection" content="{{ page.categories[0] }}" />
             <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
