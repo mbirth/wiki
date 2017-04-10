@@ -30,7 +30,10 @@ layout: default
     {% if post.updated != post.created %}
         <img class="emoji" title="&#x3a;up&#x3a;" alt="&#x3a;up&#x3a;" src="https://assets-cdn.github.com/images/icons/emoji/up.png" width="20" height="20" align="absmiddle" />
     {% endif %}
-        <div itemprop="author publisher" itemscope itemtype="http://schema.org/Person">
+        <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <meta itemprop="name" content="Markus Birth" />
+        </div>
+        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
           <meta itemprop="name" content="Markus Birth" />
         </div>
     </li>
