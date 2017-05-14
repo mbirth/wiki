@@ -46,9 +46,9 @@ Here is a photo of both batteries where I've marked the `+12V` lines (left: A138
 ![]({{ site.url }}/assets/apple_a1382_a1321_sidebyside.jpg)
 
 If you are comfortable with using a soldering iron and doing some delicate soldering, you can
-"easily" (sort of) swap the connectors and the 12V and GND wires. The 3 wires for the 12V supply
-and the 3 GND wires are shorted, so they're not going to different cells and it's not important
-whether you swap 1-2-3 with 7-8-9 or 9-8-7 or 7-9-8 or 8-7-9 or … (and vice versa).
+"easily" (sort of) swap the connectors and the `12V` and `GND` wires. The 3 wires for the `12V`
+supply and the 3 `GND` wires are shorted, so they're not going to different cells and it's not
+important whether you swap 1-2-3 with 7-8-9 or 9-8-7 or 7-9-8 or 8-7-9 or … (and vice versa).
 
 **I DON'T TAKE ANY RESPONSIBILITY FOR WHAT YOU'RE DOING TO YOUR HARDWARE. Just because it worked out
 fine for me, doesn't mean it will work for you.**
@@ -99,4 +99,8 @@ The three Microcontrollers (`U`-label, all on the left hand side) on there:
 * `U302`: CBZ --- TI *TMP102* Low-Power Digital Temperature Sensor with SMBus
 
 
+*[MBP]: MacBook Pro
+*[PCB]: Printed Circuit Board
+*[SCL]: Signal Clock
+*[SDA]: Signal Data
 *[TI]: Texas Instruments
