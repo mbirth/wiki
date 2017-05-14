@@ -18,7 +18,7 @@ tags:
   - a1382
 ---
 If you have a MacBook Pro A1286 (15.4", Late-2008 until Mid-2012) and want to replace the battery,
-you must be aware of the specific battery in your device. In 2001, for some reason, Apple decided
+you must be aware of the specific battery in your device. In 2011, for some reason, Apple decided
 to switch from the battery model A1321 (73 Wh) to model A1382 (77.5 Wh). While the form-factor
 stayed the same, Apple changed the connector and pinout.
 
