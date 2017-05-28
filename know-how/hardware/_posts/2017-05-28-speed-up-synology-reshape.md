@@ -14,15 +14,16 @@ tags:
   - raid
   - lvm
   - reshape
+  - extend
+  - volume
   - storage
 ---
 I wanted to increase the available storage on my Synology DS415+ by replacing 2x 2TB disks with
-4TB ones, changing my 4-4-2-2 configuration to 4-4-4-4 and the overall storage space from 8TB to
-12TB.
+4TB ones, extending my 4-4-2-2 volume to 4-4-4-4 and the overall storage space from 8TB to 12TB.
 
 After replacing the first disk, there was the data reconstruction which finished after 2 hours
-or so. But then came the reshaping which I left running over night (~10 hours) and it still only
-got to 20%.
+or so. But then came the reshaping (to use the full 4TB instead of only 2TB) which I left running
+over night (~10 hours) and it still only got to 20%.
 
 That made me wonder how long the overall process might take and if that is normal.
 
