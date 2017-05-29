@@ -3,7 +3,7 @@ title: Speed up Synology volume reshaping
 layout: default
 language: en
 created: 2017-05-28 23:45:40 +0200
-updated: 2017-05-28 23:45:40 +0200
+updated: 2017-05-29 19:22:31 +0200
 toc: false
 tags:
   - know-how
@@ -143,6 +143,29 @@ md3 : active raid5 sdd6[2] sda6[0] sdb6[1]
       [===================>.]  reshape = 95.9% (1874314432/1953494784) finish=20.1min speed=65521K/sec
 ```
 
+
+UPDATE
+======
+
+After replacing the second disk, there was another *reshape* going on, but this time, the speed
+lingered at 20-30 MB/sec which isn't much given that it went up to 80 MB/sec for the first disk.
+
+However, after some more research, I found [this comment](https://www.cyberciti.biz/tips/linux-raid-increase-resync-rebuild-speed.html#comment-20767)
+which explained how the system only speeds up to `speed_limit_max` when there's no other disk I/O
+going on and otherwise keeps the speed at `speed_limit_min`. That made sense as the default
+`speed_limit_min` is `10000` (or 10 MB/sec) and I already increased it to `20000` yesterday.
+
+Why the Synology thought there was other activity and kept the transfer speed down, I don't know.
+
+But now I increased the minimum speed further to 60 MB/s:
+
+    sysctl -w dev.raid.speed_limit_min=60000
+
+And suddenly the reshaping speed also increased to around 60 MB/sec. I slightly increased it
+further until I ended up at a value of `90000` (90 MB/s) and a real speed of around
+80-90 MB/sec.
+
+This cut the remaining time down from 12 hours to 3.
 
 
 
