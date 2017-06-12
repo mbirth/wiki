@@ -69,3 +69,30 @@ Andere tolle - und mir bisher unbekannte - Importe:
 
 [^1]: Wikipedia: [Pleonasmus](http://de.wikipedia.org/wiki/Pleonasmus)
 *[Großkotz]: derb, abwertend: Person, die ihre eigenen Leistungen stark übertreibend und unaufgefordert in den Vordergrund stellt
+*[Kabache]: 1. primitive Hütte / 2. anrüchige Kneipe
+*[Pennunze]: Geld, aus dem polnischen: pieniądze
+*[Pomade]: Fett oder Salbe für kosmetische Zwecke, insbesondere für die Haarpflege
+*[dalli]: schnell, aus dem poln. dalej (weiter, vorwärts)
+*[Kaschemme]: Wirtshaus mit einem schlechten Ruf, wo sich Prostituierte und Ganoven aufhalten
+*[mauscheln]: 1. dunkle, unlautere Geschäfte treiben / 2. beim Spiel, zumeist einem Kartenspiel, betrügen
+*[meschugge]: nicht bei Verstand, verrückt
+*[Mischpoche]: abwertend: Familie, Großfamilie / familienähnliche Gemeinschaft, Bande; üble Gesellschaft; auch: Mischpoke
+*[Ramsch]: abwertend: Ware, die aufgrund ihrer geringen Qualität nicht verkauft, nicht abgesetzt werden konnte / im übertragenen Sinne: wertloses Zeug
+*[Schmu]: etwas nicht ganz Korrektes; verhältnismäßig harmlose Schwindelei; leichter, kleiner Betrug
+*[schnorren]: jemanden aus Gewohnheit immer wieder um Kleinigkeiten wie Kleingeld, Zigaretten oder Ähnlichem bitten, ohne selbst eine Gegenleistung erbringen zu wollen / höflich für sich selbst um Kleinigkeiten wie Kleingeld, Zigaretten oder Ähnlichem bitten, ohne selbst zu einer Gegenleistung bereit zu sein
+*[schofel]: abwertend: in empörender, verachtenswürdiger oder ähnlicher Art und Weise böse, minderwertig, niederträchtig, schäbig / in beschämender Weise kleinlich, geizig
+*[Lokus]: Toilette
+*[Moneten]: Geld
+*[Palaver]: endlos scheinendes, meist ergebnisloses Gespräch, Debatte, Verhandlung
+*[Pelle]: die Schale von Obst, Gemüse, Eiern, die Hülle der Wurst und Ähnlichem; die Haut von gebratenem Fleisch und Fisch, auch: menschliche oder tierische Haut, Oberbekleidung (aus lat. pellis = Fell, Haut)
+*[Pulle]: Flasche (Verkürzung von Ampulle)
+*[Tempo]: Geschwindigkeit (aus dem lat. tempus = Zeit, Abschnitt)
+*[famos]: große Anerkennung/Bewunderung auslösend (aus dem lat. famosus = viel besprochen, berühmt)
+*[fatal]: unangenehm, verhängnisvoll, peinlich / ungünstig, schwerwiegend
+*[intus]: etwas vor kurzem getrunken oder gegessen haben / etwas begriffen, verstanden haben (lat. intus = innen, inwendig)
+*[kapieren]: verstehen (lat. capere = fassen, ergreifen)
+*[kolossal]: wie ein Koloss / großartig (lat. colossus)
+*[simulieren]: sich verstellen, etwas vortäuschen
+*[Canaille]: Schimpfwort: einen Menschen als Schurken bezeichnend / veraltet: Menschenmenge aus heruntergekommenen oder zwielichtigen Personen (auch: Kanaille)
+*[Couvert]: Umschlag
+*[Trittoar]: Bürgersteig
