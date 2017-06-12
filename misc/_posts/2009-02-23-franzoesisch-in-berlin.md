@@ -10,7 +10,7 @@ tags:
   - berlin
   - french
 ---
-Extrakt aus "[Französisch im Berliner Jargon](http://www.amazon.de/gp/product/B00ECD0KOC/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00ECD0KOC&linkCode=as2&tag=mbirth-21&linkId=ALV2OJG4DU2U2NQ4)" von Ewald Harndt:
+Extrakt aus "[Französisch im Berliner Jargon](http://amzn.to/2sVwq2t)" von Ewald Harndt:
 
 Dort wird u.a. aufgezeigt, dass viele Wörter im normalen (Berliner) Sprachgebrauch ursprünglich dem Französischen entlehnt sind. Das liegt wohl vor allem daran, dass im 17. und 18. Jahrhundert der Adel mehr französisch als deutsch gesprochen hat. Die deutschprachigen haben dann zum einfacheren Erlernen meist beide Wörte verbunden ausgesprochen. Ganz besonders spannend fand ich da das beliebte Zeitvertreibspiel "Keesekästchen". Das kommt laut dem Büchlein von *la caisse* = der Kasten. Oder auch gut: klammheimlich kommt von *clam* (lat.) = heimlich.
 
@@ -68,3 +68,4 @@ Andere tolle - und mir bisher unbekannte - Importe:
   * Beim Trinken anstoßen "auf General Knusemong" kommt von *en général que nous aimons* = insbesondere auf das, was wir lieben/mögen
 
 [^1]: Wikipedia: [Pleonasmus](http://de.wikipedia.org/wiki/Pleonasmus)
+*[Großkotz]: derb, abwertend: Person, die ihre eigenen Leistungen stark übertreibend und unaufgefordert in den Vordergrund stellt
