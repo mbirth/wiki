@@ -3,7 +3,7 @@ title: BlackBerry KEYone OTA updates for different variants
 layout: default
 language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-09-16 14:37:57 +0200
+updated: 2017-09-17 00:24:59 +0200
 toc: false
 tags:
   - know-how
@@ -75,6 +75,10 @@ asking you for a password.
 The password can be obtained by decompiling the APK file for the Updates app, either using some
 [online service](http://www.javadecompilers.com/apk) or [an app](https://play.google.com/store/apps/details?id=com.njlabs.showjava)
 and looking at the `/com/tcl/ota/AdvancedModeValidateFragment.java` file.
+
+To get the APK file, you can use [ML Manager](https://play.google.com/store/apps/details?id=com.javiersantos.mlmanager)
+or maybe your file manager supports it already. (Don't forget to enable showing system apps and
+not user apps only.)
 </div></p>
 
 <!-- Password: fotaapp*#1221# -->
@@ -234,6 +238,7 @@ the *Updates* app. There, tap *Storage* and hit the <kbd>CLEAR DATA</kbd> button
 *[IMEI]: International Mobile Equipment Identity
 *[OTA]: Over-the-air
 *[PRD]: Product Requirements Documents
+*[TCL]: Telephone Communication Limited, nowadays: The Creative Life
 *[UAE]: United Arab Emirates
 *[UK]: United Kingdom
 *[US]: United States (of America)
