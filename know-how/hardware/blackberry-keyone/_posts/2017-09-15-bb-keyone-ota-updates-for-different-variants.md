@@ -3,7 +3,7 @@ title: BlackBerry KEYone OTA updates for different variants
 layout: default
 language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-09-15 20:32:10 +0200
+updated: 2017-09-16 14:37:57 +0200
 toc: false
 tags:
   - know-how
@@ -71,9 +71,11 @@ activate that by tapping the three dots in the upper right and selecting *Help* 
 help screen. There, tap 8 times on the last item *Checking for updates*. A dialog box will appear
 asking you for a password.
 
+<p><div class="noteclassic" markdown="1">
 The password can be obtained by decompiling the APK file for the Updates app, either using some
 [online service](http://www.javadecompilers.com/apk) or [an app](https://play.google.com/store/apps/details?id=com.njlabs.showjava)
 and looking at the `/com/tcl/ota/AdvancedModeValidateFragment.java` file.
+</div></p>
 
 <!-- Password: fotaapp*#1221# -->
 
@@ -137,9 +139,9 @@ List of latest OTA (from AAM481) firmware by PRD:
 ...
 PRD-63117-003 failed. (No update available.)
 PRD-63117-011: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (QWERTZ BBB100-2 (Germany))
-PRD-63117-015: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2 (NL, Belgiums))
+PRD-63117-015: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2 (NL, Belgium))
 PRD-63117-019: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
-PRD-63117-023: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (AZERTY BBB100-2 (Belgiums))
+PRD-63117-023: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (AZERTY BBB100-2 (Belgium))
 PRD-63117-025 failed. (No data for requested CUREF/FV combination.)
 PRD-63117-027: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (QWERTY BBB100-2 (UAE))
 PRD-63117-028: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
