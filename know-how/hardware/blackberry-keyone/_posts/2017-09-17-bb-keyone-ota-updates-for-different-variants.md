@@ -3,7 +3,7 @@ title: BlackBerry KEYone OTA updates for different variants
 layout: default
 language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-09-17 13:32:42 +0200
+updated: 2017-09-17 20:49:36 +0200
 toc: false
 tags:
   - know-how
@@ -132,44 +132,16 @@ which I rewrote and improved. My version can be found here:
 
 <https://github.com/mbirth/tcl_ota_check>
 
-After downloading or cloning the repository, edit the `tclcheck_all.py` and change the `fc.fv`
-variable to your current firmware version. Let's assume you have a UK BBB100-2, so your PRD would
-be `PRD-63117-003` and as of September 2017, your firmware version would be `AAM481`. So change the
-line with `fc.fv` to:
+For convenience, I put up a matrix [here]({% post_url 2017-09-17-bb-keyone-variants-ota-matrix %}).
 
-    fc.fv = "AAM481"
+Let's say we have a UK BBB100-2. The PRD would be PRD-63117-003 and as of September 2017, we'd run
+firmware version `AAM481`. However, that's the July patch, not the September patch.
 
-Also change the `fc.mode` line to:
-
-    fc.mode = fc.MODE_OTA
-
-Now run the script. You'll get an output like this:
-
-~~~
-List of latest OTA (from AAM481) firmware by PRD:
-...
-PRD-63117-003 failed. (No update available.)
-PRD-63117-011: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (QWERTZ BBB100-2 (Germany))
-PRD-63117-015: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2 (NL, Belgium))
-PRD-63117-019: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
-PRD-63117-023: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (AZERTY BBB100-2 (Belgium))
-PRD-63117-025 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-027: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (QWERTY BBB100-2 (UAE))
-PRD-63117-028: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
-PRD-63117-029: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
-PRD-63117-034 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-036 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-037 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-041: AAM481 ⇨ AAN358 d819919187b46793abeaeff60dd6deee17baac4b (BBB100-2)
-PRD-63117-042 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-703 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-704 failed. (No data for requested CUREF/FV combination.)
-PRD-63117-717 failed. (No data for requested CUREF/FV combination.)
-...
-~~~
-
-As you can see, our `PRD-63117-003` variant doesn't have the update yet, but other variants have.
-Just pick one, let's say `PRD-63117-011`.
+But we can see from the matrix, that other variants already got the August patch (`AAN358`) and the
+`PRD-63117-034` even is on the September patch already (`AAO472`). However, the `-034` never ran
+version `AAM481`. So we have to get our device to `AAN358` first to be able to patch it to
+`AAO472`. For that, we can use any variant that has our current version `AAM481` and `AAN358`, e.g.
+`PRD-63117-011`.
 
 
 Doing the actual update
@@ -193,12 +165,12 @@ Your phone will reboot and install the update. It'll boot up to the new version.
 
 <p><div class="notetip" markdown="1">
 In the case of the `PRD-63117-003` variant and assuming a time of mid-September 2017, the just
-installed `AAN358` isn't the latest version. There's a newer `AAO472` version available. So change
-the `fc.fv` line in the `tclcheck_all.py` to `AAN358` and run it again. You'll find out that only
-the variant `PRD-63117-034` is currently getting the OTA update to `AAO472`. Enter that into the
-*Emulated CU Reference* field in the *Updates* app, change the *Emulated current version* to the
-just installed `AAN358` and tap <kbd>START TEST</kbd> again. It'll show the second update and let you
-install that.
+installed `AAN358` isn't the latest version for this model. There's a newer `AAO472` version
+available as you can see from the [matrix]({% post_url 2017-09-17-bb-keyone-variants-ota-matrix %}).
+But only the variant `PRD-63117-034` is currently getting the OTA update to `AAO472`. Enter that
+into the *Emulated CU Reference* field in the *Updates* app, change the *Emulated current version*
+to the just installed `AAN358` and tap <kbd>START TEST</kbd> again. It'll show the second update
+and let you install that.
 
 (If the updater started to download the previous update file again, remove it like explained in
 the *Cleanup* section.)
