@@ -19,7 +19,7 @@ Note that firmwares are only compatible between the same model. So when trying t
 from version `AAL093`, make sure to emulate the correct model. If you have the BBB100-1, you have
 to use `PRD-63116-001`. If you have the BBB100-2, use `PRD-63117-003`.
 
-For other BBB100 models, make sure the 6 digits in the middle of the PRD number match.
+For other BBB100 models, make sure the 5 digits in the middle of the PRD number match.
 
 However, since the OTA updates check the device before installing, there should be no risk of
 bricking your device should you manage to download the wrong update.
