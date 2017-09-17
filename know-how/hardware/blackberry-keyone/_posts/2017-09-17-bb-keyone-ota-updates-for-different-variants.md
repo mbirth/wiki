@@ -3,7 +3,7 @@ title: BlackBerry KEYone OTA updates for different variants
 layout: default
 language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-09-17 00:24:59 +0200
+updated: 2017-09-17 13:32:42 +0200
 toc: false
 tags:
   - know-how
@@ -19,6 +19,13 @@ Variants and update situation
 
 The KEYone is sold as different models: BBB100-1 (US model), BBB100-2 (EMEA model), etc. And each
 model is distributed in multiple variants, expressed in the last 3 digits of the PRD number.
+
+<p><div class="noteclassic" markdown="1">
+The PRD number of your device can be found on the box or in the *Project test* menu in the
+updater's advanced mode. (see below) Later firmware versions also show this in the *Traceability*
+option of the [MMI test mode]({% post_url 2017-06-30-bb-keyone-mmi-test-engineering-mode %}).
+</div></p>
+
 
 Here are a few models and variants:
 
