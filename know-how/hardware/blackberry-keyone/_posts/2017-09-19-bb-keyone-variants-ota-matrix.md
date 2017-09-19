@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-09-17 20:35:18 +0200
+updated: 2017-09-19 16:22:54 +0200
 toc: false
 tags:
   - know-how
@@ -77,12 +77,14 @@ Other firmwares
 
 <div style="overflow-x: scroll;" markdown="1">
 
-| PRD-63118-003 |        | AAM286 |        |        |        |        | AAN982 |        |        |
-| PRD-63734-001 |        |        |        |        | AAM999 |        |        | AAO273 | AAO472 |
-| PRD-63734-002 |        |        |        |        | AAM999 |        |        | AAO273 | AAO472 |
-| PRD-63763-001 | AAL964 |        | AAM625 |        |        | AAN358 |        |        | AAO472 |
-| PRD-63764-001 |        |        |        | AAM693 |        | AAN358 |        |        |        |
+| PRD-63118-001 | AAL093 |        |        |        |        |        |        |        |        |        |
+| PRD-63118-003 |        |        | AAM286 |        |        |        |        | AAN982 |        |        |
+| PRD-63734-001 |        |        |        |        |        | AAM999 |        |        | AAO273 | AAO472 |
+| PRD-63734-002 |        |        |        |        |        | AAM999 |        |        | AAO273 | AAO472 |
+| PRD-63763-001 |        | AAL964 |        | AAM625 |        |        | AAN358 |        |        | AAO472 |
+| PRD-63764-001 |        |        |        |        | AAM693 |        | AAN358 |        |        |        |
 
 </div>
 
+* `AAK199` --- pre-release version for pre-relase devices
 * `AAK831`, `AAL655` --- no OTA, use an Autoloader if available
