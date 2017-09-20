@@ -12,7 +12,7 @@
         /* * * CONFIGURATION VARIABLES * * */
         var disqus_shortname = 'mb-wiki';
         var disqus_identifier = '{% if page.id %}{{ page.id }}{% else %}/index{% endif %}';
-        var disqus_title = '{{ page.title }}';
+        var disqus_title = '{{ page.title | escape }}';
         var disqus_url = '{{ site.url }}{{ page.url }}';
     </script>
 </div>
