@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-09-21 13:28:42 +0200
+updated: 2017-09-22 10:51:42 +0200
 toc: false
 tags:
   - know-how
@@ -32,9 +32,9 @@ BBB100-1 (PRD-63116) firmwares
 <div style="overflow-x: scroll;" markdown="1">
 
 | PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |
-| PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        |        |
-| PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        |        |
-| PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        |        |
+| PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
+| PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
+| PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        | AAO472 |
 | PRD-63116-009 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
 | PRD-63116-010 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
 | PRD-63116-013 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
