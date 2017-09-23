@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-09-22 14:20:38 +0200
+updated: 2017-09-23 15:16:37 +0200
 toc: false
 tags:
   - know-how
@@ -35,14 +35,14 @@ BBB100-1 (PRD-63116) firmwares
 | PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
 | PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
 | PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        | AAO472 |
-| PRD-63116-009 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
+| PRD-63116-009 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
 | PRD-63116-010 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
-| PRD-63116-013 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
+| PRD-63116-013 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
 | PRD-63116-017 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |
 | PRD-63116-020 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-021 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
-| PRD-63116-023 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        |        |
-| PRD-63116-024 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        |        |
+| PRD-63116-021 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
+| PRD-63116-023 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
+| PRD-63116-024 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
 | PRD-63116-027 |        |        |        |        |        |        |        | AAN057 |        |        |        |        |        |
 | PRD-63116-033 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |
 | PRD-63116-036 |        |        |        |        |        |        |        |        |        |        |        | AAN596 |        |
@@ -54,17 +54,17 @@ BBB100-2 (PRD-63117) firmwares
 
 <div style="overflow-x: scroll;" markdown="1">
 
-| PRD-63117-003 | AAK624 | AAK879 | AAL093 | AAL682 | AAM481 |        |        |
-| PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 |        |
-| PRD-63117-015 |        | AAK879 |        | AAL682 | AAM481 | AAN358 |        |
-| PRD-63117-019 |        |        |        |        | AAM481 | AAN358 |        |
+| PRD-63117-003 | AAK624 | AAK879 | AAL093 | AAL682 | AAM481 |        | AAO472 |
+| PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |
+| PRD-63117-015 |        | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |
+| PRD-63117-019 |        |        |        |        | AAM481 | AAN358 | AAO472 |
 | PRD-63117-023 |        | AAK879 |        |        | AAM481 | AAN358 |        |
 | PRD-63117-025 |        |        |        | AAL682 |        | AAN358 |        |
 | PRD-63117-027 |        | AAK879 |        |        | AAM481 | AAN358 |        |
 | PRD-63117-028 |        | AAK879 |        |        | AAM481 | AAN358 |        |
-| PRD-63117-029 |        |        |        | AAL682 | AAM481 | AAN358 |        |
+| PRD-63117-029 |        |        |        | AAL682 | AAM481 | AAN358 | AAO472 |
 | PRD-63117-034 |        |        |        |        |        | AAN358 | AAO472 |
-| PRD-63117-036 |        |        |        |        |        | AAN358 |        |
+| PRD-63117-036 |        |        |        |        |        | AAN358 | AAO472 |
 | PRD-63117-037 |        |        |        |        |        | AAN358 |        |
 | PRD-63117-041 |        |        |        |        | AAM481 | AAN358 |        |
 | PRD-63117-042 |        |        |        |        |        | AAN358 |        |
