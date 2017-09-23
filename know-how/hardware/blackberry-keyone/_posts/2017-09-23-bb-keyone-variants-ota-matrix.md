@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-09-23 15:16:37 +0200
+updated: 2017-09-23 23:53:50 +0200
 toc: false
 tags:
   - know-how
@@ -46,8 +46,14 @@ BBB100-1 (PRD-63116) firmwares
 | PRD-63116-027 |        |        |        |        |        |        |        | AAN057 |        |        |        |        |        |
 | PRD-63116-033 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |
 | PRD-63116-036 |        |        |        |        |        |        |        |        |        |        |        | AAN596 |        |
+| PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        | ?????? |
+| PRD-63116-041 |        |        |        |        |        |        |        |        |        |        |        |        | AAO472 |
+| PRD-63116-042 |        |        |        |        |        |        |        |        |        |        |        |        | AAO472 |
 
 </div>
+
+PRD-63116-039 and onwards is the Black KEYone.
+
 
 BBB100-2 (PRD-63117) firmwares
 ==============================
@@ -57,6 +63,7 @@ BBB100-2 (PRD-63117) firmwares
 | PRD-63117-003 | AAK624 | AAK879 | AAL093 | AAL682 | AAM481 |        | AAO472 |
 | PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |
 | PRD-63117-015 |        | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |
+| PRD-63117-017 |        |        |        |        |        | AAN358 |        |
 | PRD-63117-019 |        |        |        |        | AAM481 | AAN358 | AAO472 |
 | PRD-63117-023 |        | AAK879 |        |        | AAM481 | AAN358 |        |
 | PRD-63117-025 |        |        |        | AAL682 |        | AAN358 |        |
@@ -64,8 +71,11 @@ BBB100-2 (PRD-63117) firmwares
 | PRD-63117-028 |        | AAK879 |        |        | AAM481 | AAN358 |        |
 | PRD-63117-029 |        |        |        | AAL682 | AAM481 | AAN358 | AAO472 |
 | PRD-63117-034 |        |        |        |        |        | AAN358 | AAO472 |
+| PRD-63117-035 |        |        |        |        |        | AAN358 | AAO472 |
 | PRD-63117-036 |        |        |        |        |        | AAN358 | AAO472 |
 | PRD-63117-037 |        |        |        |        |        | AAN358 |        |
+| PRD-63117-039 |        |        |        |        |        | AAN358 | AAO472 |
+| PRD-63117-040 |        |        |        |        |        | AAN358 |        |
 | PRD-63117-041 |        |        |        |        | AAM481 | AAN358 |        |
 | PRD-63117-042 |        |        |        |        |        | AAN358 |        |
 
