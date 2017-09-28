@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-09-23 23:53:50 +0200
+updated: 2017-09-28 00:55:37 +0200
 toc: false
 tags:
   - know-how
@@ -31,28 +31,29 @@ BBB100-1 (PRD-63116) firmwares
 
 <div style="overflow-x: scroll;" markdown="1">
 
-| PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |
-| PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
-| PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |
-| PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        | AAO472 |
-| PRD-63116-009 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-010 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |
-| PRD-63116-013 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-017 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |
-| PRD-63116-020 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-021 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-023 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-024 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-027 |        |        |        |        |        |        |        | AAN057 |        |        |        |        |        |
-| PRD-63116-033 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |
-| PRD-63116-036 |        |        |        |        |        |        |        |        |        |        |        | AAN596 |        |
-| PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        | ?????? |
-| PRD-63116-041 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |
-| PRD-63116-042 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |
+| PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |        |
+| PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |
+| PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |
+| PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        | AAO472 |        |
+| PRD-63116-009 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-010 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        |        |        |
+| PRD-63116-013 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-017 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |        |
+| PRD-63116-020 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-021 |        |        |        | AAL619 |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-023 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-024 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-027 |        |        |        |        |        |        |        | AAN057 |        |        |        |        |        |        |
+| PRD-63116-033 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |        |
+| PRD-63116-036 |        |        |        |        |        |        |        |        |        |        |        | AAN596 |        | AAO750 |
+| PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        | ?????? |        |
+| PRD-63116-041 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |
+| PRD-63116-042 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |
 
 </div>
 
-PRD-63116-039 and onwards is the Black KEYone.
+* PRD-63116-036 is the AT&T variant which gets its updates from AT&T's servers
+* PRD-63116-039 and onwards is the Black KEYone.
 
 
 BBB100-2 (PRD-63117) firmwares
