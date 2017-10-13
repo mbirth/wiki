@@ -132,7 +132,7 @@ which I rewrote and improved. My version can be found here:
 
 <https://github.com/mbirth/tcl_ota_check>
 
-For convenience, I put up a matrix [here]({% post_url 2017-10-12-bb-keyone-variants-ota-matrix %}).
+For convenience, I put up a matrix [here]({% post_url 2017-10-13-bb-keyone-variants-ota-matrix %}).
 
 Let's say we have a UK BBB100-2. The PRD would be PRD-63117-003 and as of September 2017, we'd run
 firmware version `AAM481`. However, that's the July patch, not the September patch.
@@ -166,7 +166,7 @@ Your phone will reboot and install the update. It'll boot up to the new version.
 <p><div class="notetip" markdown="1">
 In the case of the `PRD-63117-003` variant and assuming a time of mid-September 2017, the just
 installed `AAN358` isn't the latest version for this model. There's a newer `AAO472` version
-available as you can see from the [matrix]({% post_url 2017-10-12-bb-keyone-variants-ota-matrix %}).
+available as you can see from the [matrix]({% post_url 2017-10-13-bb-keyone-variants-ota-matrix %}).
 But only the variant `PRD-63117-034` is currently getting the OTA update to `AAO472`. Enter that
 into the *Emulated CU Reference* field in the *Updates* app, change the *Emulated current version*
 to the just installed `AAN358` and tap <kbd>START TEST</kbd> again. It'll show the second update
