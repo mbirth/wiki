@@ -49,6 +49,7 @@ BBB100-1 (PRD-63116) firmwares
 | PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        | ?????? |        |        |        |
 | PRD-63116-041 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |        |        |
 | PRD-63116-042 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |        |        |
+{: .freeze-first-col}
 
 </div>
 
@@ -79,6 +80,7 @@ BBB100-2 (PRD-63117) firmwares
 | PRD-63117-040 |        |        |        |        |        | AAN358 |        |        |
 | PRD-63117-041 |        | AAK879 |        |        | AAM481 | AAN358 | AAO472 |        |
 | PRD-63117-042 |        |        |        |        |        | AAN358 |        |        |
+{: .freeze-first-col}
 
 </div>
 
@@ -95,6 +97,7 @@ Other firmwares
 | PRD-63763-001 |        | AAL964 |        | AAM625 |        |        | AAN358 |        |        | AAO472 |        |        |        | AAP638 |        |
 | PRD-63763-002 |        |        |        |        |        |        |        |        |        | AAO472 |        |        |        | AAP638 |        |
 | PRD-63764-001 |        |        |        |        | AAM693 |        | AAN358 |        |        |        | AAO548 |        |        | AAP638 |        |
+{: .freeze-first-col}
 
 </div>
 
