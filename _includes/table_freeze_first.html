@@ -1,0 +1,8 @@
+<script type="text/javascript">
+    // https://stackoverflow.com/questions/45071085/freeze-first-row-and-first-column-of-table
+    $(document).ready(function() {
+        $('.freeze-first-col tbody').scroll(function(e) {
+            $(this).find('td:nth-child(1)').css("left", $(this).scrollLeft()-5);
+        });
+    });
+</script>
