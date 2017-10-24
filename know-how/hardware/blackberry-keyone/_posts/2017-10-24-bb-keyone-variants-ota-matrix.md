@@ -29,8 +29,6 @@ bricking your device should you manage to download the wrong update.
 BBB100-1 (PRD-63116) firmwares
 ==============================
 
-<div style="overflow-x: scroll;" markdown="1">
-
 | PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |        |        | AAP683 |
 | PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |        |        |
 | PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |        |        |
@@ -51,16 +49,12 @@ BBB100-1 (PRD-63116) firmwares
 | PRD-63116-042 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |        |        |
 {: .freeze-first-col}
 
-</div>
-
 * PRD-63116-036 is the AT&T variant which gets its updates from AT&T's servers
 * PRD-63116-039 and onwards is the Black KEYone.
 
 
 BBB100-2 (PRD-63117) firmwares
 ==============================
-
-<div style="overflow-x: scroll;" markdown="1">
 
 | PRD-63117-003 | AAK624 | AAK879 | AAL093 | AAL682 | AAM481 |        | AAO472 |        |
 | PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |        |
@@ -82,13 +76,9 @@ BBB100-2 (PRD-63117) firmwares
 | PRD-63117-042 |        |        |        |        |        | AAN358 |        |        |
 {: .freeze-first-col}
 
-</div>
-
 
 Other firmwares
 ===============
-
-<div style="overflow-x: scroll;" markdown="1">
 
 | PRD-63118-001 | AAL093 |        |        |        |        |        |        |        |        | AAO472 |        |        |        | AAP638 |        |
 | PRD-63118-003 |        |        | AAM286 |        |        |        |        | AAN982 |        |        |        | AAP494 |        |        |        |
@@ -98,8 +88,6 @@ Other firmwares
 | PRD-63763-002 |        |        |        |        |        |        |        |        |        | AAO472 |        |        |        | AAP638 |        |
 | PRD-63764-001 |        |        |        |        | AAM693 |        | AAN358 |        |        |        | AAO548 |        |        | AAP638 |        |
 {: .freeze-first-col}
-
-</div>
 
 * `AAK199` --- pre-release version for pre-relase devices
 * `AAK831`, `AAL655` --- no OTA, use an Autoloader if available
