@@ -101,5 +101,13 @@ Other firmwares
 
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.freeze-first-col tbody').scroll(function(e) { 
+      $(this).find('td:nth-child(1)').css("left", $(this).scrollLeft()-5); 
+    });
+  });
+</script>
+
 * `AAK199` --- pre-release version for pre-relase devices
 * `AAK831`, `AAL655` --- no OTA, use an Autoloader if available
