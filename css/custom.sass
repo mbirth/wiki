@@ -52,6 +52,22 @@ abbr, acronym
 td
     white-space: nowrap
 
+.freeze-first-col
+    position: relative
+    table-layout: fixed
+    width: 100%
+
+    tbody
+        overflow-x: scroll
+        position: relative
+        width: 100%
+        display: block
+
+        td:nth-child(1)
+            position: relative
+            background-color: white
+            display: block
+
 $noteclassic: #99d
 $noteimportant: #ff0
 $notewarning: #d99
