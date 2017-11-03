@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-11-02 11:18:18 +0100
+updated: 2017-11-03 12:38:50 +0100
 toc: false
 tags:
   - know-how
@@ -29,7 +29,7 @@ bricking your device should you manage to download the wrong update.
 BBB100-1 (PRD-63116) firmwares
 ==============================
 
-| PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |        |        | AAP683 |        |
+| PRD-63116-001 |        | AAL093 |        |        | AAL964 |        |        |        | AAN355 |        | AAN517 |        | AAO472 |        |        | AAP683 | AAQ302 |
 | PRD-63116-003 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |        |        | AAQ302 |
 | PRD-63116-005 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        | AAN517 |        | AAO472 |        |        |        | AAQ302 |
 | PRD-63116-007 | AAK399 |        | AAL483 |        |        |        | AAM625 |        |        |        |        |        | AAO472 |        |        |        | AAQ302 |
@@ -42,12 +42,15 @@ BBB100-1 (PRD-63116) firmwares
 | PRD-63116-023 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |        |        |        |
 | PRD-63116-024 |        |        |        |        |        | AAM481 |        |        |        | AAN358 |        |        | AAO472 |        |        |        | AAQ302 |
 | PRD-63116-027 |        |        |        |        |        |        |        | AAN057 |        |        |        |        | AAO472 |        | AAP638 |        |        |
+| PRD-63116-029 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
 | PRD-63116-033 |        |        |        |        |        | AAM481 |        |        |        |        |        |        | AAO472 |        | AAP638 |        | AAQ302 |
 | PRD-63116-036 |        |        |        |        |        |        |        |        |        |        |        | AAN596 |        | AAO750 |        |        |        |
-| PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        | ?????? |        |        |        |        |
+| PRD-63116-039 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
+| PRD-63116-040 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
 | PRD-63116-041 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |        |        | AAQ302 |
 | PRD-63116-042 |        |        |        |        |        |        |        |        |        | AAN358 |        |        | AAO472 |        |        |        | AAQ302 |
 | PRD-63116-043 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
+| PRD-63116-044 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
 | PRD-63116-047 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
 | PRD-63116-051 |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | AAQ302 |
 {: .freeze-first-col}
@@ -60,15 +63,16 @@ BBB100-2 (PRD-63117) firmwares
 ==============================
 
 | PRD-63117-003 | AAK624 | AAK879 | AAL093 | AAL682 | AAM481 |        | AAO472 |        |        |
-| PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |        |        |
-| PRD-63117-015 |        | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 |        |        |
+| PRD-63117-011 | AAK624 | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 | AAP638 |        |
+| PRD-63117-015 |        | AAK879 |        | AAL682 | AAM481 | AAN358 | AAO472 | AAP638 |        |
 | PRD-63117-017 |        |        |        |        |        | AAN358 |        |        |        |
 | PRD-63117-019 |        |        |        |        | AAM481 | AAN358 | AAO472 | AAP638 |        |
+| PRD-63117-021 |        |        |        |        |        |        | AAO472 |        |        |
 | PRD-63117-023 |        | AAK879 |        |        | AAM481 | AAN358 |        |        |        |
 | PRD-63117-025 |        |        |        | AAL682 |        | AAN358 | AAO472 |        |        |
 | PRD-63117-027 |        | AAK879 |        |        | AAM481 | AAN358 |        |        |        |
 | PRD-63117-028 |        | AAK879 |        |        | AAM481 | AAN358 |        |        |        |
-| PRD-63117-029 |        |        |        | AAL682 | AAM481 | AAN358 | AAO472 |        |        |
+| PRD-63117-029 |        |        |        | AAL682 | AAM481 | AAN358 | AAO472 | AAP638 |        |
 | PRD-63117-034 |        |        |        |        |        | AAN358 | AAO472 | AAP638 | AAQ302 |
 | PRD-63117-035 |        |        |        |        |        | AAN358 | AAO472 |        |        |
 | PRD-63117-036 |        |        |        |        |        | AAN358 | AAO472 |        |        |
@@ -77,6 +81,7 @@ BBB100-2 (PRD-63117) firmwares
 | PRD-63117-040 |        |        |        |        |        | AAN358 |        |        |        |
 | PRD-63117-041 |        | AAK879 |        |        | AAM481 | AAN358 | AAO472 |        |        |
 | PRD-63117-042 |        |        |        |        |        | AAN358 |        |        |        |
+| PRD-63117-044 |        |        |        |        |        |        |        | AAP638 |        |
 {: .freeze-first-col}
 
 
