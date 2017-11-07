@@ -3,7 +3,7 @@ title: BlackBerry KEYone variant's OTA updates
 layout: default
 language: en
 created: 2017-09-17 20:35:18 +0200
-updated: 2017-11-03 23:31:08 +0100
+updated: 2017-11-07 12:17:05 +0100
 toc: false
 tags:
   - know-how
@@ -104,9 +104,9 @@ Other KEYone firmwares
 BBD100 (Motion) firmwares
 =========================
 
-| PRD-63737-003 |        | AAQ091 |        |        |
-| PRD-63737-007 |        | AAQ091 |        |        |
-| PRD-63737-009 |        | AAQ091 |        |        |
+| PRD-63737-003 |        | AAQ091 |        | AAQ667 |
+| PRD-63737-007 |        | AAQ091 |        | AAQ667 |
+| PRD-63737-009 |        | AAQ091 |        | AAQ667 |
 | PRD-63739-009 | AAP794 |        |        |        |
 | PRD-63739-010 | AAP794 |        |        |        |
 | PRD-63753-002 |        |        | AAQ236 | AAQ667 |
