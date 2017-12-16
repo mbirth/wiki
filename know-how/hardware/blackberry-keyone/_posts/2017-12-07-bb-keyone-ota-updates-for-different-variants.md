@@ -3,7 +3,7 @@ title: BlackBerry KEYone OTA updates for different variants
 layout: default
 language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-09-17 20:49:36 +0200
+updated: 2017-12-17 00:19:07 +0100
 toc: false
 tags:
   - know-how
@@ -14,6 +14,15 @@ tags:
   - updates
   - firmware
 ---
+<p><div class="notewarning" markdown="1">
+BlackBerry/TCL has disabled the described method of gaining access to the advanced features of the
+Updates app in the firmware versions of October 2017 and later. However, there's a way to still get
+access using the [Janus vulnerability](http://www.androidpolice.com/2017/12/08/janus-vulnerability-allows-attackers-modify-apks-without-changing-signature-apkmirror-already-protected/)
+and installing an older or patched version of the updater. But this, too, will be gone after the
+December 2017 update.
+</div></p>
+
+
 Variants and update situation
 =============================
 
@@ -132,7 +141,7 @@ which I rewrote and improved. My version can be found here:
 
 <https://github.com/mbirth/tcl_ota_check>
 
-For convenience, I put up a matrix [here]({% post_url 2017-11-30-bb-keyone-variants-ota-matrix %}).
+For convenience, I put up a matrix [here](https://tclota.birth-online.de/).
 
 Let's say we have a UK BBB100-2. The PRD would be PRD-63117-003 and as of September 2017, we'd run
 firmware version `AAM481`. However, that's the July patch, not the September patch.
@@ -142,6 +151,17 @@ But we can see from the matrix, that other variants already got the August patch
 version `AAM481`. So we have to get our device to `AAN358` first to be able to patch it to
 `AAO472`. For that, we can use any variant that has our current version `AAM481` and `AAN358`, e.g.
 `PRD-63117-011`.
+
+<p><div class="noteimportant" markdown="1">
+Note that firmwares are only compatible between the same model. So when trying to update a device
+from version `AAL093`, make sure to emulate the correct model. If you have the BBB100-1, you have
+to use `PRD-63116-001`. If you have the BBB100-2, use `PRD-63117-003`.
+
+For other BBB100 models, make sure the 5 digits in the middle of the PRD number match.
+
+However, since the OTA updates check the device before installing, there should be no risk of
+bricking your device should you manage to download the wrong update.
+</div></p>
 
 
 Doing the actual update
@@ -166,7 +186,7 @@ Your phone will reboot and install the update. It'll boot up to the new version.
 <p><div class="notetip" markdown="1">
 In the case of the `PRD-63117-003` variant and assuming a time of mid-September 2017, the just
 installed `AAN358` isn't the latest version for this model. There's a newer `AAO472` version
-available as you can see from the [matrix]({% post_url 2017-11-30-bb-keyone-variants-ota-matrix %}).
+available as you can see from the [matrix](https://tclota.birth-online.de/).
 But only the variant `PRD-63117-034` is currently getting the OTA update to `AAO472`. Enter that
 into the *Emulated CU Reference* field in the *Updates* app, change the *Emulated current version*
 to the just installed `AAN358` and tap <kbd>START TEST</kbd> again. It'll show the second update
