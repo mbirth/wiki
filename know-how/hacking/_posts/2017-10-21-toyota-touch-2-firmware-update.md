@@ -53,20 +53,25 @@ The Update
 1. Turn on the ignition (Don't start the car.)
 1. Wait until the radio screen comes on
 1. Remove all USB sticks and/or CDs from your headunit
-1. Press and hold the <kbd>MEDIA</kbd> key and while holding it, turn on and off the low beams
-   3 times in a row. A service menu should appear. Let go of the <kbd>MEDIA</kbd> button now.
+1. Press and hold the <kbd>MEDIA</kbd> (might be a <kbd>♬</kbd>) button and while holding it,
+   turn on and off the low beams 3 times in a row. A service menu should appear. Let go of the
+   <kbd>MEDIA</kbd> button now.
+   ![]({{ site.url }}/assets/toyota-touch-2-service-menu.jpg)
 1. Tap on "Service Information".
 1. Tap on "Program Update".
 1. Connect the USB stick with the firmware file.
 1. Tap on "OK". A message about a detected update media should appear.
 1. Tap "OK" again. A screen "ECU Selection" with only one entry should appear.
+   ![]({{ site.url }}/assets/toyota-touch-2-ecu-selection.jpg)
 1. Tap "Select" for the one entry.
 1. To start the actual update, tap "OK".
 1. **WAIT!** Until the blue bar fills up and **turns green**.
+   ![]({{ site.url }}/assets/toyota-touch-2-transfer-complete.jpg)
 1. Tap "OK".
-1. With leaving the USB stick plugged in and not touching anything else: Turn off the ignition.
-1. Turn on the ignition again. (Don't start the car.)
+1. Leaving the USB stick plugged in and not touching anything else: Turn off the ignition.
+1. Turn on the ignition again, USB still plugged. (Don't start the car.)
 1. Wait until the radio screen comes on (might take a little longer this time).
+   ![]({{ site.url }}/assets/toyota-touch-2-update-progress.jpg)
 1. Remove the USB stick.
 1. Turn off the ignition.
 1. **WAIT** for about 30 seconds or more. (I was able to hear the device's fan turning off after
