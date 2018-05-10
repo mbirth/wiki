@@ -1,4 +1,4 @@
-Sitemap: http://wiki.mbirth.de/sitemap.xml
+Sitemap: https://wiki.mbirth.de/sitemap.xml
 
 User-agent: *
 Disallow:
