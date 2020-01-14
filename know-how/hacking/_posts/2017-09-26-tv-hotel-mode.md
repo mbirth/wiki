@@ -26,3 +26,13 @@ LG
 1. Press <kbd>OK</kbd>
 
 (If your remote doesn't have a <kbd>Settings</kbd> button, try <kbd>Menu</kbd> or <kbd>HOME</kbd>.)
+
+
+Philips 26HFL5870D and similar
+==============================
+
+(Only works if TV is in "Standard" security mode.)
+
+1. Press the following keys in sequence:
+
+   <kbd>3</kbd> <kbd>1</kbd> <kbd>9</kbd> <kbd>7</kbd> <kbd>5</kbd> <kbd>3</kbd> <kbd>MUTE</kbd>
