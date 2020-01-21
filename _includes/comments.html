@@ -1,7 +1,6 @@
 <ul id="comments-tabs">
     <li class="static"><strong>Comments:</strong></li>
     <li data-service="disqus" data-div="comments_disqus">Disqus</li>
-    <li data-service="google" data-div="comments_google">Google+</li>
     <li data-service="spotim" data-div="comments_spotim">spot.im</li>
     <li class="hint static">(Click to enable.)</li>
 </ul>
@@ -17,16 +16,10 @@
     </script>
 </div>
 
-<div id="comments_google" class="comments-tab">
-    <div class="g-comments" data-href="{{ site.url }}{{ page.url }}" data-width="868" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ comments…</div>
-</div>
-
 <div id="comments_spotim" class="comments-tab">
-    <div id="spot-im-frame-inpage" data-post-id="{% if page.id %}{{ page.id }}{% else %}/index{% endif %}"></div>
+    <div id="spot-im-frame-inpage" data-spotim-module="recirculation" data-spot-id="sp_cNwZLN9Q"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES * * */
-        window.SPOTIM = {
-            spotId: 'sp_cNwZLN9Q'
-        };
+        var spotim_postid = '{% if page.id %}{{ page.id }}{% else %}/index{% endif %}';
     </script>
 </div>
