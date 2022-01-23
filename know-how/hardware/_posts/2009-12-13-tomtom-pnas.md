@@ -1,15 +1,18 @@
 ---
-title: TomTom PNAs
-layout: default
 created: 2009-06-01 13:23:00 +0200
-updated: 2009-12-13 02:28:10 +0100
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/01/tomtom-pnas.html
 tags:
-  - know-how
-  - hardware
-  - tomtom
-  - navigation
+- know-how
+- hardware
+- tomtom
+- navigation
+title: TomTom PNAs
+toc: true
+updated: 2009-12-13 02:28:10 +0100
 ---
+
 **Homepage:** [tomtom.com](http://www.tomtom.com/)
 
 Custom Firmware

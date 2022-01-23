@@ -1,16 +1,19 @@
 ---
-title: WiFi on bootup with guessnet
-layout: default
 created: 2008-11-15 18:32:48 +0100
-updated: 2009-07-17 23:10:31 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/11/15/wifi-on-bootup-with-guessnet.html
 tags:
-  - know-how
-  - software
-  - linux
-  - networking
-  - wifi
+- know-how
+- software
+- linux
+- networking
+- wifi
+title: WiFi on bootup with guessnet
+toc: false
+updated: 2009-07-17 23:10:31 +0200
 ---
+
 Install the [guessnet](apt://guessnet) package. This will install the `guessnet-ifupdown` helper tool.
 
 Now edit your `/etc/network/interfaces` file and add the following lines:

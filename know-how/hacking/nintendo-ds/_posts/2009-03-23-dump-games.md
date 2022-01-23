@@ -1,17 +1,20 @@
 ---
-title: Dump Games
-language: en
-layout: default
 created: 2009-03-15 14:41:43 +0100
-updated: 2009-03-23 01:04:47 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/15/dump-games.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - gaming
+- know-how
+- hacking
+- hardware
+- nintendo
+- gaming
+title: Dump Games
+toc: false
+updated: 2009-03-23 01:04:47 +0100
 ---
+
 Dumping game cartridges is done the same way like [dumping savegames]({% post_url 2009-03-15-backup-savegames %}).
 
 

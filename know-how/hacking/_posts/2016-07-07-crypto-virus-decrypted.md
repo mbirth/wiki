@@ -1,17 +1,20 @@
 ---
-title: Crypto-Virus decrypted
-language: en
-layout: default
 created: 2016-07-08 15:41:41 +0200
-updated: 2016-07-08 15:41:41 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/07/08/crypto-virus-decrypted.html
 tags:
-  - know-how
-  - hacking
-  - virus
-  - cryptovirus
-  - cryptor
+- know-how
+- hacking
+- virus
+- cryptovirus
+- cryptor
+title: Crypto-Virus decrypted
+toc: false
+updated: 2016-07-08 15:41:41 +0200
 ---
+
 A friend received the following mail from (supposedly) **FedEx International**:
 
 ![]({{ site.url }}/assets/cryptovirusmail.png)

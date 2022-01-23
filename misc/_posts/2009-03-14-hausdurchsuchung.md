@@ -1,14 +1,17 @@
 ---
-title: Hausdurchsuchungen
-language: de
-layout: default
 created: 2009-03-14 00:57:26 +0100
-updated: 2009-03-14 10:30:06 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/14/hausdurchsuchungen-de.html
 tags:
-  - miscellaneous
-  - law
+- miscellaneous
+- law
+title: Hausdurchsuchungen
+toc: false
+updated: 2009-03-14 10:30:06 +0100
 ---
+
 Schon vor Jahren bin ich über einen Artikel über Hausdurchsuchungen bei [gulli](http://www.gulli.com/szene/razzia-amp-co/hausdurchsuchung/)
 gestoßen und fand diesen sehr interessant, weil wohl 99% der Bevölkerung nicht wissen, was erlaubt ist und was nicht
 und demnach sämtliche Fehler begehen würden, die man da so machen kann. Der auch dort zu findende [Erfahrungsbericht](http://www.gulli.com/szene/razzia-amp-co/razzia/)

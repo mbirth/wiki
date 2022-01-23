@@ -1,14 +1,17 @@
 ---
-title: Moneyplex
-layout: default
 created: 2009-03-05 23:44:43 +0100
-updated: 2009-03-05 23:44:43 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/05/moneyplex.html
 tags:
-  - know-how
-  - software
-  - money
+- know-how
+- software
+- money
+title: Moneyplex
+toc: false
+updated: 2009-03-05 23:44:43 +0100
 ---
+
 * **Homepage:** [matrica.de](http://www.matrica.de/)
 
 Moneyplex is an online banking application especially for the German HBCI banking system.

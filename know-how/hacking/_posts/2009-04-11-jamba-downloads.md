@@ -1,16 +1,19 @@
 ---
-title: Jamba Downloads
-language: de
-layout: default
 created: 2009-04-11 22:06:49 +0200
-updated: 2009-04-11 22:06:49 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/11/jamba-downloads-de.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - jamba
+- know-how
+- hacking
+- hardware
+- jamba
+title: Jamba Downloads
+toc: false
+updated: 2009-04-11 22:06:49 +0200
 ---
+
 Vor etlicher Zeit hatte ich mal 100,- € Guthaben bei Jamba gewonnen. Beim Versuch, ein Programm auf mein Samsung Z300
 zu laden (das Z300 gibt's bei Jamba nur unter der T-Mobile-Bezeichnung *ZM60*), zeigte mir Jamba, dass mein Handy
 angeblich keine Software downloaden könne. Der kleinere Bruder, das Z500, hingegen unterstützt das merkwürdigerweise.

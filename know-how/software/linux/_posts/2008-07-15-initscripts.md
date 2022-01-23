@@ -1,17 +1,20 @@
 ---
-title: event.d/init.d script
-layout: default
 created: 2008-07-15 23:49:48 +0200
-updated: 2008-07-15 23:49:48 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/event.dinit.d-script.html
 tags:
-  - know-how
-  - software
-  - linux
-  - system
-  - initd
-  - boot
+- know-how
+- software
+- linux
+- system
+- initd
+- boot
+title: event.d/init.d script
+toc: false
+updated: 2008-07-15 23:49:48 +0200
 ---
+
 event.d script
 ==============
 

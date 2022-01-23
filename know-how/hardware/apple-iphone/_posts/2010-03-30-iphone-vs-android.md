@@ -1,17 +1,20 @@
 ---
-title: iPhone vs. Android
-layout: default
 created: 2010-03-07 12:06:49 +0100
-updated: 2010-03-30 13:22:47 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/03/07/iphone-vs.-android.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - android
-  - comparison
+- know-how
+- hardware
+- apple
+- iphone
+- android
+- comparison
+title: iPhone vs. Android
+toc: false
+updated: 2010-03-30 13:22:47 +0200
 ---
+
 |                 iPhone                    |                     Android (esp. Nexus One)                  |
 |:------------------------------------------|:--------------------------------------------------------------|
 | It's from *Apple*.                        | It's **NOT** from *Apple*. (or: It's from *Google*.)  |

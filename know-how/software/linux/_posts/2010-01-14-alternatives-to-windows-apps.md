@@ -1,16 +1,19 @@
 ---
-title: Alternatives to Windows applications
-layout: default
 created: 2009-01-05 22:42:10 +0100
-updated: 2010-01-14 12:32:40 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/05/alternatives-to-windows-applications.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - applications
+- know-how
+- software
+- linux
+- software
+- applications
+title: Alternatives to Windows applications
+toc: false
+updated: 2010-01-14 12:32:40 +0100
 ---
+
 | Windows application(s)                       | Linux equivalent(s)                       |
 |:---------------------------------------------|:------------------------------------------|
 | [Adobe Photoshop](http://www.adobe.com/products/photoshop/)     | [GIMP](http://www.gimp.org/)   |

@@ -1,16 +1,19 @@
 ---
-title: apt-cacher(-ng)
-layout: default
 created: 2009-10-12 23:30:40 +0200
-updated: 2010-05-01 13:57:04 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/10/12/apt-cacher-ng.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - apt
+- know-how
+- software
+- linux
+- software
+- apt
+title: apt-cacher(-ng)
+toc: false
+updated: 2010-05-01 13:57:04 +0200
 ---
+
 [apt-cacher](apt://apt-cacher) and [apt-cacher-ng](apt://apt-cacher-ng) both act as a proxy between `apt-get` or
 `aptitude` and the Debian repositories. It stores the packages upon first request and loads them from cache on further
 ones. If you have 2 or more Ubuntu PCs in your network, you can save a massive amount of bandwidth with it.

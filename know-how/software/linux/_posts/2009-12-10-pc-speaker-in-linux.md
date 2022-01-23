@@ -1,15 +1,18 @@
 ---
-title: PC Speaker in Linux
-layout: default
 created: 2009-12-10 19:17:02 +0100
-updated: 2009-12-10 19:17:02 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/12/10/pc-speaker-in-linux.html
 tags:
-  - know-how
-  - software
-  - linux
-  - sound
+- know-how
+- software
+- linux
+- sound
+title: PC Speaker in Linux
+toc: false
+updated: 2009-12-10 19:17:02 +0100
 ---
+
 Enable in Ubuntu
 ================
 

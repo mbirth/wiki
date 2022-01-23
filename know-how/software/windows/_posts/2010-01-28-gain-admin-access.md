@@ -1,15 +1,18 @@
 ---
-title: Gain Admin Access
-layout: default
 created: 2010-01-28 19:40:15 +0100
-updated: 2010-01-28 20:24:21 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/01/28/gain-admin-access.html
 tags:
-  - know-how
-  - software
-  - windows
-  - hacking
+- know-how
+- software
+- windows
+- hacking
+title: Gain Admin Access
+toc: false
+updated: 2010-01-28 20:24:21 +0100
 ---
+
 To get access to a Windows PC as an *Administrator* user, there is a very brute security hole which you can use. The
 only thing is: You need physical access to the machine.
 

@@ -1,15 +1,18 @@
 ---
-title: Flashing HTC devices from Linux
-layout: default
 created: 2008-09-13 00:47:08 +0200
-updated: 2008-09-13 00:47:08 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/13/flashing-htc-devices-from-linux.html
 tags:
-  - know-how
-  - software
-  - windows-mobile
-  - linux
+- know-how
+- software
+- windows-mobile
+- linux
+title: Flashing HTC devices from Linux
+toc: false
+updated: 2008-09-13 00:47:08 +0200
 ---
+
 To flash HTC devices under Linux, there is the [HTCFlasher](http://code.google.com/p/htc-flasher/) tool.
 
 You might be missing the `/dev/ttyUSB0` device in recent Ubuntu installations. To fix this, use `lsusb` and look for

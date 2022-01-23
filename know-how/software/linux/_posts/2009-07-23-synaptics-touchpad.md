@@ -1,14 +1,17 @@
 ---
-title: Synaptics Touchpad
-layout: default
 created: 2009-02-28 01:36:04 +0100
-updated: 2009-07-23 12:45:13 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/28/synaptics-touchpad.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Synaptics Touchpad
+toc: false
+updated: 2009-07-23 12:45:13 +0200
 ---
+
 To use features like *circular scrolling*[^1] of a Synaptics touchpad, you need to add the following lines to
 your `/etc/X11/xorg.conf`:
 

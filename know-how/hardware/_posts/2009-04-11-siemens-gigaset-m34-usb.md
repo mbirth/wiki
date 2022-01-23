@@ -1,16 +1,19 @@
 ---
-title: SIEMENS Gigaset M34 USB
-language: de
-layout: default
 created: 2009-04-11 23:12:19 +0200
-updated: 2009-04-11 23:12:19 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/11/siemens-gigaset-m34-usb-de.html
 tags:
-  - know-how
-  - hardware
-  - siemens
-  - gigaset
+- know-how
+- hardware
+- siemens
+- gigaset
+title: SIEMENS Gigaset M34 USB
+toc: false
+updated: 2009-04-11 23:12:19 +0200
 ---
+
 Der [Gigaset M34 USB](http://gigaset.siemens.com/shc/0,1935,de_de_0_69566_rArNrNrNrN,00.html)-DECT-Adapter von
 SIEMENS funktionierte von meinen getesteten Basisstationen nur an der *Gigaset SX440isdn* in vollem Umfang. An der
 *Gigaset SLX740isdn* funktioniert er nur als drahtlose ISDN-Karte und an der *Gigaset SL100* nur als VoIP-Telefon.

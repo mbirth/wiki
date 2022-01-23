@@ -1,16 +1,19 @@
 ---
-title: Loewe Concept Plus
-language: de
-layout: default
 created: 2009-11-06 21:46:28 +0100
-updated: 2009-11-06 21:46:28 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/11/06/loewe-concept-plus-de.html
 tags:
-  - know-how
-  - hardware
-  - loewe
-  - tv
+- know-how
+- hardware
+- loewe
+- tv
+title: Loewe Concept Plus
+toc: false
+updated: 2009-11-06 21:46:28 +0100
 ---
+
 AV1 und AV2 gleichzeitig
 ========================
 

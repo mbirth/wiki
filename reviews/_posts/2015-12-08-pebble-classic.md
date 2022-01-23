@@ -1,16 +1,19 @@
 ---
-title: "[Review] Pebble Classic"
-language: de
-layout: default
 created: 2015-12-08 11:16:52 +0100
-updated: 2015-12-08 11:16:52 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2015/12/08/review-pebble-classic-de.html
 tags:
-  - review
-  - pebble
-  - smartwatch
-  - classic
+- review
+- pebble
+- smartwatch
+- classic
+title: '[Review] Pebble Classic'
+toc: false
+updated: 2015-12-08 11:16:52 +0100
 ---
+
 Am Black Friday hat Amazon die "alte" **Pebble** für 65,- € raus gehauen. Für
 das Geld konnte man nichts falsch machen. Nachdem meine bessere Hälfte dann eine
 Woche lang den "Klotz" (im Vergleich zu ihren Armen) getragen und die Vorzüge

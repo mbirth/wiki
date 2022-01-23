@@ -1,16 +1,19 @@
 ---
-title: apt-get Errors
-layout: default
 created: 2009-01-21 21:30:24 +0100
-updated: 2009-01-24 17:34:46 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/21/apt-get-errors.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - apt
+- know-how
+- software
+- linux
+- software
+- apt
+title: apt-get Errors
+toc: false
+updated: 2009-01-24 17:34:46 +0100
 ---
+
 If you get the following error while updating the package list:
 
     W: GPG error: http://ppa.launchpad.net jaunty Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 632D16BB0C713DA6

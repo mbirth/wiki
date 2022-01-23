@@ -1,14 +1,17 @@
 ---
-title: mail-notification
-layout: default
 created: 2009-04-10 23:34:36 +0200
-updated: 2009-04-10 23:34:36 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/10/mail-notification.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: mail-notification
+toc: false
+updated: 2009-04-10 23:34:36 +0200
 ---
+
 Keyring error
 =============
 

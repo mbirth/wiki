@@ -1,15 +1,18 @@
 ---
-title: Swing apps show garbled backgrounds
-language: en
-layout: default
 created: 2008-07-15 00:21:03 +0200
-updated: 2008-07-15 00:21:03 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/swing-apps-show-garbled-backgrounds.html
 tags:
-  - know-how
-  - software
-  - java
+- know-how
+- software
+- java
+title: Swing apps show garbled backgrounds
+toc: false
+updated: 2008-07-15 00:21:03 +0200
 ---
+
 This may have to do with a damaged OpenGL pipeline. Play around with the following parameters:
 
 * `--Dsun.java2d.opengl==true|false`

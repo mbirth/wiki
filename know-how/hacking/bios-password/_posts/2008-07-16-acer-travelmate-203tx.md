@@ -1,18 +1,21 @@
 ---
-title: Acer TravelMate 203TX
-language: de
-layout: default
 created: 2008-07-16 08:29:10 +0200
-updated: 2008-07-16 08:29:10 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/16/acer-travelmate-203tx-de.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - acer
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- acer
+title: Acer TravelMate 203TX
+toc: false
+updated: 2008-07-16 08:29:10 +0200
 ---
+
 1. Öffne die Klappe.  
    Hier siehst Du die "Schultern", das QuickAccess-Panel und die Tastatur:  
    ![]({{ site.url }}/assets/acer203tx1.jpg)

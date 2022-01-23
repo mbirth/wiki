@@ -1,14 +1,17 @@
 ---
-title: Resize partition
-layout: default
 created: 2013-12-16 14:16:31 +0100
-updated: 2014-02-10 09:09:32 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2013/12/16/resize-partition.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Resize partition
+toc: false
+updated: 2014-02-10 09:09:32 +0100
 ---
+
 Detect new disk size
 ====================
 

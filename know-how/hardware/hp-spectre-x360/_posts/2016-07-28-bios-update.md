@@ -1,18 +1,21 @@
 ---
-title: hp Spectre x360 BIOS Update
-language: en
-layout: default
 created: 2016-07-28 02:30:21 +0200
-updated: 2016-07-28 02:30:21 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/07/28/hp-spectre-x360-bios-update.html
 tags:
-  - know-how
-  - hardware
-  - hp
-  - spectre
-  - bios
-  - update
+- know-how
+- hardware
+- hp
+- spectre
+- bios
+- update
+title: hp Spectre x360 BIOS Update
+toc: false
+updated: 2016-07-28 02:30:21 +0200
 ---
+
 BIOS updates are actually done via the hidden `HP_TOOLS` service partition which
 you can get to by pressing <kbd>F2</kbd> after switching on the notebook or from
 the *Startup Menu*. The update you download from the hp service page merely

@@ -1,16 +1,19 @@
 ---
-title: Tools I should use more often
-language: en
-layout: default
 created: 2016-04-08 22:38:47 +0200
-updated: 2016-10-30 12:36:59 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/04/08/tools-i-should-use-more-often.html
 tags:
-  - know-how
-  - development
-  - tools
-  - helpers
+- know-how
+- development
+- tools
+- helpers
+title: Tools I should use more often
+toc: false
+updated: 2016-10-30 12:36:59 +0100
 ---
+
 I often come across useful little tools where I think, I should try them later.
 But this "later" never happens…
 

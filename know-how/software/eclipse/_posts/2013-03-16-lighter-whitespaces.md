@@ -1,15 +1,18 @@
 ---
-title: Lighten up whitespace characters
-language: en
-layout: default
 created: 2008-07-15 00:18:52 +0200
-updated: 2013-03-16 17:26:35 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/lighten-up-whitespace-characters.html
 tags:
-  - know-how
-  - software
-  - ezpublish
+- know-how
+- software
+- ezpublish
+title: Lighten up whitespace characters
+toc: false
+updated: 2013-03-16 17:26:35 +0100
 ---
+
 If you enable the checkbox *Show whitespace characters* under General → Editors → Text Editors, the characters are a
 bit too offensive. Sadly, there's no option to change the transparency of them. The default (and fixed) value is
 `64h`/`FFh` = `100d`/`255d` (ca. 40% visible / 60% transparency). You can only change the value using a hex-editor:

@@ -1,14 +1,16 @@
 ---
-title: SheevaPlug / GuruPlug
-layout: default
 created: 2009-09-29 15:04:58 +0200
-updated: 2010-02-24 00:56:29 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/09/29/sheevaplug-guruplug.html
 tags:
-  - know-how
-  - hardware
-  - sheevaplug
-  - guruplug
+- know-how
+- hardware
+- sheevaplug
+- guruplug
+title: SheevaPlug / GuruPlug
+toc: false
+updated: 2010-02-24 00:56:29 +0100
 ---
 
 * [marvell.com](http://www.marvell.com/products/embedded_processors/developer/kirkwood/sheevaplug.jsp) - Manufacturer of the SheevaPlug

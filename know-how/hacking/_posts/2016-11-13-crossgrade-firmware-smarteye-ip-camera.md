@@ -1,19 +1,22 @@
 ---
-title: Crossgrade firmware in SmartEye IP camera
-language: en
-layout: default
 created: 2016-11-13 23:31:43 +0100
-updated: 2016-11-13 23:31:43 +0100
-toc: true
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/11/13/crossgrade-firmware-in-smarteye-ip-camera.html
 tags:
-  - know-how
-  - hacking
-  - firmware
-  - ip-camera
-  - smarteye
-  - wansview
-  - instar
+- know-how
+- hacking
+- firmware
+- ip-camera
+- smarteye
+- wansview
+- instar
+title: Crossgrade firmware in SmartEye IP camera
+toc: true
+updated: 2016-11-13 23:31:43 +0100
 ---
+
 A few years ago, I got a [Wansview](http://www.wansview.com/) NCH-536MW IP
 camera. That was one of the first 720p cameras with night-vision, motion and
 all features you could wish for.

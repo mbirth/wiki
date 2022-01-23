@@ -1,16 +1,19 @@
 ---
-title: No sound in Flash videos
-layout: default
 created: 2009-11-27 14:27:24 +0100
-updated: 2010-02-12 22:22:35 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/11/27/no-sound-in-flash-videos.html
 tags:
-  - know-how
-  - software
-  - linux
-  - flash
-  - sound
+- know-how
+- software
+- linux
+- flash
+- sound
+title: No sound in Flash videos
+toc: false
+updated: 2010-02-12 22:22:35 +0100
 ---
+
 If you have no sound in Flash videos but in all other programs, there are two possibilities:
 
 1. the PCM output is set to silence

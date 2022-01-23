@@ -1,16 +1,19 @@
 ---
-title: Evoluent Vertical Mouse 3
-layout: default
 created: 2009-02-09 17:50:56 +0100
-updated: 2009-02-10 00:01:22 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/09/evoluent-vertical-mouse-3.html
 tags:
-  - know-how
-  - hardware
-  - evoluent
-  - verticalmouse
-  - mouse
+- know-how
+- hardware
+- evoluent
+- verticalmouse
+- mouse
+title: Evoluent Vertical Mouse 3
+toc: false
+updated: 2009-02-10 00:01:22 +0100
 ---
+
 ![Evoluent Vertical Mouse 3]({{ site.url }}/assets/vm3_sm.jpg)
 
   * **Homepage:** [evoluent.com](http://www.evoluent.com/vm3.html)

@@ -1,18 +1,21 @@
 ---
-title: IBM ThinkPad series
-layout: default
 created: 2008-07-21 19:50:40 +0200
-updated: 2008-07-21 19:50:40 +0200
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/21/ibm-thinkpad-series.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - ibm
-  - thinkpad
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- ibm
+- thinkpad
+title: IBM ThinkPad series
+toc: true
+updated: 2008-07-21 19:50:40 +0200
 ---
+
 Please also see [this homepage](http://www.ja.axxs.net/unlock/) for more information regarding removing passwords from
 IBM ThinkPads.
 

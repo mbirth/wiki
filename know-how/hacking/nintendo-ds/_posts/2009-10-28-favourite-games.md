@@ -1,17 +1,20 @@
 ---
-title: Favourite NDS Games
-language: en
-layout: default
 created: 2009-03-23 00:34:05 +0100
-updated: 2009-10-28 02:04:10 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/23/favourite-nds-games.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - gaming
+- know-how
+- hacking
+- hardware
+- nintendo
+- gaming
+title: Favourite NDS Games
+toc: false
+updated: 2009-10-28 02:04:10 +0100
 ---
+
 Here's a list of my favorite games:
 
 | Game           |   Genre   | Comment                        |

@@ -1,15 +1,18 @@
 ---
-title: Duplicate files in /data/app-asec/
-language: en
-layout: default
 created: 2012-11-11 00:29:15 +0100
-updated: 2012-11-11 00:29:29 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2012/11/11/duplicate-files-in-dataapp-asec.html
 tags:
-  - know-how
-  - software
-  - android
+- know-how
+- software
+- android
+title: Duplicate files in /data/app-asec/
+toc: false
+updated: 2012-11-11 00:29:29 +0100
 ---
+
 On Jelly Bean, using FX with root, I noticed duplicate files in /data/app-asec/, e.g.:
 
 * `com.disney.WMW-1.asec` (56,9 MB)

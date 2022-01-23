@@ -1,15 +1,18 @@
 ---
-title: LightScribe in Linux
-layout: default
 created: 2008-12-06 12:31:38 +0100
-updated: 2009-12-31 10:58:11 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/06/lightscribe-in-linux.html
 tags:
-  - know-how
-  - software
-  - linux
-  - lightscribe
+- know-how
+- software
+- linux
+- lightscribe
+title: LightScribe in Linux
+toc: false
+updated: 2009-12-31 10:58:11 +0100
 ---
+
 To burn/print lightscribe media under Linux, you need two things:
 
 * the [LightScribe System Software](http://www.lightscribe.com/downloadSection/linux/index.aspx)

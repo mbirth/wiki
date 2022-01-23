@@ -1,16 +1,19 @@
 ---
-title: VirtualBox
-layout: default
 created: 2009-01-04 15:50:17 +0100
-updated: 2009-07-17 23:14:13 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/04/virtualbox.html
 tags:
-  - know-how
-  - software
-  - virtualisation
-  - oracle
-  - virtualbox
+- know-how
+- software
+- virtualisation
+- oracle
+- virtualbox
+title: VirtualBox
+toc: false
+updated: 2009-07-17 23:14:13 +0200
 ---
+
 Compacting a disk image
 =======================
 

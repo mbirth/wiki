@@ -1,16 +1,18 @@
 ---
-title: Stardom SOHORAID SR3610
-layout: default
 created: 2012-08-20 21:27:36 +0200
-updated: 2012-08-20 22:27:38 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2012/08/20/stardom-sohoraid-sr3610.html
 tags:
-  - know-how
-  - hardware
-  - stardom
-  - sohoraid
-  - raid
-  - sr3610
+- know-how
+- hardware
+- stardom
+- sohoraid
+- raid
+- sr3610
+title: Stardom SOHORAID SR3610
+toc: false
+updated: 2012-08-20 22:27:38 +0200
 ---
 
 <img src="{{ site.url }}/assets/sohoraid_sr3610.jpg" alt="Stardom SOHORAID SR3610" height="250" />

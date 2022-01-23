@@ -1,16 +1,19 @@
 ---
-title: SanDisk Sansa FUZE
-layout: default
 created: 2008-12-31 00:04:38 +0100
-updated: 2009-10-15 09:30:10 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/31/sandisk-sansa-fuze.html
 tags:
-  - know-how
-  - hardware
-  - sandisk
-  - sansa
-  - fuze
+- know-how
+- hardware
+- sandisk
+- sansa
+- fuze
+title: SanDisk Sansa FUZE
+toc: false
+updated: 2009-10-15 09:30:10 +0200
 ---
+
 ![]({{ site.url }}/assets/sansa_fuze_image_01.png)
 
   * **Beginner's Guide to Sansa Players:** [ubuntuforums.org](http://ubuntuforums.org/showthread.php?t=312196)

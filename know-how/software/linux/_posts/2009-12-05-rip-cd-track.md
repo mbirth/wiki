@@ -1,14 +1,17 @@
 ---
-title: Rip CD Track
-layout: default
 created: 2009-02-16 22:24:06 +0100
-updated: 2009-12-05 00:46:23 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/16/rip-cd-track.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Rip CD Track
+toc: false
+updated: 2009-12-05 00:46:23 +0100
 ---
+
 The default tool for CD ripping under Gnome is *Sound Juicer*, found under *Applications* → *Sound & Video* →
 *Audio CD Extractor*. But this tool had severe problems recognizing my custom configuration for LAME encoding (I
 changed `vbr-quality` from `6` to `2` but the tool ignored it) also you had to restart it for every configuration

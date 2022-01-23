@@ -1,14 +1,17 @@
 ---
-title: Windows License keys
-layout: default
 created: 2008-08-11 01:23:00 +0200
-updated: 2009-06-05 12:33:39 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/11/windows-license-keys.html
 tags:
-  - know-how
-  - software
-  - windows
+- know-how
+- software
+- windows
+title: Windows License keys
+toc: false
+updated: 2009-06-05 12:33:39 +0200
 ---
+
 At [My Digital Life](http://www.mydigitallife.info/2007/04/24/search-for-genuine-and-free-windows-product-keys-online-with-google/)
 you can read about [Belarc Advisor](http://www.belarc.com/free_download.html) spreading Windows license keys. Advisor
 is a system profiler which also includes the Windows key in its reports. Users posting them to the Internet also

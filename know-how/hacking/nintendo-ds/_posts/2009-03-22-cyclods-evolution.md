@@ -1,17 +1,20 @@
 ---
-title: CycloDS Evolution
-language: en
-layout: default
 created: 2009-03-10 01:04:17 +0100
-updated: 2009-03-22 13:01:57 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/10/cyclods-evolution.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - gaming
+- know-how
+- hacking
+- hardware
+- nintendo
+- gaming
+title: CycloDS Evolution
+toc: false
+updated: 2009-03-22 13:01:57 +0100
 ---
+
 <img src="{{ site.url }}/assets/cyclodsevo.jpg" alt="" width="200" />
 
 * **Homepage:** [cyclopsds.com](http://www.cyclopsds.com/)

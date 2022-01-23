@@ -1,14 +1,17 @@
 ---
-title: Schwyzerdütsch extrem
-language: de
-layout: default
 created: 2010-01-24 21:49:01 +0100
-updated: 2010-01-24 21:49:16 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/01/24/schwyzerduetsch-extrem-de.html
 tags:
-  - miscellaneous
-  - languages
+- miscellaneous
+- languages
+title: Schwyzerdütsch extrem
+toc: false
+updated: 2010-01-24 21:49:16 +0100
 ---
+
 [Schweizerdeutsch](http://de.wikipedia.org/wiki/Schweizerdeutsch) ist ein Dialekt (obwohl sich die Schweizer wünschen,
 es wäre eine eigenständige Sprache) bzw. ein Sammelbegriff für alle [alemannischen Dialekte](http://de.wikipedia.org/wiki/Alemannische_Dialekte),
 die in der Schweiz gesprochen werden.

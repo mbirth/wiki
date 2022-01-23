@@ -1,17 +1,20 @@
 ---
-title: memup Pop Key
-layout: default
 created: 2009-12-22 00:43:14 +0100
-updated: 2009-12-22 01:15:54 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/12/22/memup-pop-key.html
 tags:
-  - know-how
-  - hardware
-  - memup
-  - popkey
-  - usb
+- know-how
+- hardware
+- memup
+- popkey
+- usb
+title: memup Pop Key
+toc: false
+updated: 2009-12-22 01:15:54 +0100
 ---
-  * **Homepage:** <http://www.memup.com/>
+
+* **Homepage:** <http://www.memup.com/>
 
 I just bought a 4GB *Pop Key* in a local supermarket. This device not only works as a simple flash disk but also brings a CD-ROM-Partition with a small security software with it. This just calls for modification...
 

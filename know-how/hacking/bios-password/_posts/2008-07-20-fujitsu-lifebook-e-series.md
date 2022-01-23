@@ -1,19 +1,22 @@
 ---
-title: Fujitsu-Siemens Lifebook E-Series
-layout: default
 created: 2008-07-20 15:33:11 +0200
-updated: 2008-07-20 15:33:11 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/20/fujitsu-siemens-lifebook-e-series.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - fujitsu
-  - siemens
-  - lifebook
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- fujitsu
+- siemens
+- lifebook
+title: Fujitsu-Siemens Lifebook E-Series
+toc: false
+updated: 2008-07-20 15:33:11 +0200
 ---
+
 1. Turn the notebook on its lid, plug out the power cord, remove the battery and the CD-ROM drive 
 1. Remove the screws marked below:
 

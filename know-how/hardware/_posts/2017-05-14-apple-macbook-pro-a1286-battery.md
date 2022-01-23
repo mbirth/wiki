@@ -1,22 +1,25 @@
 ---
-title: Apple MacBook Pro A1286 Battery Replacement
-layout: default
-language: en
 created: 2017-05-14 16:42:29 +0200
-updated: 2017-05-14 16:42:29 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/05/14/apple-macbook-pro-a1286-battery-replacement.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - mac
-  - macbook
-  - battery
-  - replacement
-  - a1286
-  - a1321
-  - a1382
+- know-how
+- hardware
+- apple
+- mac
+- macbook
+- battery
+- replacement
+- a1286
+- a1321
+- a1382
+title: Apple MacBook Pro A1286 Battery Replacement
+toc: false
+updated: 2017-05-14 16:42:29 +0200
 ---
+
 If you have a MacBook Pro A1286 (15.4", Late-2008 until Mid-2012) and want to replace the battery,
 you must be aware of the specific battery in your device. In 2011, for some reason, Apple decided
 to switch from the battery model A1321 (73 Wh) to model A1382 (77.5 Wh). While the form-factor

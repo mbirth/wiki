@@ -1,16 +1,19 @@
 ---
-title: Install wubildr
-layout: default
 created: 2009-10-24 23:49:15 +0200
-updated: 2009-10-24 23:49:39 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/10/24/install-wubildr.html
 tags:
-  - know-how
-  - software
-  - windows
-  - ubuntu
-  - wubi
+- know-how
+- software
+- windows
+- ubuntu
+- wubi
+title: Install wubildr
+toc: false
+updated: 2009-10-24 23:49:39 +0200
 ---
+
 The loader for a convenient [wubi](http://www.wubi-installer.org/)-installation of Ubuntu, can be easily re-added to
 the Windows Vista/Windows 7 bootloader.
 

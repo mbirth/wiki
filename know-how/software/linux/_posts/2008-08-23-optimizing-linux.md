@@ -1,14 +1,17 @@
 ---
-title: Optimizing Linux
-layout: default
 created: 2008-08-05 16:45:57 +0200
-updated: 2008-08-23 18:48:33 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/05/optimizing-linux.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Optimizing Linux
+toc: false
+updated: 2008-08-23 18:48:33 +0200
 ---
+
 At [Ubuntu Unleashed](http://www.ubuntu-unleashed.com/2008/04/tweak-and-optimize-ubuntu-linux-boot.html) you can find a
 document about different settings to optimize startup times of the system and applications itself.
 

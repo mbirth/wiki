@@ -1,17 +1,20 @@
 ---
-title: Navigation for iOS
-layout: default
 created: 2009-04-27 22:16:34 +0200
-updated: 2009-12-13 02:18:33 +0100
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/27/navigation-for-ios.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - navigation
-  - apps
+- know-how
+- hardware
+- apple
+- iphone
+- navigation
+- apps
+title: Navigation for iOS
+toc: true
+updated: 2009-12-13 02:18:33 +0100
 ---
+
 xGPS
 ====
 

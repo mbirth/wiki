@@ -1,16 +1,19 @@
 ---
-title: Multi USB Boot
-layout: default
 created: 2016-03-11 19:36:55 +0100
-updated: 2016-03-11 19:36:55 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/03/11/multi-usb-boot.html
 tags:
-  - know-how
-  - software
-  - usb
-  - flash-drive
-  - booting
+- know-how
+- software
+- usb
+- flash-drive
+- booting
+title: Multi USB Boot
+toc: false
+updated: 2016-03-11 19:36:55 +0100
 ---
+
 Similar to [booting different operating systems via network]({% post_url 2016-03-05-ipxe-network-boot %}),
 you can also boot multiple systems from a USB flash drive.
 

@@ -1,17 +1,20 @@
 ---
-title: Manual Firmware Update on the Galaxy Nexus
-layout: default
 created: 2011-12-16 22:26:17 +0100
-updated: 2012-04-02 14:47:37 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2011/12/16/manual-firmware-update-on-the-galaxy-nexus.html
 tags:
-  - know-how
-  - hardware
-  - samsung
-  - galaxy-nexus
-  - firmware
-  - rom
+- know-how
+- hardware
+- samsung
+- galaxy-nexus
+- firmware
+- rom
+title: Manual Firmware Update on the Galaxy Nexus
+toc: false
+updated: 2012-04-02 14:47:37 +0200
 ---
+
 *Samsung* seems to have failed, rushing to put out an update to the "Volume-"-bug in their Galaxy Nexus.
 They provided a wrong-signed Google+ and Google Maps app. They failed to update ("Wrong package signature", see [here](http://code.google.com/p/android/issues/detail?id=22435)).
 

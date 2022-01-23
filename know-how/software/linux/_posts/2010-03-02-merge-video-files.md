@@ -1,15 +1,18 @@
 ---
-title: Merge Video Files
-layout: default
 created: 2010-03-02 22:13:26 +0100
-updated: 2010-03-02 23:59:34 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/03/02/merge-video-files.html
 tags:
-  - know-how
-  - software
-  - linux
-  - video
+- know-how
+- software
+- linux
+- video
+title: Merge Video Files
+toc: false
+updated: 2010-03-02 23:59:34 +0100
 ---
+
 To merge multiple (similar) video files into one big file, there are different ways.
 
 

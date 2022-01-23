@@ -1,16 +1,19 @@
 ---
-title: UMTS via Bluetooth
-layout: default
 created: 2008-10-07 21:53:51 +0200
-updated: 2009-07-17 23:09:25 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/10/07/umts-via-bluetooth.html
 tags:
-  - know-how
-  - software
-  - linux
-  - umts
-  - bluetooth
+- know-how
+- software
+- linux
+- umts
+- bluetooth
+title: UMTS via Bluetooth
+toc: false
+updated: 2009-07-17 23:09:25 +0200
 ---
+
 To use UMTS Internet via a bluetooth mobile phone, install the packages [gnome-ppp](apt://gnome-ppp) and [ppp](apt://ppp).
 
 There's a nice manual at [UbuntuUsers](http://wiki.ubuntuusers.de/Bluetooth/Mobile).

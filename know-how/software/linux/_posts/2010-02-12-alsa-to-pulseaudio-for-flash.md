@@ -1,17 +1,20 @@
 ---
-title: ALSA → PulseAudio for Flash and others
-layout: default
 created: 2010-02-12 22:07:22 +0100
-updated: 2010-02-12 22:23:31 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/12/alsa-pulseaudio-for-flash-and-others.html
 tags:
-  - know-how
-  - software
-  - linux
-  - sound
-  - alsa
-  - pulseaudio
+- know-how
+- software
+- linux
+- sound
+- alsa
+- pulseaudio
+title: ALSA → PulseAudio for Flash and others
+toc: false
+updated: 2010-02-12 22:23:31 +0100
 ---
+
 One huge problem in a standard Ubuntu install is that not all programs are actually using the PulseAudio daemon but
 instead still use ALSA. This is especially true with the [flashplugin](apt://flashplugin-installer). Since PulseAudio
 and ALSA can't use the hardware device at the same time, they block each other which leads to hangs and maybe even

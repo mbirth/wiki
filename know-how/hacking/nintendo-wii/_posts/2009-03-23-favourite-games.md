@@ -1,17 +1,20 @@
 ---
-title: Favourite Wii Games
-language: en
-layout: default
 created: 2009-03-23 00:38:45 +0100
-updated: 2009-03-23 00:38:45 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/23/favourite-wii-games.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Favourite Wii Games
+toc: false
+updated: 2009-03-23 00:38:45 +0100
 ---
+
 Here's a list of my favorite Wii games:
 
 | Game                   |   Genre   | Comment    |

@@ -1,17 +1,20 @@
 ---
-title: Backup Savegames on Nintendo DS
-language: en
-layout: default
 created: 2009-03-15 14:34:37 +0100
-updated: 2009-03-15 22:16:40 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/15/backup-savegames-on-nintendo-ds.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - gaming
+- know-how
+- hacking
+- hardware
+- nintendo
+- gaming
+title: Backup Savegames on Nintendo DS
+toc: false
+updated: 2009-03-15 22:16:40 +0100
 ---
+
 To backup savegames from your cartridges (e.g. for use with a ROM dump on a card like the
 [CycloDS Evolution]({% post_url 2009-03-22-cyclods-evolution %})) there are two ways.
 

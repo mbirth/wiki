@@ -1,16 +1,19 @@
 ---
-title: Android apps to try
-language: en
-layout: default
 created: 2017-03-08 14:37:50 +0100
-updated: 2017-03-08 14:37:50 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/03/08/android-apps-to-try.html
 tags:
-  - know-how
-  - software
-  - android
-  - apps
+- know-how
+- software
+- android
+- apps
+title: Android apps to try
+toc: false
+updated: 2017-03-08 14:37:50 +0100
 ---
+
 Here are some Android apps and games I've found interesting or which were recommended somewhere
 for various purposes. And which I didn't had the time/need to try them yet.
 

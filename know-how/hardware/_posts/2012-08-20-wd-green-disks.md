@@ -1,16 +1,19 @@
 ---
-title: Western Digital GreenPower Disks
-layout: default
 created: 2012-08-20 20:27:16 +0200
-updated: 2012-08-20 22:27:02 +0200
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2012/08/20/western-digital-greenpower-disks.html
 tags:
-  - know-how
-  - hardware
-  - westerndigital
-  - greenpower
-  - wdgreen
+- know-how
+- hardware
+- westerndigital
+- greenpower
+- wdgreen
+title: Western Digital GreenPower Disks
+toc: true
+updated: 2012-08-20 22:27:02 +0200
 ---
+
 Advanced Format
 ===============
 

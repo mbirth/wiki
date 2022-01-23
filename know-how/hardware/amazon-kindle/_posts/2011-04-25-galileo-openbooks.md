@@ -1,17 +1,20 @@
 ---
-title: Galileo OpenBooks
-layout: default
 created: 2011-04-25 14:33:47 +0200
-updated: 2011-04-25 14:33:47 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2011/04/25/galileo-openbooks.html
 tags:
-  - know-how
-  - hardware
-  - amazon
-  - kindle
-  - galileo
-  - openbooks
+- know-how
+- hardware
+- amazon
+- kindle
+- galileo
+- openbooks
+title: Galileo OpenBooks
+toc: false
+updated: 2011-04-25 14:33:47 +0200
 ---
+
 Calibre settings
 ================
 

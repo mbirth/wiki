@@ -1,16 +1,19 @@
 ---
-title: iPXE Scripts for Tools
-layout: default
 created: 2016-03-05 00:36:55 +0100
-updated: 2016-03-05 00:36:55 +0100
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/03/05/ipxe-scripts-for-tools.html
 tags:
-  - know-how
-  - software
-  - ipxe
-  - network
-  - booting
+- know-how
+- software
+- ipxe
+- network
+- booting
+title: iPXE Scripts for Tools
+toc: true
+updated: 2016-03-05 00:36:55 +0100
 ---
+
 Most tools you want to boot are probably Linux systems. To boot them, you need
 a *kernel* and some (initial) filesystem. One way is to load an *initrd*
 (initial ramdisk) which contains only the basic stuff and mounts the big
@@ -371,4 +374,3 @@ initrd ${base-url}isolinux/initram.igz
 imgargs rescue${archb} setkmap=de dodhcp netboot=${base-url}sysrcd.dat
 boot || goto failed
 ```
-

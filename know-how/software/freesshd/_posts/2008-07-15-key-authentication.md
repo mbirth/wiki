@@ -1,15 +1,18 @@
 ---
-title: Key Authentication in FreeSSHd
-language: en
-layout: default
 created: 2008-07-15 00:23:35 +0200
-updated: 2008-07-15 00:23:35 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/key-authentication-in-freesshd.html
 tags:
-  - know-how
-  - software
-  - freesshd
+- know-how
+- software
+- freesshd
+title: Key Authentication in FreeSSHd
+toc: false
+updated: 2008-07-15 00:23:35 +0200
 ---
+
 * generate key-pair using puttygen.exe
 * enter desired username as *Key comment*
 * *Save private key*

@@ -1,14 +1,17 @@
 ---
-title: Tango colours in command prompt
-layout: default
 created: 2012-12-18 16:19:12 +0100
-updated: 2014-02-25 16:48:12 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2012/12/18/tango-colours-in-command-prompt.html
 tags:
-  - know-how
-  - software
-  - windows
+- know-how
+- software
+- windows
+title: Tango colours in command prompt
+toc: false
+updated: 2014-02-25 16:48:12 +0100
 ---
+
 <https://en.wikipedia.org/wiki/Tango_Desktop_Project#Palette>
 
 Import this registry file:

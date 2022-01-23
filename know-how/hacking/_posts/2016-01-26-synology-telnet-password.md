@@ -1,19 +1,22 @@
 ---
-title: Synology Telnet password
-language: en
-layout: default
 created: 2016-01-26 19:54:55 +0100
-updated: 2016-01-26 19:54:55 +0100
-toc: true
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/01/26/synology-telnet-password.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - synology
-  - xpenology
-  - telnet
-  - password
+- know-how
+- hacking
+- hardware
+- synology
+- xpenology
+- telnet
+- password
+title: Synology Telnet password
+toc: true
+updated: 2016-01-26 19:54:55 +0100
 ---
+
 If you ever had a problem with your Synology DiskStation, you might have
 stumbled upon the emergency telnet access or even the serial port on the PCB.
 

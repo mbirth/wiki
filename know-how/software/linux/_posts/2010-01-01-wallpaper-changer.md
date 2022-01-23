@@ -1,14 +1,17 @@
 ---
-title: Wallpaper Changer
-layout: default
 created: 2010-01-01 23:35:53 +0100
-updated: 2010-01-01 23:36:05 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/01/01/wallpaper-changer.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Wallpaper Changer
+toc: false
+updated: 2010-01-01 23:36:05 +0100
 ---
+
 Desktop Drapes
 ==============
 

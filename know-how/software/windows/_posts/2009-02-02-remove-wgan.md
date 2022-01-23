@@ -1,15 +1,18 @@
 ---
-title: Remove WGA Notification
-layout: default
 created: 2009-02-02 19:49:08 +0100
-updated: 2009-02-02 19:49:08 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/02/remove-wga-notification.html
 tags:
-  - know-how
-  - software
-  - windows
-  - wga
+- know-how
+- software
+- windows
+- wga
+title: Remove WGA Notification
+toc: false
+updated: 2009-02-02 19:49:08 +0100
 ---
+
 Microsoft distributes the *Windows Genuine Advantage Notification Tool (KB905474)* through the WindowsUpdate mechanism.
 This tool should detect fake Windows serial numbers and nag the user. Interestingly, Microsoft hid a small paragraph in
 their EULA after that the tool sends daily(!!) reports to Microsoft. According to MS this "is neccessary" since the

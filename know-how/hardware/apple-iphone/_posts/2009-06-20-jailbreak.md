@@ -1,16 +1,19 @@
 ---
-title: Apple iPhone Jailbreak
-layout: default
 created: 2009-04-20 20:36:03 +0200
-updated: 2009-06-20 20:22:41 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/20/apple-iphone-jailbreak.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - jailbreak
+- know-how
+- hardware
+- apple
+- iphone
+- jailbreak
+title: Apple iPhone Jailbreak
+toc: false
+updated: 2009-06-20 20:22:41 +0200
 ---
+
 See [Wikipedia](http://en.wikipedia.org/wiki/Jailbreak_\(iPhone\)) for a description of WHAT this is.
 
 * **Homepage:** [quickpwn.com](http://www.quickpwn.com/) *(for iPhone OS <3.0)*

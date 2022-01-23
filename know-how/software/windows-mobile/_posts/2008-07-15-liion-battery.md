@@ -1,15 +1,18 @@
 ---
-title: HTC Universal shuts down at xx% of battery left
-layout: default
 created: 2008-07-15 00:14:06 +0200
-updated: 2008-07-15 00:14:06 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/htc-universal-shuts-down-at-xx%25-of-battery-left.html
 tags:
-  - know-how
-  - software
-  - windows-mobile
-  - htc-universal
+- know-how
+- software
+- windows-mobile
+- htc-universal
+title: HTC Universal shuts down at xx% of battery left
+toc: false
+updated: 2008-07-15 00:14:06 +0200
 ---
+
 (from: <http://forum.xda-developers.com/showthread.php?p=1790263#post1790263>)
 
 > Fellow universal users who suffer from battery problems, i know this issue is reccuring and is in many threads and

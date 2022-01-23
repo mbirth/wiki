@@ -1,15 +1,18 @@
 ---
-title: Beziehung? Nein danke, das ist doch anstrengend!
-language: de
-layout: default
 created: 2009-02-23 00:45:26 +0100
-updated: 2009-02-23 00:45:26 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/23/beziehung-nein-danke,-das-ist-doch-anstrengend!-de.html
 tags:
-  - miscellaneous
-  - relationships
-  - rant
+- miscellaneous
+- relationships
+- rant
+title: Beziehung? Nein danke, das ist doch anstrengend!
+toc: false
+updated: 2009-02-23 00:45:26 +0100
 ---
+
 In den letzten Tagen habe ich mit den verschiedensten Leuten über die aktuelle Situation auf dem Partnerschaftsmarkt
 gesprochen und was dabei so zusammengekommen ist - da kann man eigentlich nur den Kopf schütteln. Ich bin gerade von
 einem Treffen mit einer Freundin zurück, die sich auch mit den hier beschriebenen Problemen herumschlägt - und ich höre

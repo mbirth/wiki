@@ -1,16 +1,19 @@
 ---
-title: Card Reader of the Acer Aspire One
-layout: default
 created: 2008-10-04 13:15:04 +0200
-updated: 2009-12-29 15:58:15 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/10/04/card-reader-of-the-acer-aspire-one.html
 tags:
-  - know-how
-  - hardware
-  - acer
-  - aspire
-  - cardreader
+- know-how
+- hardware
+- acer
+- aspire
+- cardreader
+title: Card Reader of the Acer Aspire One
+toc: false
+updated: 2009-12-29 15:58:15 +0100
 ---
+
 **Model:** [JMicron JMB38x](http://www.jmicron.com/Product_JMB38X.htm) PCI Express to 1394a OHCI and Memory Card Host Controller
 
 <p><div class="notetip" markdown="1">

@@ -1,17 +1,20 @@
 ---
-title: Extract Sound from ROMs
-language: en
-layout: default
 created: 2009-03-17 20:41:05 +0100
-updated: 2009-03-17 20:41:05 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/17/extract-sound-from-roms.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - gaming
+- know-how
+- hacking
+- hardware
+- nintendo
+- gaming
+title: Extract Sound from ROMs
+toc: false
+updated: 2009-03-17 20:41:05 +0100
 ---
+
 To extract sounds (or graphics) from a ROM, you'll need the [ndstool]({% post_url 2009-03-16-ndstool %})
 and [ndssndext](http://www.4shared.com/file/68276816/8092229e/ndssndext_v04.html).
 

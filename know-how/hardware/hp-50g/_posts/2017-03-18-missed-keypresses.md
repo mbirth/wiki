@@ -1,17 +1,20 @@
 ---
-title: HP 50g and missed keypresses
-layout: default
-language: en
 created: 2017-03-18 22:29:30 +0100
-updated: 2017-03-18 22:29:30 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/03/18/hp-50g-and-missed-keypresses.html
 tags:
-  - know-how
-  - hardware
-  - hp
-  - 50g
-  - calculator
+- know-how
+- hardware
+- hp
+- 50g
+- calculator
+title: HP 50g and missed keypresses
+toc: false
+updated: 2017-03-18 22:29:30 +0100
 ---
+
 The default key debouncing wait time in the HP 50g is very long so that it misses lots of
 keypresses when typing fast. E.g. when typing `500` the calculator only registers `50`. This
 behaviour is controlled by the `KEYTIME` setting.

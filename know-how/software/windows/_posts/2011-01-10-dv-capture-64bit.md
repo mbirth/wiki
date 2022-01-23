@@ -1,15 +1,18 @@
 ---
-title: No DV capture possible on Windows 7 64bit
-layout: default
 created: 2011-01-10 21:24:19 +0100
-updated: 2011-01-10 21:25:07 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2011/01/10/no-dv-capture-possible-on-windows-7-64bit.html
 tags:
-  - know-how
-  - software
-  - windows
-  - video
+- know-how
+- software
+- windows
+- video
+title: No DV capture possible on Windows 7 64bit
+toc: false
+updated: 2011-01-10 21:25:07 +0100
 ---
+
 On a Windows 7 64bit, I was not able to capture any DV video from a video camera connected via Firewire IEEE1394. I was
 able to control the camera from the capture program (tried *NeroVision* and *magix Video Deluxe*) but only got a black
 screen and no audio.

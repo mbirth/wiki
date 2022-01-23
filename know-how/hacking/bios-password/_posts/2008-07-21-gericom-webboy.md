@@ -1,18 +1,21 @@
 ---
-title: GERICOM Webboy
-layout: default
 created: 2008-07-21 19:26:28 +0200
-updated: 2008-07-21 19:26:28 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/21/gericom-webboy.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - gericom
-  - webboy
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- gericom
+- webboy
+title: GERICOM Webboy
+toc: false
+updated: 2008-07-21 19:26:28 +0200
 ---
+
 1. Turn the notebook onto its lid and remove the power plug and battery
 1. Remove the screws of the top left cover and open it. You will find the CPU-Cooler.  
    ![The area accessible through the top-left opening on the bottom side]({{ site.url }}/assets/gcwb_1.jpg)

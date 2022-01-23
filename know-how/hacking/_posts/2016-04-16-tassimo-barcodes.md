@@ -1,16 +1,19 @@
 ---
-title: TASSIMO Barcodes
-language: de
-layout: default_nobreaktables
 created: 2013-09-08 15:43:52 +0200
-updated: 2016-04-16 18:37:49 +0200
-toc: true
+language: de
+layout: redirect
+layout_old: default_nobreaktables
+redirect_to: https://blog.mbirth.de/archives/2013/09/08/tassimo-barcodes-de.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - tassimo
+- know-how
+- hacking
+- hardware
+- tassimo
+title: TASSIMO Barcodes
+toc: true
+updated: 2016-04-16 18:37:49 +0200
 ---
+
 Im Gegensatz zu anderen Kapselmaschinen, bringen die Kapseln bei Tassimo ihre Zubereitungsanleitung gleich mit:
 In Form eines Barcodes auf der Kapsel.
 

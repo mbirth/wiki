@@ -1,18 +1,21 @@
 ---
-title: Apple Startup Hotkeys
-layout: default
-language: en
 created: 2017-03-20 00:23:42 +0100
-updated: 2017-03-20 00:23:42 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/03/20/apple-startup-hotkeys.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - mac
-  - macbook
-  - hotkeys
+- know-how
+- hardware
+- apple
+- mac
+- macbook
+- hotkeys
+title: Apple Startup Hotkeys
+toc: false
+updated: 2017-03-20 00:23:42 +0100
 ---
+
 Some hotkeys to hold when powering on the Mac:
 
 * <kbd>⌘</kbd>+<kbd>V</kbd> --- Verbose mode

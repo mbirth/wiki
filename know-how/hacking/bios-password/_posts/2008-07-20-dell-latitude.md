@@ -1,18 +1,21 @@
 ---
-title: DELL Latitude series
-layout: default
 created: 2008-07-20 22:26:53 +0200
-updated: 2008-07-20 22:25:53 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/20/dell-latitude-series.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - dell
-  - latitude
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- dell
+- latitude
+title: DELL Latitude series
+toc: false
+updated: 2008-07-20 22:25:53 +0200
 ---
+
 These ones are something different. DELL notebooks save their BIOS password in an EEPROM-chip so it isn't deleted when
 you short-circuit the BIOS battery or something like that.
 

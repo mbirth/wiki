@@ -1,18 +1,21 @@
 ---
-title: Move window's minimise/maximise/close buttons
-layout: default
 created: 2017-04-10 20:18:32 +0200
-updated: 2017-04-10 20:18:32 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/04/10/move-windows-minimisemaximiseclose-buttons.html
 tags:
-  - know-how
-  - software
-  - linux
-  - gnome
-  - gtk
-  - windows
-  - buttons
+- know-how
+- software
+- linux
+- gnome
+- gtk
+- windows
+- buttons
+title: Move window's minimise/maximise/close buttons
+toc: false
+updated: 2017-04-10 20:18:32 +0200
 ---
+
 There are two locations where you can define the button's location: **dconf** and **gconf**.
 
 The dconf-method works for most of Gnome Shell and Unity. However, e.g. Chrome is using the "old"

@@ -1,13 +1,16 @@
 ---
-title: Dr. Kaiser PcConsole
-layout: default
 created: 2008-07-15 00:22:10 +0200
-updated: 2008-07-15 22:04:16 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/dr.-kaiser-pcconsole.html
 tags:
-  - know-how
-  - software
+- know-how
+- software
+title: Dr. Kaiser PcConsole
+toc: false
+updated: 2008-07-15 22:04:16 +0200
 ---
+
 **Homepage:** <http://www.dr-kaiser.eu/>
 
 To make locking the workstation impossible, kill `PdsLspSv.exe` in Task Manager.

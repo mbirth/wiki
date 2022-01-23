@@ -1,17 +1,20 @@
 ---
-title: System wide key remapping in Ubuntu
-layout: default
 created: 2017-01-20 11:14:41 +0100
-updated: 2017-01-20 11:14:41 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/01/20/system-wide-key-remapping-in-ubuntu.html
 tags:
-  - know-how
-  - software
-  - linux
-  - keyboard
-  - remapping
-  - keycode
+- know-how
+- software
+- linux
+- keyboard
+- remapping
+- keycode
+title: System wide key remapping in Ubuntu
+toc: false
+updated: 2017-01-20 11:14:41 +0100
 ---
+
 On my [hp Spectre x360]({% post_url 2016-07-26-hp-spectre-x360 %}), the <kbd>Ins</kbd> key is only
 reachable via the <kbd>Fn</kbd> key as in <kbd>Fn</kbd>+<kbd>PrtScr</kbd>.
 

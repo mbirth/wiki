@@ -1,17 +1,20 @@
 ---
-title: Wii Savegame Editing
-language: en
-layout: default
 created: 2008-07-23 21:31:36 +0200
-updated: 2008-07-23 21:31:58 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/23/wii-savegame-editing.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Wii Savegame Editing
+toc: false
+updated: 2008-07-23 21:31:58 +0200
 ---
+
 Savegames, as well as almost all other files, are encrypted using some crypto magic. The keys were found and now there
 are some tools to decrypt and recrypt the savegames called [Segher's Wii.git](http://wiibrew.org/wiki/Segher's_Wii.git).
 

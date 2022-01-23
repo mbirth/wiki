@@ -1,16 +1,19 @@
 ---
-title: Develop iOS Apps
-layout: default
 created: 2009-04-20 22:07:23 +0200
-updated: 2010-04-02 18:07:54 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/20/develop-ios-apps.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - development
+- know-how
+- hardware
+- apple
+- iphone
+- development
+title: Develop iOS Apps
+toc: false
+updated: 2010-04-02 18:07:54 +0200
 ---
+
 real Apps
 =========
 

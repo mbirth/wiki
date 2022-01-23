@@ -1,18 +1,21 @@
 ---
-title: Shameless Rip-Off by pc-doctors.com
-layout: default
 created: 2010-01-13 02:13:02 +0100
-updated: 2010-04-02 00:27:30 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/01/13/shameless-rip-off-by-pc-doctors.com.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - ripoff
-  - copycat
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- ripoff
+- copycat
+title: Shameless Rip-Off by pc-doctors.com
+toc: false
+updated: 2010-04-02 00:27:30 +0200
 ---
+
 I recently found some of my manuals to remove BIOS passwords in a very familiar design on a
 [totally foreign site](http://www.pc-doctors.com/other/free-info/):
 

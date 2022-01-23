@@ -1,15 +1,18 @@
 ---
-title: Autokühler günstig
-language: de
-layout: default
 created: 2009-05-14 01:31:41 +0200
-updated: 2009-05-14 01:46:06 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/14/autokuehler-guenstig-de.html
 tags:
-  - miscellaneous
-  - car
-  - parts
+- miscellaneous
+- car
+- parts
+title: Autokühler günstig
+toc: false
+updated: 2009-05-14 01:46:06 +0200
 ---
+
 Bei meinem *Opel Calibra* waren nach 12 Jahren die Plastikteile am Motorkühler spröde geworden und somit musste ein
 neuer Kühler her. Dabei gab es eine große Spanne an Preisen, die man zahlen konnte (wohlgemerkt rein der Kühler ohne
 Arbeitszeit):

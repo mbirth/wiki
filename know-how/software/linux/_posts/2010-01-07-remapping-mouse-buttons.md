@@ -1,15 +1,18 @@
 ---
-title: Remapping mouse buttons
-layout: default
 created: 2009-02-09 20:44:38 +0100
-updated: 2010-01-07 08:47:44 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/09/remapping-mouse-buttons.html
 tags:
-  - know-how
-  - software
-  - linux
-  - mouse
+- know-how
+- software
+- linux
+- mouse
+title: Remapping mouse buttons
+toc: false
+updated: 2010-01-07 08:47:44 +0100
 ---
+
 permanently
 ===========
 

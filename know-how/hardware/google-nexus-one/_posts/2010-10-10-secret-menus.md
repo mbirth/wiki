@@ -1,18 +1,21 @@
 ---
-title: Android Secret Menus
-layout: default
 created: 2010-07-29 19:51:26 +0200
-updated: 2010-10-10 21:44:59 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/07/29/android-secret-menus.html
 tags:
-  - know-how
-  - hardware
-  - google
-  - nexusone
-  - passion
-  - android
-  - secrets
+- know-how
+- hardware
+- google
+- nexusone
+- passion
+- android
+- secrets
+title: Android Secret Menus
+toc: false
+updated: 2010-10-10 21:44:59 +0200
 ---
+
 There are various secret menus hidden in the Android OS. Here are some of them (thanks to [askvg.com](http://www.askvg.com/google-android-hidden-secret-codes/)):
 
 |     Code            | Description    |

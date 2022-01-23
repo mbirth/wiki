@@ -1,15 +1,18 @@
 ---
-title: Compile wx.NET
-language: en
-layout: default
 created: 2010-01-22 17:36:17 +0100
-updated: 2010-01-22 17:48:52 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/01/22/compile-wx.net.html
 tags:
-  - know-how
-  - development
-  - wx-net
+- know-how
+- development
+- wx-net
+title: Compile wx.NET
+toc: false
+updated: 2010-01-22 17:48:52 +0100
 ---
+
 * **Homepage:** <http://wxnet.sf.net/>
 
 *wx.NET* is a *wxWidgets*-wrapper for Mono. The compilation is not really straight-forward as one is used to.

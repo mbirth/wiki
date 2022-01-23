@@ -1,16 +1,19 @@
 ---
-title: iPhone Carrier Settings
-layout: default
 created: 2009-06-20 21:20:46 +0200
-updated: 2009-06-20 21:20:46 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/20/iphone-carrier-settings.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - settings
+- know-how
+- hardware
+- apple
+- iphone
+- settings
+title: iPhone Carrier Settings
+toc: false
+updated: 2009-06-20 21:20:46 +0200
 ---
+
 To enable MMS and Tethering, you might have to install a carrier-specific file for your carrier.
 
 * **T-Mobile Germany:** [24100.net](http://www.24100.net/2009/03/t-mobile-germany-vodafone-germany-iphone-os-30-mms/)

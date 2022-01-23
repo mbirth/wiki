@@ -1,24 +1,27 @@
 ---
-title: Fix IKEA Markus office chair
-language: en
-layout: default
 created: 2020-01-01 22:30:57 +0100
-updated: 2020-01-01 22:30:57 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2020/01/01/fix-ikea-markus-office-chair.html
 tags:
-  - know-how
-  - miscellaneous
-  - ikea
-  - markus
-  - office
-  - office chair
-  - chair
-  - clicking
-  - knocking
-  - noise
-  - fix
-  - repair
+- know-how
+- miscellaneous
+- ikea
+- markus
+- office
+- office chair
+- chair
+- clicking
+- knocking
+- noise
+- fix
+- repair
+title: Fix IKEA Markus office chair
+toc: false
+updated: 2020-01-01 22:30:57 +0100
 ---
+
 After some years, my IKEA Markus chair developed some clicking/knocking noise whenever I swivel in
 it. This was very annoying for everbody in the same room.
 

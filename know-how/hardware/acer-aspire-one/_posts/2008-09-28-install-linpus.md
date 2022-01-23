@@ -1,17 +1,20 @@
 ---
-title: Install Linpus Linux on the Acer Aspire One
-layout: default
 created: 2008-09-28 22:33:48 +0200
-updated: 2008-09-28 22:33:48 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/28/install-linpus-linux-on-the-acer-aspire-one.html
 tags:
-  - know-how
-  - hardware
-  - acer
-  - aspire
-  - linpus
-  - linux
+- know-how
+- hardware
+- acer
+- aspire
+- linpus
+- linux
+title: Install Linpus Linux on the Acer Aspire One
+toc: false
+updated: 2008-09-28 22:33:48 +0200
 ---
+
 There exist several manuals on how to install Linpus from a recovery DVD.
 
 Basically you just boot the recovery DVD on some PC, select "*create rescue usb key*" and insert a 2 GiB (or more)

@@ -1,15 +1,18 @@
 ---
-title: LookAndFeel in ALL apps
-language: en
-layout: default
 created: 2008-12-16 13:16:21 +0100
-updated: 2008-12-29 00:25:37 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/16/lookandfeel-in-all-apps.html
 tags:
-  - know-how
-  - software
-  - java
+- know-how
+- software
+- java
+title: LookAndFeel in ALL apps
+toc: false
+updated: 2008-12-29 00:25:37 +0100
 ---
+
 To set your favorite LAF in all Java apps, you can create a file `swing.properties` in your `jre/lib`[^1] folder with
 following contents:
 

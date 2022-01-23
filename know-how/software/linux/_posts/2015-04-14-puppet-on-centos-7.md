@@ -1,16 +1,19 @@
 ---
-title: Puppet on CentOS 7
-layout: default
 created: 2015-04-14 13:33:59 +0200
-updated: 2015-04-14 13:33:59 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2015/04/14/puppet-on-centos-7.html
 tags:
-  - know-how
-  - software
-  - linux
-  - puppet
-  - centos
+- know-how
+- software
+- linux
+- puppet
+- centos
+title: Puppet on CentOS 7
+toc: false
+updated: 2015-04-14 13:33:59 +0200
 ---
+
 To install Puppet on CentOS 7, you can basically follow [these instructions](http://www.unixmen.com/install-puppet-server-centos-7/).
 
 Notes:

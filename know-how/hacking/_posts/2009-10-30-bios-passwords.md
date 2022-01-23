@@ -1,20 +1,23 @@
 ---
-title: BIOS Passwords
-language: en
 alternatives:
-  - language: de
-    url: /know-how/hacking/bios-passwords-de.html
-layout: default
+- language: de
+  url: /know-how/hacking/bios-passwords-de.html
 created: 2008-07-16 00:44:43 +0200
-updated: 2009-10-30 22:53:46 +0100
-toc: true
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/16/bios-passwords.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+title: BIOS Passwords
+toc: true
+updated: 2009-10-30 22:53:46 +0100
 ---
+
 [Diese Seite auf Deutsch.]({% post_url 2009-10-30-bios-passwords-de %})
 
 Since Notebook-manufacturers know of the problem of forgotten passwords, they often implement easy ways to remove BIOS

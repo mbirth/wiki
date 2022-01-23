@@ -1,16 +1,19 @@
 ---
-title: BIOS Recovery on the Acer Aspire One
-layout: default
 created: 2008-09-28 19:28:33 +0200
-updated: 2009-02-08 14:50:11 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/28/bios-recovery-on-the-acer-aspire-one.html
 tags:
-  - know-how
-  - hardware
-  - acer
-  - aspire
-  - bios
+- know-how
+- hardware
+- acer
+- aspire
+- bios
+title: BIOS Recovery on the Acer Aspire One
+toc: false
+updated: 2009-02-08 14:50:11 +0200
 ---
+
 After playing around a bit, my Aspire One (v3114) got bricked after a normal reboot (blank screen, power led and
 fan on, nothing else). There's a nice recovery procedure for the BIOS at [macles](http://macles.blogspot.com/2008/08/acer-aspire-one-bios-recovery.html).
 

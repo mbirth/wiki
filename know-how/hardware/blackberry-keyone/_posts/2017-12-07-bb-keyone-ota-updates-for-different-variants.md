@@ -1,19 +1,22 @@
 ---
-title: BlackBerry KEYone OTA updates for different variants
-layout: default
-language: en
 created: 2017-09-15 20:32:10 +0200
-updated: 2017-12-17 00:19:07 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/09/15/blackberry-keyone-ota-updates-for-different-variants.html
 tags:
-  - know-how
-  - hardware
-  - blackberry
-  - keyone
-  - ota
-  - updates
-  - firmware
+- know-how
+- hardware
+- blackberry
+- keyone
+- ota
+- updates
+- firmware
+title: BlackBerry KEYone OTA updates for different variants
+toc: false
+updated: 2017-12-17 00:19:07 +0100
 ---
+
 <p><div class="notewarning" markdown="1">
 BlackBerry/TCL has disabled the described method of gaining access to the advanced features of the
 Updates app in the firmware versions of October 2017 and later. However, there's a way to still get

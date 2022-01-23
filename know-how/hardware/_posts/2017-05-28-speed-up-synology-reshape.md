@@ -1,23 +1,26 @@
 ---
-title: Speed up Synology volume reshaping
-layout: default
-language: en
 created: 2017-05-28 23:45:40 +0200
-updated: 2017-05-29 19:22:31 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/05/28/speed-up-synology-volume-reshaping.html
 tags:
-  - know-how
-  - hardware
-  - synology
-  - diskstation
-  - dsm
-  - raid
-  - lvm
-  - reshape
-  - extend
-  - volume
-  - storage
+- know-how
+- hardware
+- synology
+- diskstation
+- dsm
+- raid
+- lvm
+- reshape
+- extend
+- volume
+- storage
+title: Speed up Synology volume reshaping
+toc: false
+updated: 2017-05-29 19:22:31 +0200
 ---
+
 I wanted to increase the available storage on my Synology DS415+ by replacing 2x 2TB disks with
 4TB ones, extending my 4-4-2-2 volume to 4-4-4-4 and the overall storage space from 8TB to 12TB.
 

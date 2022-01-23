@@ -1,15 +1,18 @@
 ---
-title: Missing Wireless Zero Configuration
-layout: default
 created: 2009-03-03 00:47:50 +0100
-updated: 2009-03-03 00:47:50 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/03/missing-wireless-zero-configuration.html
 tags:
-  - know-how
-  - software
-  - windows
-  - wifi
+- know-how
+- software
+- windows
+- wifi
+title: Missing Wireless Zero Configuration
+toc: false
+updated: 2009-03-03 00:47:50 +0100
 ---
+
 If you are missing the *Wireless Zero Configuration* (in German: *Konfigurationsfreie drahtlose Verbindung*), you might
 have installed a D-Link driver.
 

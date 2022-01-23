@@ -1,15 +1,18 @@
 ---
-title: Microsoft Office OEM
-layout: default
 created: 2009-03-30 12:26:11 +0200
-updated: 2009-03-30 12:26:11 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/03/30/microsoft-office-oem.html
 tags:
-  - know-how
-  - software
-  - microsoft
-  - office
+- know-how
+- software
+- microsoft
+- office
+title: Microsoft Office OEM
+toc: false
+updated: 2009-03-30 12:26:11 +0200
 ---
+
 Install Fujitsu-Siemens version
 ===============================
 

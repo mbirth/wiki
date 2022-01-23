@@ -1,16 +1,19 @@
 ---
-title: iphoneOS Hidden Features
-layout: default
 created: 2009-06-20 21:18:27 +0200
-updated: 2009-06-20 21:19:17 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/20/iphoneos-hidden-features.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - features
+- know-how
+- hardware
+- apple
+- iphone
+- features
+title: iphoneOS Hidden Features
+toc: false
+updated: 2009-06-20 21:19:17 +0200
 ---
+
 There are some hidden options which you have to enable via modifying some file.
 (see [here](http://www.funkyspacemonkey.com/iphone-os-30-episode-iii-howto-enable-battery-percentage-toggle-settings)
 and [here](http://www.funkyspacemonkey.com/iphone-os-30-episode-iihowto-enable-videorecording-interface-iphone-2g3g).)

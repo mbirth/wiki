@@ -1,17 +1,20 @@
 ---
-title: iOS Firmware Unpacking
-layout: default
 created: 2009-05-20 02:17:15 +0200
-updated: 2009-05-24 23:27:24 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/20/ios-firmware-unpacking.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - firmware
-  - hacking
+- know-how
+- hardware
+- apple
+- iphone
+- firmware
+- hacking
+title: iOS Firmware Unpacking
+toc: false
+updated: 2009-05-24 23:27:24 +0200
 ---
+
 Preparations
 ============
 

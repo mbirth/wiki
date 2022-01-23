@@ -1,15 +1,18 @@
 ---
-title: Prompt with 2 directories
-layout: default
 created: 2008-08-05 17:48:29 +0200
-updated: 2009-02-20 00:32:43 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/05/prompt-with-2-directories.html
 tags:
-  - know-how
-  - software
-  - linux
-  - shell
+- know-how
+- software
+- linux
+- shell
+title: Prompt with 2 directories
+toc: false
+updated: 2009-02-20 00:32:43 +0100
 ---
+
 bash
 ====
 

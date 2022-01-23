@@ -1,17 +1,20 @@
 ---
-title: Messenger apps for iOS
-layout: default
 created: 2009-05-01 16:07:59 +0200
-updated: 2009-05-01 16:07:59 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/01/messenger-apps-for-ios.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - messenger
-  - apps
+- know-how
+- hardware
+- apple
+- iphone
+- messenger
+- apps
+title: Messenger apps for iOS
+toc: false
+updated: 2009-05-01 16:07:59 +0200
 ---
+
 There are quite a few messenger applications out there. Most people prefer *BeeJive* or *IM+* - not only because they
 promise you to keep you online 24 hours a day - even without having the application open on your iPhone.
 

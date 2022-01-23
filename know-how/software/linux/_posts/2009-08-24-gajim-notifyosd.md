@@ -1,14 +1,17 @@
 ---
-title: Gajim and Notify-OSD
-layout: default
 created: 2009-08-24 18:25:41 +0200
-updated: 2009-08-24 18:25:41 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/08/24/gajim-and-notify-osd.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Gajim and Notify-OSD
+toc: false
+updated: 2009-08-24 18:25:41 +0200
 ---
+
 [gajim](apt://gajim) doesn't support the new (since Jaunty) `libnotify-osd` library of Ubuntu and instead shows a
 dialog box.
 

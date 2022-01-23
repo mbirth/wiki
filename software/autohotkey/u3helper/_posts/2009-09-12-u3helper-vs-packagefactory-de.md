@@ -1,18 +1,21 @@
 ---
-title: U3Helper vs. PackageFactory
-language: de
 alternatives:
-  - language: en
-    url: /software/autohotkey/u3helper/u3helper-vs-packagefactory.html
-layout: default
+- language: en
+  url: /software/autohotkey/u3helper/u3helper-vs-packagefactory.html
 created: 2009-09-12 09:31:40 +0200
-updated: 2009-09-12 09:31:40 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/09/12/u3helper-vs.-packagefactory-de.html
 tags:
-  - software
-  - autohotkey
-  - u3helper
+- software
+- autohotkey
+- u3helper
+title: U3Helper vs. PackageFactory
+toc: false
+updated: 2009-09-12 09:31:40 +0200
 ---
+
 [This page in English.]({% post_url 2009-09-12-u3helper-vs-packagefactory %})
 
 Vielleicht fragt sich ja wer, warum die komplizierte U3Helper-Methode wählen, wenn es doch

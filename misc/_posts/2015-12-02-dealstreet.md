@@ -1,14 +1,17 @@
 ---
-title: DealStreet.de
-language: de
-layout: default
 created: 2009-11-28 13:10:43 +0100
-updated: 2015-12-02 17:11:23 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/11/28/dealstreet.de-de.html
 tags:
-  - miscellaneous
-  - scam
+- miscellaneous
+- scam
+title: DealStreet.de
+toc: false
+updated: 2015-12-02 17:11:23 +0100
 ---
+
 Vor zwei Tagen kam im TV eine Werbung für [DealStreet.de](http://www.dealstreet.de/). Dort wurde beworben, wie leicht
 man doch Schnäppchen machen kann und, dass man Artikel für etwa die Hälfte bekommt, als im Laden.
 

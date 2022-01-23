@@ -1,17 +1,20 @@
 ---
-title: Gemeinschaft Asterisk PBX
-language: de
-layout: default
 created: 2009-10-08 01:35:01 +0200
-updated: 2009-10-08 20:54:42 +0200
-toc: true
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/10/08/gemeinschaft-asterisk-pbx-de.html
 tags:
-  - know-how
-  - software
-  - asterisk
-  - telephony
-  - gemeinschaft
+- know-how
+- software
+- asterisk
+- telephony
+- gemeinschaft
+title: Gemeinschaft Asterisk PBX
+toc: true
+updated: 2009-10-08 20:54:42 +0200
 ---
+
 * [kempgen.net](http://www.kempgen.net/gemeinschaft/gemeinschaft-installation-trunk.html) --- Anleitung zur manuellen Installation
     * in der `sounds-wav-to-alaw.sh` muss beim `sox`-Befehl der Parameter **`-w`** in **`-2`** geändert werden
 * [belug.de](http://www.belug.de/hilfe/howtos/fcpci/) --- Kompilieren des fcpci-Moduls

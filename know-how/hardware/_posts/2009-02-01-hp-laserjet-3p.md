@@ -1,15 +1,18 @@
 ---
-title: hp Laserjet IIIp
-layout: default
 created: 2009-02-01 17:28:28 +0100
-updated: 2009-02-01 17:28:28 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/01/hp-laserjet-iiip.html
 tags:
-  - know-how
-  - hardware
-  - hp
-  - laserjet
+- know-how
+- hardware
+- hp
+- laserjet
+title: hp Laserjet IIIp
+toc: false
+updated: 2009-02-01 17:28:28 +0100
 ---
+
 Endless feeding
 ===============
 

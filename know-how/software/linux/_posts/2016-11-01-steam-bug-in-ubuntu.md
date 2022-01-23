@@ -1,16 +1,19 @@
 ---
-title: Steam bug in Ubuntu
-layout: default
 created: 2016-02-20 14:56:35 +0100
-updated: 2016-11-01 23:35:32 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/02/20/steam-bug-in-ubuntu.html
 tags:
-  - know-how
-  - software
-  - linux
-  - steam
-  - ubuntu
+- know-how
+- software
+- linux
+- steam
+- ubuntu
+title: Steam bug in Ubuntu
+toc: false
+updated: 2016-11-01 23:35:32 +0100
 ---
+
 Steam has the bad habit to not run after upgrades of the Steam software.
 
 This is, because it uses its own libc which expects libraries not there in

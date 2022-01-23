@@ -1,17 +1,20 @@
 ---
-title: Wii MPlayer and Samba
-language: en
-layout: default
 created: 2009-01-18 23:26:15 +0100
-updated: 2009-01-18 23:26:15 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/18/wii-mplayer-and-samba.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Wii MPlayer and Samba
+toc: false
+updated: 2009-01-18 23:26:15 +0100
 ---
+
 The [MPlayer Christmas Edition](http://www.elotrolado.net/hilo_mplayer-christmas-edition_1157252) for Wii supports SMB
 browsing. You can configure the login data of the desired SMB share through the `smb.conf` on the SD card as follows:
 

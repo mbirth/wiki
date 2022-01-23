@@ -1,17 +1,20 @@
 ---
-title: Cisco Catalyst 2950
-language: de
-layout: default
 created: 2009-06-05 09:54:04 +0200
-updated: 2009-06-05 17:01:15 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/05/cisco-catalyst-2950-de.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - cisco
-  - catalyst
+- know-how
+- hacking
+- hardware
+- cisco
+- catalyst
+title: Cisco Catalyst 2950
+toc: false
+updated: 2009-06-05 17:01:15 +0200
 ---
+
 MAC Adresstabelle
 =================
 

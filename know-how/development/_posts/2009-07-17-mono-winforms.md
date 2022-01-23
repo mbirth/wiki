@@ -1,16 +1,19 @@
 ---
-title: Mono + WinForms
-language: en
-layout: default
 created: 2008-10-08 15:23:14 +0200
-updated: 2009-07-17 23:15:27 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/10/08/mono-+-winforms.html
 tags:
-  - know-how
-  - development
-  - mono
-  - winforms
+- know-how
+- development
+- mono
+- winforms
+title: Mono + WinForms
+toc: false
+updated: 2009-07-17 23:15:27 +0200
 ---
+
 **Installation manual:** [mono-project.com](http://www.mono-project.com/WinForms_Designer#Installation)  
 **Forum:** [UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=468183)
 

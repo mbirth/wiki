@@ -1,20 +1,23 @@
 ---
-title: Toyota Touch 2 Firmware Update
-language: en
-layout: default
 created: 2017-10-21 20:00:00 +0200
-updated: 2017-10-21 20:00:00 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/10/21/toyota-touch-2-firmware-update.html
 tags:
-  - know-how
-  - hacking
-  - toyota
-  - touch
-  - touch&go
-  - touch2
-  - firmware
-  - software
+- know-how
+- hacking
+- toyota
+- touch
+- touch&go
+- touch2
+- firmware
+- software
+title: Toyota Touch 2 Firmware Update
+toc: false
+updated: 2017-10-21 20:00:00 +0200
 ---
+
 What unit do I have?
 ====================
 
@@ -79,5 +82,3 @@ The Update
 1. Turn on the ignition (Don't start the car.) and **WAIT** again. The headunit should boot with
    the new software version.
 1. Done.
-
-

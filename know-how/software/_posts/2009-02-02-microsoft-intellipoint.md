@@ -1,15 +1,18 @@
 ---
-title: Microsoft IntelliPoint
-layout: default
 created: 2009-02-02 21:23:07 +0100
-updated: 2009-02-02 21:23:07 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/02/microsoft-intellipoint.html
 tags:
-  - know-how
-  - software
-  - microsoft
-  - intellipoint
+- know-how
+- software
+- microsoft
+- intellipoint
+title: Microsoft IntelliPoint
+toc: false
+updated: 2009-02-02 21:23:07 +0100
 ---
+
 **Download:** [microsoft.com](http://www.microsoft.com/hardware/download/download.aspx?category=MK)
 
 

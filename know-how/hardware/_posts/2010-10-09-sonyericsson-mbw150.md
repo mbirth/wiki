@@ -1,15 +1,17 @@
 ---
-title: SonyEricsson MBW-150
-layout: default
 created: 2010-10-09 19:02:24 +0200
-updated: 2010-10-09 19:02:24 +0200
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/10/09/sonyericsson-mbw-150.html
 tags:
-  - know-how
-  - hardware
-  - sony
-  - sonyericsson
-  - mbw150
+- know-how
+- hardware
+- sony
+- sonyericsson
+- mbw150
+title: SonyEricsson MBW-150
+toc: true
+updated: 2010-10-09 19:02:24 +0200
 ---
 
 ![SonyEricsson MBW-150]({{ site.url }}/assets/mbw150.jpg)

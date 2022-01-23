@@ -1,15 +1,18 @@
 ---
-title: RSA/Safeword Tokens
-language: en
-layout: default
 created: 2009-06-26 20:39:10 +0200
-updated: 2009-06-26 20:39:10 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/26/rsasafeword-tokens.html
 tags:
-  - know-how
-  - miscellaneous
-  - security
+- know-how
+- miscellaneous
+- security
+title: RSA/Safeword Tokens
+toc: false
+updated: 2009-06-26 20:39:10 +0200
 ---
+
 The [P800](http://www.sonyericsson.com/cws/support/phones/p800) had an integrated RSA and SafeWord Token generator.
 For the iPhone there is a *SecurID* application in the app store.
 

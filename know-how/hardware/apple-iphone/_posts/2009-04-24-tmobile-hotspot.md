@@ -1,17 +1,20 @@
 ---
-title: T-Mobile HotSpot
-layout: default
 created: 2009-04-24 10:14:26 +0200
-updated: 2009-04-24 10:14:26 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/24/t-mobile-hotspot.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - t-mobile
-  - hotspot
+- know-how
+- hardware
+- apple
+- iphone
+- t-mobile
+- hotspot
+title: T-Mobile HotSpot
+toc: false
+updated: 2009-04-24 10:14:26 +0200
 ---
+
 * [svenkubiak.de](http://www.svenkubiak.de/2008/07/20/mit-dem-iphone-im-t-mobile-hotspot/)
 * [fscklog.com](http://www.fscklog.com/2007/11/iphone-tipp-zur.html)
 

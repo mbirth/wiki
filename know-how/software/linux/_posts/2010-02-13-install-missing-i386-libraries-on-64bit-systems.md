@@ -1,14 +1,17 @@
 ---
-title: Install missing i386-libraries on 64bit systems
-layout: default
 created: 2010-02-13 16:10:20 +0100
-updated: 2010-02-13 16:10:20 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/13/install-missing-i386-libraries-on-64bit-systems.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Install missing i386-libraries on 64bit systems
+toc: false
+updated: 2010-02-13 16:10:20 +0100
 ---
+
 If you are on a 64bit system, you might sometimes stumple upon 32bit programs which need several libraries of which are
 no lib32-packages. A good example is the [Amazon MP3 Downloader](http://www.amazon.de/gp/help/customer/display.html?ie=UTF8&nodeId=200317330).
 

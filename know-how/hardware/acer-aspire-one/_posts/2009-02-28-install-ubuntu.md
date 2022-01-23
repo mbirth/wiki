@@ -1,17 +1,20 @@
 ---
-title: Install Ubuntu on the Acer Aspire One
-layout: default
 created: 2008-09-28 22:30:35 +0200
-updated: 2009-02-28 01:31:40 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/28/install-ubuntu-on-the-acer-aspire-one.html
 tags:
-  - know-how
-  - hardware
-  - acer
-  - aspire
-  - ubuntu
-  - linux
+- know-how
+- hardware
+- acer
+- aspire
+- ubuntu
+- linux
+title: Install Ubuntu on the Acer Aspire One
+toc: false
+updated: 2009-02-28 01:31:40 +0100
 ---
+
 There's a nice help page at the [Ubuntu page](https://help.ubuntu.com/community/AspireOne).
 
 **Needed:**

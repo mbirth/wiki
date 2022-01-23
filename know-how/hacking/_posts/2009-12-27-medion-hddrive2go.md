@@ -1,17 +1,20 @@
 ---
-title: MEDION HDDrive2go
-language: de
-layout: default
 created: 2009-06-09 15:43:52 +0200
-updated: 2009-12-27 20:18:52 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/09/medion-hddrive2go-de.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - medion
-  - hdd
+- know-how
+- hacking
+- hardware
+- medion
+- hdd
+title: MEDION HDDrive2go
+toc: false
+updated: 2009-12-27 20:18:52 +0100
 ---
+
 <img src="{{ site.url }}/assets/hddrive2go.jpg" alt="" height="300" />
 
 

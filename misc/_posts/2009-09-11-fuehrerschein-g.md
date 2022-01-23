@@ -1,14 +1,17 @@
 ---
-title: Führerschein/G
-language: de
-layout: default
 created: 2009-09-01 21:17:01 +0200
-updated: 2009-09-11 09:43:46 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/09/01/fuehrerscheing-de.html
 tags:
-  - miscellaneous
-  - driving
+- miscellaneous
+- driving
+title: Führerschein/G
+toc: false
+updated: 2009-09-11 09:43:46 +0200
 ---
+
 Wenn man regelmäßig in der Berliner Innenstadt Auto fährt, wird man schnell kreativ, was neue böse Flüche angeht. Eine
 konkrete Idee, wie man die Situation verbessern könnte, wäre z.B. ein Führerschein-Zusatz für Großstadt-Verkehr.
 

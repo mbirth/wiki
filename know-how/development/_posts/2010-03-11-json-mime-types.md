@@ -1,17 +1,20 @@
 ---
-title: JSON Mime-Types
-language: en
-layout: default
 created: 2010-03-11 14:34:12 +0100
-updated: 2010-03-11 14:34:12 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/03/11/json-mime-types.html
 tags:
-  - know-how
-  - development
-  - web
-  - javascript
-  - json
+- know-how
+- development
+- web
+- javascript
+- json
+title: JSON Mime-Types
+toc: false
+updated: 2010-03-11 14:34:12 +0100
 ---
+
 For JSON data, there are different mime-types floating around the web:
 
 * `application/json`

@@ -1,16 +1,19 @@
 ---
-title: Outlook 2016 with Exchange 2007
-layout: default
 created: 2016-12-12 17:04:02 +0100
-updated: 2016-12-12 17:04:02 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/12/12/outlook-2016-with-exchange-2007.html
 tags:
-  - know-how
-  - software
-  - windows
-  - outlook
-  - exchange
+- know-how
+- software
+- windows
+- outlook
+- exchange
+title: Outlook 2016 with Exchange 2007
+toc: false
+updated: 2016-12-12 17:04:02 +0100
 ---
+
 In Outlook 2016, you can't setup an account from an Exchange 2007 server without
 having autodiscover setup correctly. The *Manual Setup* only offers "Exchange
 ActiveSync" which doesn't work with the 2007 Exchange. (The working method is

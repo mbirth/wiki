@@ -1,17 +1,20 @@
 ---
-title: Nintendo Wii Encryption Keys
-language: en
-layout: default
 created: 2009-01-30 12:56:51 +0100
-updated: 2009-01-30 13:00:54 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/30/nintendo-wii-encryption-keys.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Nintendo Wii Encryption Keys
+toc: false
+updated: 2009-01-30 13:00:54 +0100
 ---
+
 To use these keys with e.g. [Segher's Wii.git](http://wiibrew.org/wiki/Segher's_Wii.git), you have to put them in binary
 files, i.e. use a Hex-Editor and paste these keys so that you get a 16 Byte long file for each key. Segher's tools
 expect them to be located in `~/.wii/<keyname>`, e.g. `~/.wii/common-key`.

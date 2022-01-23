@@ -1,18 +1,21 @@
 ---
-title: Display density on Android
-language: en
-layout: default
 created: 2015-12-02 17:19:42 +0200
-updated: 2015-12-02 17:19:42 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2015/12/02/display-density-on-android.html
 tags:
-  - know-how
-  - hacking
-  - android
-  - display
-  - resolution
-  - lcd
+- know-how
+- hacking
+- android
+- display
+- resolution
+- lcd
+title: Display density on Android
+toc: false
+updated: 2015-12-02 17:19:42 +0200
 ---
+
 Methods
 =======
 

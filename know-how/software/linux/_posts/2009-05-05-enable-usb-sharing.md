@@ -1,14 +1,17 @@
 ---
-title: Enable USB Sharing
-layout: default
 created: 2008-09-03 23:08:39 +0200
-updated: 2009-05-05 12:25:03 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/03/enable-usb-sharing.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Enable USB Sharing
+toc: false
+updated: 2009-05-05 12:25:03 +0200
 ---
+
 To use USB devices under e.g. [VirtualBox](http://virtualbox.org/) in *Hardy*, edit the file
 `/etc/init.d/mountdevsubfs.sh` and find the line:
 

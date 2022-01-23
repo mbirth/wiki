@@ -1,18 +1,21 @@
 ---
-title: U3Helper Tutorial
-language: de
 alternatives:
-  - language: en
-    url: /software/autohotkey/u3helper/tutorial.html
-layout: default
+- language: en
+  url: /software/autohotkey/u3helper/tutorial.html
 created: 2009-09-12 02:00:05 +0200
-updated: 2009-09-12 02:28:17 +0200
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/09/12/u3helper-tutorial-de.html
 tags:
-  - software
-  - autohotkey
-  - u3helper
+- software
+- autohotkey
+- u3helper
+title: U3Helper Tutorial
+toc: false
+updated: 2009-09-12 02:28:17 +0200
 ---
+
 [This page in English.]({% post_url 2009-09-12-tutorial %})
 
 Wie man ein Programm U3-fähig macht

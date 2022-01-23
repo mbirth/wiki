@@ -1,19 +1,21 @@
 ---
-title: TV Hotel Mode
-language: en
-layout: default
 created: 2017-09-26 14:25:43 +0200
-updated: 2017-09-26 14:25:43 +0200
-toc: true
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/09/26/tv-hotel-mode.html
 tags:
-  - know-how
-  - hacking
-  - tv
-  - television
-  - hotel
-  - hotelmode
-  - hidden
-  - menu
+- know-how
+- hacking
+- tv
+- television
+- hotel
+- hotelmode
+- hidden
+- menu
+title: TV Hotel Mode
+toc: true
+updated: 2017-09-26 14:25:43 +0200
 ---
 
 LG

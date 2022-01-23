@@ -1,17 +1,20 @@
 ---
-title: Wii Twilight Hack
-language: en
-layout: default
 created: 2008-07-18 22:44:40 +0200
-updated: 2008-07-18 22:44:40 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/18/wii-twilight-hack.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Wii Twilight Hack
+toc: false
+updated: 2008-07-18 22:44:40 +0200
 ---
+
 The Twilight Hack is described at [Code Retard](http://www.coderetard.com/2008/05/07/install-wii-virtual-console-game-channels-with-wad-installer/).
 It works by using a bug in *Zelda - Twilight Princess*. In short is goes like this:
 

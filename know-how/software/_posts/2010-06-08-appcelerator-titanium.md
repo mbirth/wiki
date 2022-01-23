@@ -1,16 +1,19 @@
 ---
-title: appcelerator Titanium Framework
-layout: default
 created: 2010-04-02 18:06:40 +0200
-updated: 2010-06-08 09:53:45 +0200
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/04/02/appcelerator-titanium-framework.html
 tags:
-  - know-how
-  - software
-  - framework
-  - appcelerator
-  - titanium
+- know-how
+- software
+- framework
+- appcelerator
+- titanium
+title: appcelerator Titanium Framework
+toc: true
+updated: 2010-06-08 09:53:45 +0200
 ---
+
 * **Homepage:** <http://www.appcelerator.com/>
 * **API Docs:** <http://developer.appcelerator.com/apidoc/mobile/>
 

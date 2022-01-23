@@ -1,17 +1,20 @@
 ---
-title: AirVideo Server under Linux
-layout: default
 created: 2010-02-16 21:28:54 +0100
-updated: 2010-05-17 14:45:34 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/16/airvideo-server-under-linux.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - airvideo
-  - multimedia
+- know-how
+- hardware
+- apple
+- iphone
+- airvideo
+- multimedia
+title: AirVideo Server under Linux
+toc: false
+updated: 2010-05-17 14:45:34 +0200
 ---
+
 *[AirVideo](http://www.inmethod.com/air-video/)* is a Client/Server-Mediaplayer, which allows you to stream videos
 directly from your PC to your iPhone. Its server software started as Windows-/Mac-only but now there's also a Linux
 server module available, too.

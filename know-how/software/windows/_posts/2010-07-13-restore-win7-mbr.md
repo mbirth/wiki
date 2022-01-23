@@ -1,14 +1,17 @@
 ---
-title: Restore Windows 7 MBR
-layout: default
 created: 2010-07-13 23:29:17 +0200
-updated: 2010-07-13 23:29:17 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/07/13/restore-windows-7-mbr.html
 tags:
-  - know-how
-  - software
-  - windows
+- know-how
+- software
+- windows
+title: Restore Windows 7 MBR
+toc: false
+updated: 2010-07-13 23:29:17 +0200
 ---
+
 If you installed *Windows XP* **after** *Windows 7*, you're left with the XP-MBR on your drive and thus only XP is
 booting.
 

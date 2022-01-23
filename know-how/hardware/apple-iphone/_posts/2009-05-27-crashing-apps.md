@@ -1,16 +1,19 @@
 ---
-title: iOS and Crashing Applications
-layout: default
 created: 2009-05-27 09:48:31 +0200
-updated: 2009-05-27 09:48:31 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/27/ios-and-crashing-applications.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - crashing
+- know-how
+- hardware
+- apple
+- iphone
+- crashing
+title: iOS and Crashing Applications
+toc: false
+updated: 2009-05-27 09:48:31 +0200
 ---
+
 If you have to problem that some apps crash directly after running them, i.e. you see the app "popup" but it
 immediately disappears leaving you back at the home screen, it might be a problem with Apple's DRM. This can
 occur if a Sync with iTunes is aborted or the connection was lost.

@@ -1,14 +1,17 @@
 ---
-title: Midnight Commander (mc)
-layout: default
 created: 2009-06-21 12:01:38 +0200
-updated: 2010-01-22 18:06:36 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/06/21/midnight-commander-mc.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Midnight Commander (mc)
+toc: false
+updated: 2010-01-22 18:06:36 +0100
 ---
+
 Open drop-down box
 ==================
 

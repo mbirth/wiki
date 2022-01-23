@@ -1,17 +1,20 @@
 ---
-title: SanDisk Sansa Video format
-layout: default
 created: 2008-12-31 00:33:58 +0100
-updated: 2009-03-01 13:00:13 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/31/sandisk-sansa-video-format.html
 tags:
-  - know-how
-  - hardware
-  - sandisk
-  - sansa
-  - fuze
-  - video
+- know-how
+- hardware
+- sandisk
+- sansa
+- fuze
+- video
+title: SanDisk Sansa Video format
+toc: false
+updated: 2009-03-01 13:00:13 +0100
 ---
+
 The Sansa is very picky about what file to play and what not. The demo video has the following format:
 
 ~~~

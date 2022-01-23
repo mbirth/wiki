@@ -1,15 +1,18 @@
 ---
-title: TechniSat DigiCorder
-layout: default
 created: 2013-11-27 00:02:41 +0100
-updated: 2013-11-27 01:29:09 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2013/11/27/technisat-digicorder.html
 tags:
-  - know-how
-  - hardware
-  - technisat
-  - digicorder
+- know-how
+- hardware
+- technisat
+- digicorder
+title: TechniSat DigiCorder
+toc: false
+updated: 2013-11-27 01:29:09 +0100
 ---
+
 Concat Transport Stream
 =======================
 

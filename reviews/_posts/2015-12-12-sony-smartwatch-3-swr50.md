@@ -1,18 +1,21 @@
 ---
-title: "[Review] SONY SmartWatch 3 (SWR50)"
-language: de
-layout: default
 created: 2015-12-12 11:16:52 +0100
-updated: 2015-12-12 11:16:52 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2015/12/12/review-sony-smartwatch-3-swr50-de.html
 tags:
-  - review
-  - sony
-  - smartwatch
-  - smartwatch3
-  - sw3
-  - swr50
+- review
+- sony
+- smartwatch
+- smartwatch3
+- sw3
+- swr50
+title: '[Review] SONY SmartWatch 3 (SWR50)'
+toc: false
+updated: 2015-12-12 11:16:52 +0100
 ---
+
 Nach knapp einer Woche mit der **SONY SmartWatch 3** (mit Android Wear) nun mein
 erster Eindruck. Schonmal vorne weg: Die Pebble werde ich wohl höchstens noch
 zum Schwimmen tragen.

@@ -1,16 +1,19 @@
 ---
-title: Skype ⇔ SIP Interlink
-layout: default
 created: 2009-05-17 13:06:06 +0200
-updated: 2009-05-17 13:06:06 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/17/skype-sip-interlink.html
 tags:
-  - know-how
-  - software
-  - sip
-  - skype
-  - conference
+- know-how
+- software
+- sip
+- skype
+- conference
+title: Skype ⇔ SIP Interlink
+toc: false
+updated: 2009-05-17 13:06:06 +0200
 ---
+
 To connect Skype to a SIP-PBX (e.g. Asterisk), there's only one free application available:
 
 * [SipToSis](http://www.mhspot.com/sts/siptosis.html) (former *SippySkype*)

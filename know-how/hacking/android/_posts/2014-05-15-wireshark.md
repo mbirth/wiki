@@ -1,15 +1,18 @@
 ---
-title: Monitor Android Traffic with Wireshark (Windows)
-layout: default
 created: 2014-05-15 17:11:42 +0200
-updated: 2014-05-15 17:11:42 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2014/05/15/monitor-android-traffic-with-wireshark-windows.html
 tags:
-  - know-how
-  - hacking
-  - android
-  - wireshark
+- know-how
+- hacking
+- android
+- wireshark
+title: Monitor Android Traffic with Wireshark (Windows)
+toc: false
+updated: 2014-05-15 17:11:42 +0200
 ---
+
 Preparation
 ===========
 

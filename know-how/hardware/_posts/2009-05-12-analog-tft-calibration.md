@@ -1,15 +1,18 @@
 ---
-title: Analog TFT calibration
-layout: default
 created: 2009-05-12 14:19:22 +0200
-updated: 2009-05-12 14:19:22 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/12/analog-tft-calibration.html
 tags:
-  - know-how
-  - hardware
-  - tft
-  - calibration
+- know-how
+- hardware
+- tft
+- calibration
+title: Analog TFT calibration
+toc: false
+updated: 2009-05-12 14:19:22 +0200
 ---
+
 If you have connected your TFT via an analog VGA cable, you might have some blurry vision or even flickering
 in some cases. If the following picture shows some flickering or looks blurry, your display needs calibration.
 

@@ -1,17 +1,20 @@
 ---
-title: CruzerSync
-language: en
-layout: default
 created: 2009-04-11 22:54:39 +0200
-updated: 2009-04-11 22:54:39 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/11/cruzersync.html
 tags:
-  - know-how
-  - software
-  - windows
-  - u3
-  - cruzersync
+- know-how
+- software
+- windows
+- u3
+- cruzersync
+title: CruzerSync
+toc: false
+updated: 2009-04-11 22:54:39 +0200
 ---
+
 For the SanDisk cruzer Titanium U3, there is a sync-software called *CruzerSync* which really is an OEM version of *DMailer*.
 
 In the *SanDisk U3 Download Central* you'll find a link to [CruzerSync 6.2.042.1](http://u3.sandisk.com/download/apps/CruzerSync.u3p)

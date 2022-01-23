@@ -1,15 +1,18 @@
 ---
-title: sudo insults on wrong password
-layout: default
 created: 2008-09-01 09:50:13 +0200
-updated: 2008-09-01 09:50:13 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/01/sudo-insults-on-wrong-password.html
 tags:
-  - know-how
-  - software
-  - linux
-  - fun
+- know-how
+- software
+- linux
+- fun
+title: sudo insults on wrong password
+toc: false
+updated: 2008-09-01 09:50:13 +0200
 ---
+
 Edit the file `/etc/sudoers` and find the line:
 
     Defaults        env_reset

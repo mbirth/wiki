@@ -1,16 +1,19 @@
 ---
-title: Tango Messenger
-language: en
-layout: default
 created: 2013-01-15 10:00:50 +0100
-updated: 2013-01-15 10:00:50 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2013/01/15/tango-messenger.html
 tags:
-  - know-how
-  - software
-  - android
-  - messenger
+- know-how
+- software
+- android
+- messenger
+title: Tango Messenger
+toc: false
+updated: 2013-01-15 10:00:50 +0100
 ---
+
 If you text with someone over [Tango](https://play.google.com/store/apps/details?id=com.sgiggle.production), you might
 not know his/her phone number, because he got yours first and started the conversation.
 

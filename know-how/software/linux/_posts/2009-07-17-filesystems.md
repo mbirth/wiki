@@ -1,15 +1,18 @@
 ---
-title: Filesystems
-layout: default
 created: 2009-01-08 22:33:36 +0100
-updated: 2009-07-17 23:04:03 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/08/filesystems.html
 tags:
-  - know-how
-  - software
-  - linux
-  - filesystems
+- know-how
+- software
+- linux
+- filesystems
+title: Filesystems
+toc: false
+updated: 2009-07-17 23:04:03 +0200
 ---
+
 Creating
 ========
 

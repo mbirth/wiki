@@ -1,24 +1,27 @@
 ---
-title: Synology NFSv4 with id mapping
-layout: default
-language: en
 created: 2018-01-05 12:50:43 +0100
-updated: 2018-01-05 12:50:43 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2018/01/05/synology-nfsv4-with-id-mapping.html
 tags:
-  - know-how
-  - hardware
-  - synology
-  - diskstation
-  - dsm
-  - nfs
-  - nfsv4
-  - nfs4
-  - idmapd
-  - idmapping
-  - export
-  - mount
+- know-how
+- hardware
+- synology
+- diskstation
+- dsm
+- nfs
+- nfsv4
+- nfs4
+- idmapd
+- idmapping
+- export
+- mount
+title: Synology NFSv4 with id mapping
+toc: false
+updated: 2018-01-05 12:50:43 +0100
 ---
+
 **Disclaimer:** ID mapping without a Kerberos server only works halfway with NFSv4, it seems. I
 managed to get the correct usernames to show up on my client when listing files, but creating new
 files always creates them as user *nobody* because the Synology doesn't map anything in that case.

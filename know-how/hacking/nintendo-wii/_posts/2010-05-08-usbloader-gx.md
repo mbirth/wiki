@@ -1,17 +1,20 @@
 ---
-title: USBLoader GX for the Wii
-language: en
-layout: default
 created: 2010-05-08 12:47:47 +0200
-updated: 2010-05-08 12:47:47 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/05/08/usbloader-gx-for-the-wii.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: USBLoader GX for the Wii
+toc: false
+updated: 2010-05-08 12:47:47 +0200
 ---
+
 * **Homepage:** <http://usbloadergx.koureio.net/>
 
 

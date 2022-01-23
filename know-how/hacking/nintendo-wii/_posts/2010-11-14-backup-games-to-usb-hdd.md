@@ -1,17 +1,20 @@
 ---
-title: Backup Wii games to USB HDD
-language: en
-layout: default
 created: 2009-05-24 19:35:29 +0200
-updated: 2010-11-14 16:05:02 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/24/backup-wii-games-to-usb-hdd.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Backup Wii games to USB HDD
+toc: false
+updated: 2010-11-14 16:05:02 +0100
 ---
+
 * [mikeandheth.com](http://www.mikeandheth.com/games/97-connect-wii-usb-hard-drive.html)
 * [gbatemp.net](http://wiki.gbatemp.net/wiki/index.php?title=USB_Loader_Releases) --- List of USB Loader programs for the Wii
 * [gbatemp.net](http://wiki.gbatemp.net/wiki/index.php?title=WBFS_Managers) --- List of WBFS Managers (programs to copy game ISO files to USB via your PC)

@@ -1,15 +1,18 @@
 ---
-title: Französisch in Berlin
-language: de
-layout: default
 created: 2009-02-23 01:51:01 +0100
-updated: 2009-02-23 01:51:01 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/23/franzoesisch-in-berlin-de.html
 tags:
-  - miscellaneous
-  - berlin
-  - french
+- miscellaneous
+- berlin
+- french
+title: Französisch in Berlin
+toc: false
+updated: 2009-02-23 01:51:01 +0100
 ---
+
 Extrakt aus "[Französisch im Berliner Jargon](http://amzn.to/2sVwq2t)" von Ewald Harndt:
 
 Dort wird u.a. aufgezeigt, dass viele Wörter im normalen (Berliner) Sprachgebrauch ursprünglich dem Französischen entlehnt sind. Das liegt wohl vor allem daran, dass im 17. und 18. Jahrhundert der Adel mehr französisch als deutsch gesprochen hat. Die deutschprachigen haben dann zum einfacheren Erlernen meist beide Wörte verbunden ausgesprochen. Ganz besonders spannend fand ich da das beliebte Zeitvertreibspiel "Keesekästchen". Das kommt laut dem Büchlein von *la caisse* = der Kasten. Oder auch gut: klammheimlich kommt von *clam* (lat.) = heimlich.

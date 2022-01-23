@@ -1,14 +1,17 @@
 ---
-title: Kernel Module Check for Nagios
-layout: default
 created: 2014-03-31 16:59:17 +0200
-updated: 2014-03-31 17:00:17 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2014/03/31/kernel-module-check-for-nagios.html
 tags:
-  - know-how
-  - software
-  - nagios
+- know-how
+- software
+- nagios
+title: Kernel Module Check for Nagios
+toc: false
+updated: 2014-03-31 17:00:17 +0200
 ---
+
 `mod_loaded`:
 
 {% highlight bash %}

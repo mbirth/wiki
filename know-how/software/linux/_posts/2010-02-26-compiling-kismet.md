@@ -1,16 +1,19 @@
 ---
-title: Compiling Kismet
-layout: default
 created: 2010-02-25 22:44:16 +0100
-updated: 2010-02-26 00:15:54 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/25/compiling-kismet.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - kismet
+- know-how
+- software
+- linux
+- software
+- kismet
+title: Compiling Kismet
+toc: false
+updated: 2010-02-26 00:15:54 +0100
 ---
+
 You need the following libraries to successfully compile [Kismet](http://www.kismetwireless.net/download.shtml):
 
 * [libncurses5-dev](apt://libncurses5-dev)

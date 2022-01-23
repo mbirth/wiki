@@ -1,17 +1,20 @@
 ---
-title: Manual Firmware Update on the Nexus One
-layout: default
 created: 2010-05-23 01:33:27 +0200
-updated: 2010-06-19 21:00:47 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/05/23/manual-firmware-update-on-the-nexus-one.html
 tags:
-  - know-how
-  - hardware
-  - google
-  - nexusone
-  - passion
-  - firmware
+- know-how
+- hardware
+- google
+- nexusone
+- passion
+- firmware
+title: Manual Firmware Update on the Nexus One
+toc: false
+updated: 2010-06-19 21:00:47 +0200
 ---
+
 To manually update the firmware, put the new firmware named as `update.zip` onto the root directory of the microSD card.
 Then do this: (found at [androidspin.com](http://forum.androidspin.com/showthread.php?t=2631))
 

@@ -1,17 +1,20 @@
 ---
-title: Wii Homebrew Channel
-language: en
-layout: default
 created: 2009-10-07 22:46:34 +0200
-updated: 2009-10-07 22:48:41 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/10/07/wii-homebrew-channel.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - nintendo
-  - wii
+- know-how
+- hacking
+- hardware
+- nintendo
+- wii
+title: Wii Homebrew Channel
+toc: false
+updated: 2009-10-07 22:48:41 +0200
 ---
+
 Install on 4.2e
 ===============
 

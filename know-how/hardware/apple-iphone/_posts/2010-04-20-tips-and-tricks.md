@@ -1,16 +1,19 @@
 ---
-title: Tips & Tricks for the iPhone
-layout: default
 created: 2009-05-05 00:54:50 +0200
-updated: 2010-04-20 23:57:18 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/05/tips-tricks-for-the-iphone.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - tipsntricks
+- know-how
+- hardware
+- apple
+- iphone
+- tipsntricks
+title: Tips & Tricks for the iPhone
+toc: false
+updated: 2010-04-20 23:57:18 +0200
 ---
+
 Mark mail as unread
 ===================
 

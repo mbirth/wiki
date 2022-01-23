@@ -1,16 +1,19 @@
 ---
-title: HD uses PIO instead of DMA
-layout: default
 created: 2008-07-15 00:10:30 +0200
-updated: 2009-02-19 22:06:02 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/hd-uses-pio-instead-of-dma.html
 tags:
-  - know-how
-  - software
-  - windows
-  - hardware
-  - hdd
+- know-how
+- software
+- windows
+- hardware
+- hdd
+title: HD uses PIO instead of DMA
+toc: false
+updated: 2009-02-19 22:06:02 +0100
 ---
+
 If Windows uses PIO mode instead of DMA, it probably have slowed down due to reading errors. To fix the slow-down, find
 the registry key:
 

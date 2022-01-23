@@ -1,18 +1,21 @@
 ---
-title: U3Helper vs. PackageFactory
-language: en
 alternatives:
-  - language: de
-    url: /software/autohotkey/u3helper/u3helper-vs-packagefactory-de.html
-layout: default
+- language: de
+  url: /software/autohotkey/u3helper/u3helper-vs-packagefactory-de.html
 created: 2009-09-12 09:30:53 +0200
-updated: 2009-09-12 09:30:53 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/09/12/u3helper-vs.-packagefactory-gb.html
 tags:
-  - software
-  - autohotkey
-  - u3helper
+- software
+- autohotkey
+- u3helper
+title: U3Helper vs. PackageFactory
+toc: false
+updated: 2009-09-12 09:30:53 +0200
 ---
+
 [Diese Seite auf Deutsch.]({% post_url 2009-09-12-u3helper-vs-packagefactory-de %})
 
 Maybe somebody wonders why to choose the complicated U3Helper variant for packaging an app for U3 when there's the

@@ -1,15 +1,18 @@
 ---
-title: Find PPA for specific package
-layout: default
 created: 2011-04-09 13:28:16 +0200
-updated: 2011-04-09 13:28:16 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2011/04/09/find-ppa-for-specific-package.html
 tags:
-  - know-how
-  - software
-  - linux
-  - administration
+- know-how
+- software
+- linux
+- administration
+title: Find PPA for specific package
+toc: false
+updated: 2011-04-09 13:28:16 +0200
 ---
+
 If you want to find out from which PPA a specific package was installed or what other PPAs hold it, you can use the
 following command: (found at [superuser.com](http://superuser.com/questions/106794/how-to-tell-from-what-ubuntu-or-debian-repository-a-package-comes))
 

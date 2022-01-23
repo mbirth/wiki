@@ -1,17 +1,20 @@
 ---
-title: Compiling PHP-GTK
-layout: default
 created: 2009-01-11 13:48:56 +0100
-updated: 2009-01-11 13:57:32 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/11/compiling-php-gtk.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - php
-  - gtk
+- know-how
+- software
+- linux
+- software
+- php
+- gtk
+title: Compiling PHP-GTK
+toc: false
+updated: 2009-01-11 13:57:32 +0100
 ---
+
 To compile [php-gtk](http://gtk.php.net/), you need the following packages:
 
     sudo aptitude install php5-dev php5-gd libgtk2.0-dev libglade2-dev build-essentials

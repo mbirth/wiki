@@ -1,14 +1,17 @@
 ---
-title: OpenWRT sysupgrade with ExtRoot
-layout: default
 created: 2014-05-26 22:30:20 +0200
-updated: 2014-05-26 22:47:49 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2014/05/26/openwrt-sysupgrade-with-extroot.html
 tags:
-  - know-how
-  - software
-  - openwrt
+- know-how
+- software
+- openwrt
+title: OpenWRT sysupgrade with ExtRoot
+toc: false
+updated: 2014-05-26 22:47:49 +0200
 ---
+
 Run `sysupgrade` or upload the new file with LuCI.
 
 <p><div class="noteimportant" markdown="1">

@@ -1,17 +1,20 @@
 ---
-title: Citrix ICAClient
-layout: default
 created: 2010-03-04 13:41:08 +0100
-updated: 2010-03-04 14:22:24 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/03/04/citrix-icaclient.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - citrix
-  - icaclient
+- know-how
+- software
+- linux
+- software
+- citrix
+- icaclient
+title: Citrix ICAClient
+toc: false
+updated: 2010-03-04 14:22:24 +0100
 ---
+
 * **Download:** [citrix.com](http://www.citrix.com/English/ss/downloads/details.asp?downloadId=3323&productId=186) (preferably `.deb` format)
 
 This plugin will work with browsers which support Netscape compatible plugins, e.g. *Firefox* or *Opera*.

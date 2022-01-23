@@ -1,14 +1,17 @@
 ---
-title: Rip DVD track
-layout: default
 created: 2008-08-27 00:42:59 +0200
-updated: 2015-06-08 01:02:16 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/27/rip-dvd-track.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Rip DVD track
+toc: false
+updated: 2015-06-08 01:02:16 +0200
 ---
+
 To rip a DVD track to a file, you need the [transcode](apt://transcode) package and the encoders you're going to use.
 
 To rip a single track as ogg, use the command

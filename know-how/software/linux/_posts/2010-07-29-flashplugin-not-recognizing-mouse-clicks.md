@@ -1,14 +1,17 @@
 ---
-title: Flashplugin not recognizing mouse clicks
-layout: default
 created: 2010-02-12 22:21:29 +0100
-updated: 2010-07-29 23:26:44 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/12/flashplugin-not-recognizing-mouse-clicks.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Flashplugin not recognizing mouse clicks
+toc: false
+updated: 2010-07-29 23:26:44 +0200
 ---
+
 If your flashplugin only recognizes the very first mouse click and then seems to ignore the mouse completely, just
 click somewhere outside the area where the flash script is (e.g. on the webpage background) and then flash will
 recognize the next click.

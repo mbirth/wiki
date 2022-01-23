@@ -1,17 +1,20 @@
 ---
-title: iOS Firmware 3.0 BETA without registration
-layout: default
 created: 2009-05-14 17:17:58 +0200
-updated: 2009-08-01 20:03:23 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/14/ios-firmware-3.0-beta-without-registration.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - firmware
-  - hacking
+- know-how
+- hardware
+- apple
+- iphone
+- firmware
+- hacking
+title: iOS Firmware 3.0 BETA without registration
+toc: false
+updated: 2009-08-01 20:03:23 +0200
 ---
+
 There is a way to install and activate the most recent BETA firmware without registering the device's UDID as a developer.
 
 What you'll need:

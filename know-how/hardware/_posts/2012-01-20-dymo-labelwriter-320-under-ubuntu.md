@@ -1,17 +1,20 @@
 ---
-title: DYMO LabelWriter 320 under Ubuntu Linux
-layout: default
 created: 2011-10-09 22:37:45 +0200
-updated: 2012-01-20 09:31:29 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2011/10/09/dymo-labelwriter-320-under-ubuntu-linux.html
 tags:
-  - know-how
-  - hardware
-  - dymo
-  - labelwriter
-  - ubuntu
-  - linux
+- know-how
+- hardware
+- dymo
+- labelwriter
+- ubuntu
+- linux
+title: DYMO LabelWriter 320 under Ubuntu Linux
+toc: false
+updated: 2012-01-20 09:31:29 +0100
 ---
+
 This label printer doesn't work out of the box under Linux. There are some instructions over at
 [ubuntuforums.org](http://ubuntuforums.org/showthread.php?t=861781), but they're missing something
 for the latest Ubuntu *Oneiric Ocelot*. These instructions should work:

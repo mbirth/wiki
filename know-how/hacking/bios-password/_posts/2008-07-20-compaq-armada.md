@@ -1,18 +1,21 @@
 ---
-title: COMPAQ Armada
-layout: default
 created: 2008-07-20 22:19:00 +0200
-updated: 2008-07-20 22:19:00 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/20/compaq-armada.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - compaq
-  - armada
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- compaq
+- armada
+title: COMPAQ Armada
+toc: false
+updated: 2008-07-20 22:19:00 +0200
 ---
+
 This is a short one:
 
 1. Remove the battery, the AC cable and the BIOS battery

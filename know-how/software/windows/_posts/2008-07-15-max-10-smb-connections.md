@@ -1,16 +1,19 @@
 ---
-title: Max 10 simultaneous SMB-connections
-layout: default
 created: 2008-07-15 22:02:53 +0200
-updated: 2008-07-15 22:02:53 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/max-10-simultaneous-smb-connections.html
 tags:
-  - know-how
-  - software
-  - windows
-  - samba
-  - smb
+- know-how
+- software
+- windows
+- samba
+- smb
+title: Max 10 simultaneous SMB-connections
+toc: false
+updated: 2008-07-15 22:02:53 +0200
 ---
+
 Windows XP Professional only allows 10 simultaneous connections to shares and printer spoolers. The eleventh user gets
 a *System error #71* message. The unused connections get freed after 30 minutes which is a bit late since often you
 just need a few files or to print some pages but this blocks the connection for 30 minutes.

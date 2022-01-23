@@ -1,15 +1,18 @@
 ---
-title: Wake-on-LAN
-layout: default
 created: 2008-08-13 22:18:28 +0200
-updated: 2008-08-13 22:18:28 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/13/wake-on-lan.html
 tags:
-  - know-how
-  - software
-  - linux
-  - networking
+- know-how
+- software
+- linux
+- networking
+title: Wake-on-LAN
+toc: false
+updated: 2008-08-13 22:18:28 +0200
 ---
+
 Preparing to go asleep
 ======================
 

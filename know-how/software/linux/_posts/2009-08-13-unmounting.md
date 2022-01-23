@@ -1,14 +1,17 @@
 ---
-title: Unmounting
-layout: default
 created: 2009-01-24 23:09:03 +0100
-updated: 2009-08-13 12:48:35 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/01/24/unmounting.html
 tags:
-  - know-how
-  - software
-  - linux
+- know-how
+- software
+- linux
+title: Unmounting
+toc: false
+updated: 2009-08-13 12:48:35 +0200
 ---
+
 sudo
 ====
 

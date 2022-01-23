@@ -1,18 +1,21 @@
 ---
-title: HP 50g alternative firmware
-layout: default
-language: en
 created: 2017-03-19 23:07:55 +0100
-updated: 2017-03-19 23:07:55 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/03/19/hp-50g-alternative-firmware.html
 tags:
-  - know-how
-  - hardware
-  - hp
-  - 50g
-  - calculator
-  - firmware
+- know-how
+- hardware
+- hp
+- 50g
+- calculator
+- firmware
+title: HP 50g alternative firmware
+toc: false
+updated: 2017-03-19 23:07:55 +0100
 ---
+
 The original firmware in the HP 50g emulates a [Saturn CPU](https://en.wikipedia.org/wiki/HP_Saturn)
 like the HP 48 and HP 49 had. However, the built-in [ARM920T](https://en.wikipedia.org/wiki/ARM9#ARM920T)
 processor has more power than the Saturn.

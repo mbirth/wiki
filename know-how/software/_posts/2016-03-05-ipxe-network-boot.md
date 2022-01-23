@@ -1,16 +1,19 @@
 ---
-title: iPXE Network Boot
-layout: default
 created: 2016-03-05 00:36:55 +0100
-updated: 2016-03-05 00:36:55 +0100
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/03/05/ipxe-network-boot.html
 tags:
-  - know-how
-  - software
-  - ipxe
-  - network
-  - booting
+- know-how
+- software
+- ipxe
+- network
+- booting
+title: iPXE Network Boot
+toc: true
+updated: 2016-03-05 00:36:55 +0100
 ---
+
 I first stumbled upon iPXE because of a failing info monitor at my local train
 station:
 

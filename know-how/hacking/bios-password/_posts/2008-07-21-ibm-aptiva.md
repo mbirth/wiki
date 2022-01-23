@@ -1,18 +1,21 @@
 ---
-title: IBM PS/2 Aptiva
-layout: default
 created: 2008-07-21 19:26:56 +0200
-updated: 2008-07-21 19:26:56 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/21/ibm-ps2-aptiva.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - ibm
-  - aptiva
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- ibm
+- aptiva
+title: IBM PS/2 Aptiva
+toc: false
+updated: 2008-07-21 19:26:56 +0200
 ---
+
 This is a short one:
 
 For skipping the password check, you have to hold down both mousebuttons after power-on until the first beep.

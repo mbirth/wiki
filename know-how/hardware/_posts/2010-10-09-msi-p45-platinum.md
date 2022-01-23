@@ -1,17 +1,20 @@
 ---
-title: MSI P45 Platinum
-layout: default
 created: 2009-08-10 20:43:58 +0200
-updated: 2010-10-09 20:02:39 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/08/10/msi-p45-platinum.html
 tags:
-  - know-how
-  - hardware
-  - msi
-  - mainboard
-  - p45
-  - platinum
+- know-how
+- hardware
+- msi
+- mainboard
+- p45
+- platinum
+title: MSI P45 Platinum
+toc: false
+updated: 2010-10-09 20:02:39 +0200
 ---
+
 BIOS
 ====
 

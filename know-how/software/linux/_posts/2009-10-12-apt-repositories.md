@@ -1,16 +1,19 @@
 ---
-title: apt Repositories
-layout: default
 created: 2008-10-06 10:30:47 +0200
-updated: 2009-10-12 22:07:47 +0200
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/10/06/apt-repositories.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - apt
+- know-how
+- software
+- linux
+- software
+- apt
+title: apt Repositories
+toc: true
+updated: 2009-10-12 22:07:47 +0200
 ---
+
 There's a slightly outdated list at: <http://ubuntuforums.org/showthread.php?t=185758>
 
 

@@ -1,16 +1,19 @@
 ---
-title: BIOS Update on the Acer Aspire One
-layout: default
 created: 2008-10-21 01:36:01 +0200
-updated: 2009-09-25 14:10:27 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/10/21/bios-update-on-the-acer-aspire-one.html
 tags:
-  - know-how
-  - hardware
-  - acer
-  - aspire
-  - bios
+- know-how
+- hardware
+- acer
+- aspire
+- bios
+title: BIOS Update on the Acer Aspire One
+toc: false
+updated: 2009-09-25 14:10:27 +0200
 ---
+
 To update the BIOS without Windows, install [UNetBootIn](http://unetbootin.sf.net/) and use it to put FreeDOS on a
 flash drive. Now extract the e.g. `v.3305.zip` to it and reboot the machine. Press <kbd>F12</kbd> in the right
 moment and select your USB flash drive from the list. Press <kbd>ENTER</kbd> when you see the `boot:` prompt, then

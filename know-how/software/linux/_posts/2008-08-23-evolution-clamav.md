@@ -1,18 +1,21 @@
 ---
-title: Evolution/ClamAV integration
-layout: default
 created: 2008-08-23 18:46:33 +0200
-updated: 2008-08-23 18:46:33 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/08/23/evolutionclamav-integration.html
 tags:
-  - know-how
-  - software
-  - linux
-  - security
-  - evolution
-  - clamav
-  - antivirus
+- know-how
+- software
+- linux
+- security
+- evolution
+- clamav
+- antivirus
+title: Evolution/ClamAV integration
+toc: false
+updated: 2008-08-23 18:46:33 +0200
 ---
+
 To scan incoming mails for viruses, create to following script somewhere in your system:
 
 {% highlight bash %}

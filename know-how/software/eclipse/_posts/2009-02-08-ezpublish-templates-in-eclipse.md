@@ -1,15 +1,18 @@
 ---
-title: eZPublish templates in Eclipse
-language: en
-layout: default
 created: 2008-07-15 23:43:57 +0200
-updated: 2009-02-08 14:37:49 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/15/ezpublish-templates-in-eclipse.html
 tags:
-  - know-how
-  - software
-  - ezpublish
+- know-how
+- software
+- ezpublish
+title: eZPublish templates in Eclipse
+toc: false
+updated: 2009-02-08 14:37:49 +0100
 ---
+
 Syntax-highlighting and Code-completion
 =======================================
 

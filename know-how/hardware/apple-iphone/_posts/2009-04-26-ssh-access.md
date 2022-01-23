@@ -1,16 +1,19 @@
 ---
-title: Apple iPhone SSH Access
-layout: default
 created: 2009-04-26 22:04:12 +0200
-updated: 2009-04-26 22:09:55 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/26/apple-iphone-ssh-access.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - ssh
+- know-how
+- hardware
+- apple
+- iphone
+- ssh
+title: Apple iPhone SSH Access
+toc: false
+updated: 2009-04-26 22:09:55 +0200
 ---
+
 You need a [jailbroken]({% post_url 2009-06-20-jailbreak %}) iPhone for this.
 
 

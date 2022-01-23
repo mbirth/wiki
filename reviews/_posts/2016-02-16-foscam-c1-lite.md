@@ -1,18 +1,21 @@
 ---
-title: "[Review] Foscam C1 Lite"
-language: de
-layout: default
 created: 2016-02-16 23:10:12 +0100
-updated: 2016-02-16 23:10:12 +0100
-toc: false
+language: de
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/02/16/review-foscam-c1-lite-de.html
 tags:
-  - review
-  - foscam
-  - webcam
-  - ipcam
-  - ip camera
-  - c1
+- review
+- foscam
+- webcam
+- ipcam
+- ip camera
+- c1
+title: '[Review] Foscam C1 Lite'
+toc: false
+updated: 2016-02-16 23:10:12 +0100
 ---
+
 Ich hatte mir vor geraumer Zeit eine Foscam FI9831W gekauft und mich auch auf
 der Foscam-Homepage registriert. Vor einigen Wochen kam eine Mail, in der nach
 Testern aus Deutschland gefragt wurde. Dort habe ich mich gemeldet und nun gab

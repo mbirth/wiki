@@ -1,17 +1,20 @@
 ---
-title: Rhythmbox and Sansa
-layout: default
 created: 2008-12-31 00:48:23 +0100
-updated: 2010-02-21 13:14:26 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/31/rhythmbox-and-sansa.html
 tags:
-  - know-how
-  - hardware
-  - sandisk
-  - sansa
-  - fuze
-  - rhythmbox
+- know-how
+- hardware
+- sandisk
+- sansa
+- fuze
+- rhythmbox
+title: Rhythmbox and Sansa
+toc: false
+updated: 2010-02-21 13:14:26 +0100
 ---
+
 To work with the FUSE in Rhythmbox, you have two choices: **MTP** mode or **MSC** mode. The MTP mode is the *Media Transfer Protocol* which the
 Windows Media Player uses. There's a plugin for Rhythmbox which lets the player show up and you are able to manage the player from there.
 

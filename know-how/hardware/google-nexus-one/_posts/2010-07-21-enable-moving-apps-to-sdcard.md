@@ -1,17 +1,20 @@
 ---
-title: Enable moving any app to SD card (FroYo)
-layout: default
 created: 2010-05-23 03:48:17 +0200
-updated: 2010-07-21 17:15:18 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/05/23/enable-moving-any-app-to-sd-card-froyo.html
 tags:
-  - know-how
-  - hardware
-  - google
-  - nexusone
-  - passion
-  - android
+- know-how
+- hardware
+- google
+- nexusone
+- passion
+- android
+title: Enable moving any app to SD card (FroYo)
+toc: false
+updated: 2010-07-21 17:15:18 +0200
 ---
+
 Android 2.2 (Codename: **Fro**zen **Yo**ghurt) brings a new feature which allows moving apps to the SD card.
 Unfortunately this only works for apps which bring a flag to allow this, i.e. not for the current versions.
 

@@ -1,17 +1,20 @@
 ---
-title: Linksys NSLU2
-layout: default
 created: 2009-08-10 01:41:46 +0200
-updated: 2009-12-06 14:01:10 +0100
-toc: true
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/08/10/linksys-nslu2.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - linksys
-  - nas
-  - storage
+- know-how
+- hacking
+- hardware
+- linksys
+- nas
+- storage
+title: Linksys NSLU2
+toc: true
+updated: 2009-12-06 14:01:10 +0100
 ---
+
 **NSLU2** means *Network Storage Link for USB 2.0 Disk Drives*. Also see [here](http://en.wikipedia.org/wiki/NSLU2).
 
 ![NSLU2]({{ site.url }}/assets/nslu2.jpg)

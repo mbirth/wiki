@@ -1,16 +1,19 @@
 ---
-title: /boot to own partition
-layout: default
 created: 2008-09-12 21:53:07 +0200
-updated: 2009-03-31 11:48:44 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/09/12/boot-to-own-partition.html
 tags:
-  - know-how
-  - software
-  - linux
-  - software
-  - bootup
+- know-how
+- software
+- linux
+- software
+- bootup
+title: /boot to own partition
+toc: false
+updated: 2009-03-31 11:48:44 +0200
 ---
+
 Using an emulated SCSI-adapter in VMware with a very large root disk may give you either
 
     Error 18: Selected Cylinder exceeds maximum supported by BIOS

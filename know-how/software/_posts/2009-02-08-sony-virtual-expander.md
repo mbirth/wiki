@@ -1,14 +1,17 @@
 ---
-title: SONY Virtual Expander
-layout: default
 created: 2009-02-02 01:47:01 +0100
-updated: 2009-02-08 14:29:52 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/02/sony-virtual-expander.html
 tags:
-  - know-how
-  - software
-  - sony
+- know-how
+- software
+- sony
+title: SONY Virtual Expander
+toc: false
+updated: 2009-02-08 14:29:52 +0100
 ---
+
 Virtual Expander is a software which is bundled with the following models:
 
 * [USM-E Plus](http://www.sony.net/Products/Media/Microvault/products/usm-ep/index.html#download) (v1.03)

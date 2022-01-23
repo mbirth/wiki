@@ -1,17 +1,20 @@
 ---
-title: Google Calendars
-layout: default
 created: 2009-05-30 23:11:26 +0200
-updated: 2009-05-30 23:11:26 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/05/30/google-calendars.html
 tags:
-  - know-how
-  - hardware
-  - apple
-  - iphone
-  - google
-  - calendar
+- know-how
+- hardware
+- apple
+- iphone
+- google
+- calendar
+title: Google Calendars
+toc: false
+updated: 2009-05-30 23:11:26 +0200
 ---
+
 If you want to sync your iPhone primarily with an Exchange server of your company but do want to have your (private) Google Calendars with you, you can add them as CalDAV calendars (since iPhone OS 3.0).
 
 Go to *Settings* → *Mail, Contacts, Calendars* → *Add Account…* → *Other* → *Add CalDAV Account*:

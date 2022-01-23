@@ -1,18 +1,21 @@
 ---
-title: Baycom Worldbook II
-layout: default
 created: 2008-07-20 22:18:02 +0200
-updated: 2008-07-20 22:18:02 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/20/baycom-worldbook-ii.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - baycom
-  - worldbook
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- baycom
+- worldbook
+title: Baycom Worldbook II
+toc: false
+updated: 2008-07-20 22:18:02 +0200
 ---
+
 1. Open the lid.
 1. Remove the keyboard. Proceed as follows:  
    First use a flat screwdriver to get unter the keyboard at the green line. Perhaps you have to push in the small clip

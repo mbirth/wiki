@@ -1,18 +1,21 @@
 ---
-redirect_from:
-  - /know-how/hardware/fortuna-gpsmartbt/
-title: Fortuna GPSmart BT
-layout: default
 created: 2009-02-02 19:07:10 +0100
-updated: 2010-07-22 09:55:56 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_from:
+- /know-how/hardware/fortuna-gpsmartbt/
+redirect_to: https://blog.mbirth.de/archives/2009/02/02/fortuna-gpsmart-bt.html
 tags:
-  - know-how
-  - hardware
-  - fortuna
-  - gpsmart
-  - gps
+- know-how
+- hardware
+- fortuna
+- gpsmart
+- gps
+title: Fortuna GPSmart BT
+toc: false
+updated: 2010-07-22 09:55:56 +0200
 ---
+
 **Homepage:** [fortuna.com.tw](http://www.fortuna.com.tw/gpsmart.htm)
 
 <img src="{{ site.url }}/assets/gpsmart.jpg" height="300" alt="Fortuna GPSmart" />

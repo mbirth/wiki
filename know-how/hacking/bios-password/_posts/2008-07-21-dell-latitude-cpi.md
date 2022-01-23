@@ -1,18 +1,21 @@
 ---
-title: DELL Latitude CPi series
-layout: default
 created: 2008-07-21 19:19:56 +0200
-updated: 2008-07-21 19:19:56 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/07/21/dell-latitude-cpi-series.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - bios
-  - passwords
-  - dell
-  - latitude
+- know-how
+- hacking
+- hardware
+- bios
+- passwords
+- dell
+- latitude
+title: DELL Latitude CPi series
+toc: false
+updated: 2008-07-21 19:19:56 +0200
 ---
+
 Thanks to *Heiko Kehr*. (Everything was done according to [this manual](http://www.darkmagic.org/mike/dell-tag/dell/dell.html).)
 
 1. You can easily remove the keyboard after loosing the six screws. Pay attention that you lift the keyboard equally on

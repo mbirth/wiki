@@ -1,15 +1,18 @@
 ---
-title: Network Monitoring
-layout: default
 created: 2009-11-23 10:01:08 +0100
-updated: 2009-11-27 23:50:53 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/11/23/network-monitoring.html
 tags:
-  - know-how
-  - software
-  - monitoring
-  - network
+- know-how
+- software
+- monitoring
+- network
+title: Network Monitoring
+toc: false
+updated: 2009-11-27 23:50:53 +0100
 ---
+
 I tried some different products for network monitoring since the top dog *Nagios* is everything else but easy to
 maintain.
 

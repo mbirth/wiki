@@ -1,17 +1,20 @@
 ---
-title: HP 50g battery status
-layout: default
-language: en
 created: 2017-03-20 00:08:42 +0100
-updated: 2017-03-20 00:08:42 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2017/03/20/hp-50g-battery-status.html
 tags:
-  - know-how
-  - hardware
-  - hp
-  - 50g
-  - calculator
+- know-how
+- hardware
+- hp
+- 50g
+- calculator
+title: HP 50g battery status
+toc: false
+updated: 2017-03-20 00:08:42 +0100
 ---
+
 To get an idea about the current status of your batteries, there are a few apps available:
 
 * [BatStatus](http://www.hpcalc.org/details/6400)  

@@ -1,18 +1,21 @@
 ---
-title: SanDisk Sansa Feature Bits
-layout: default
 created: 2008-12-31 00:32:38 +0100
-updated: 2008-12-31 00:32:38 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2008/12/31/sandisk-sansa-feature-bits.html
 tags:
-  - know-how
-  - hardware
-  - sandisk
-  - sansa
-  - fuze
-  - features
-  - hacking
+- know-how
+- hardware
+- sandisk
+- sansa
+- fuze
+- features
+- hacking
+title: SanDisk Sansa Feature Bits
+toc: false
+updated: 2008-12-31 00:32:38 +0100
 ---
+
 The Sansa's have different features for different countries/regions. E.g. the Japanese radio frequencies ranging from 76 to 90 MHz
 are partly used for Police radio and thus it is not allowed to tune to these *forbidden* frequencies.
 

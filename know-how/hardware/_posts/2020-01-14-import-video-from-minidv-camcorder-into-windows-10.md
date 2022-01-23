@@ -1,21 +1,24 @@
 ---
-title: Import video from MiniDV camcorder in Windows 10
-layout: default
-language: en
 created: 2020-01-14 16:54:43 +0100
-updated: 2020-01-14 16:54:43 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2020/01/14/import-video-from-minidv-camcorder-in-windows-10.html
 tags:
-  - know-how
-  - hardware
-  - minidv
-  - camera
-  - camcorder
-  - windows 10
-  - win10
-  - windows10
-  - panasonic
+- know-how
+- hardware
+- minidv
+- camera
+- camcorder
+- windows 10
+- win10
+- windows10
+- panasonic
+title: Import video from MiniDV camcorder in Windows 10
+toc: false
+updated: 2020-01-14 16:54:43 +0100
 ---
+
 My dad has an old Panasonic MiniDV camcorder and wanted to import old tapes into his cutting tool
 on Windows 10. After hooking up the camcorder via Firewire, the import dialog showed the time code
 of the running tape, but instead of the video, the preview was black and there was no audio.

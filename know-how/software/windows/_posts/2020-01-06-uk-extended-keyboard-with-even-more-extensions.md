@@ -1,20 +1,23 @@
 ---
-title: UK Extended keyboard with even more extensions
-layout: default
 created: 2020-01-06 11:57:02 +0100
-updated: 2020-01-06 11:57:02 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2020/01/06/uk-extended-keyboard-with-even-more-extensions.html
 tags:
-  - know-how
-  - software
-  - windows
-  - keyboard
-  - driver
-  - layout
-  - microsoft
-  - umlaut
-  - umlauts
+- know-how
+- software
+- windows
+- keyboard
+- driver
+- layout
+- microsoft
+- umlaut
+- umlauts
+title: UK Extended keyboard with even more extensions
+toc: false
+updated: 2020-01-06 11:57:02 +0100
 ---
+
 Recently, I switched from a German QWERTZ to a UK Extended QWERTY keyboard layout - for easier
 access to characters for programming.
 

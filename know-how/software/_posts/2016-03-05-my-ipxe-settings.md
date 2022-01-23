@@ -1,16 +1,19 @@
 ---
-title: My iPXE settings
-layout: default
 created: 2016-03-05 00:36:55 +0100
-updated: 2016-03-05 00:36:55 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/03/05/my-ipxe-settings.html
 tags:
-  - know-how
-  - software
-  - ipxe
-  - network
-  - booting
+- know-how
+- software
+- ipxe
+- network
+- booting
+title: My iPXE settings
+toc: false
+updated: 2016-03-05 00:36:55 +0100
 ---
+
 I'll list my modifications (keep everything else as it is) here but keep in mind that you most probably want
 different settings.
 
@@ -81,4 +84,3 @@ src/config/general.h
     #define PING_CMD       /* Ping command */
     #define CONSOLE_CMD        /* Console command */
     #define IPSTAT_CMD     /* IP statistics commands */
-

@@ -1,15 +1,18 @@
 ---
-title: Sync Package List between 2 PCs
-layout: default
 created: 2010-03-23 17:53:30 +0100
-updated: 2010-03-24 10:39:37 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/03/23/sync-package-list-between-2-pcs.html
 tags:
-  - know-how
-  - software
-  - linux
-  - administration
+- know-how
+- software
+- linux
+- administration
+title: Sync Package List between 2 PCs
+toc: false
+updated: 2010-03-24 10:39:37 +0100
 ---
+
 To export a list of all installed packages, you can use the following command:
 
     sudo dpkg --get-selections > selections.txt

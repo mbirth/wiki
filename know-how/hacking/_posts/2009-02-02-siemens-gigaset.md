@@ -1,17 +1,20 @@
 ---
-title: SIEMENS Gigaset
-language: en
-layout: default
 created: 2009-02-02 02:15:29 +0100
-updated: 2009-02-02 22:27:14 +0100
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/02/siemens-gigaset.html
 tags:
-  - know-how
-  - hacking
-  - hardware
-  - siemens
-  - phone
+- know-how
+- hacking
+- hardware
+- siemens
+- phone
+title: SIEMENS Gigaset
+toc: false
+updated: 2009-02-02 22:27:14 +0100
 ---
+
 Service mode
 ============
 

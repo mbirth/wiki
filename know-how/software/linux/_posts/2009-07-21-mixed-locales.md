@@ -1,15 +1,18 @@
 ---
-title: Mixed Locales
-layout: default
 created: 2009-04-08 21:06:12 +0200
-updated: 2009-07-21 11:04:50 +0200
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/04/08/mixed-locales.html
 tags:
-  - know-how
-  - software
-  - linux
-  - i18n
+- know-how
+- software
+- linux
+- i18n
+title: Mixed Locales
+toc: false
+updated: 2009-07-21 11:04:50 +0200
 ---
+
 I personally like English language operating systems. So I have set my Ubuntu to English language. But I still want
 German curency, decimals and time. With most applications, you can define the formats to use inside the application.
 But I stumbled at *Evolution* which lets you define 12/24-hour setting for the calendar, but doesn't use this setting

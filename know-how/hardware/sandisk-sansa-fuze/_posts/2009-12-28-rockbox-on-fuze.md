@@ -1,16 +1,18 @@
 ---
-title: Rockbox on FUZE
-layout: default
 created: 2009-08-31 00:29:08 +0200
-updated: 2009-12-28 16:31:28 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/08/31/rockbox-on-fuze.html
 tags:
-  - know-how
-  - hardware
-  - sandisk
-  - sansa
-  - fuze
-  - rockbox
+- know-how
+- hardware
+- sandisk
+- sansa
+- fuze
+- rockbox
+title: Rockbox on FUZE
+toc: false
+updated: 2009-12-28 16:31:28 +0100
 ---
 
 <p><div class="notewarning" markdown="1">

@@ -1,16 +1,19 @@
 ---
-title: PEAR Channels
-language: en
-layout: default
 created: 2009-02-11 20:29:22 +0100
-updated: 2009-08-09 13:35:46 +0200
-toc: false
+language: en
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2009/02/11/pear-channels.html
 tags:
-  - know-how
-  - development
-  - php
-  - pear
+- know-how
+- development
+- php
+- pear
+title: PEAR Channels
+toc: false
+updated: 2009-08-09 13:35:46 +0200
 ---
+
 Some channels for PEAR. Use this to add them:
 
     pear channel-discovery <url>

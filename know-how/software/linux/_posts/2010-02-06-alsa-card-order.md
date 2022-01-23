@@ -1,16 +1,19 @@
 ---
-title: ALSA Sound Card Order
-layout: default
 created: 2010-02-06 00:41:02 +0100
-updated: 2010-02-06 00:41:02 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2010/02/06/alsa-sound-card-order.html
 tags:
-  - know-how
-  - software
-  - linux
-  - sound
-  - alsa
+- know-how
+- software
+- linux
+- sound
+- alsa
+title: ALSA Sound Card Order
+toc: false
+updated: 2010-02-06 00:41:02 +0100
 ---
+
 The default soundcard to be used with ALSA is that with the index 0 in `/proc/asound/cards`. Usually this is the first
 found sound device.
 

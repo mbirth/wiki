@@ -1,21 +1,23 @@
 ---
-title: Personal Sync Servers
-layout: default
 created: 2016-12-30 15:16:06 +0100
-updated: 2016-12-30 15:16:06 +0100
-toc: false
+layout: redirect
+layout_old: default
+redirect_to: https://blog.mbirth.de/archives/2016/12/30/personal-sync-servers.html
 tags:
-  - know-how
-  - software
-  - sync
-  - synchronisation
-  - servers
-  - owncloud
-  - nextcloud
-  - baikal
-  - radicale
-  - seafile
-  - syncthing
+- know-how
+- software
+- sync
+- synchronisation
+- servers
+- owncloud
+- nextcloud
+- baikal
+- radicale
+- seafile
+- syncthing
+title: Personal Sync Servers
+toc: false
+updated: 2016-12-30 15:16:06 +0100
 ---
 
 Calendar/Contacts servers
